@@ -1,117 +1,61 @@
 {
   "items": [
     {
-      "id": 21072666,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb51d6da-16d3-4f88-9369-43b802ad8078/original=true/cb51d6da-16d3-4f88-9369-43b802ad8078.jpeg",
-      "hash": "U67,uy-p1I$*?G?G%2t7AE=|~Bg3?Hx]xu%1",
-      "width": 1280,
-      "height": 1856,
+      "id": 212334,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/469199f5-6759-4282-79be-ca837d2a5700/original=true/469199f5-6759-4282-79be-ca837d2a5700.jpeg",
+      "hash": "UDLN0,01yX0000%M=|t70g_2^k~W9FM{%1M{",
+      "width": 768,
+      "height": 768,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-07-23T19:55:48.876Z",
-      "postId": 4699743,
+      "createdAt": "2023-03-08T04:58:41.676Z",
+      "postId": 110708,
       "stats": {
-        "cryCount": 249,
-        "laughCount": 524,
-        "likeCount": 4695,
+        "cryCount": 280,
+        "laughCount": 584,
+        "likeCount": 4105,
         "dislikeCount": 0,
-        "heartCount": 2972,
-        "commentCount": 6
+        "heartCount": 3458,
+        "commentCount": 14
       },
       "meta": {
-        "seed": 1237470355,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
-        "steps": 35,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:257749@290640"
-        ],
-        "prompt": "embedding:urn:air:sd1:embedding:civitai:222256@250708, (score_9, score_8_up, score_7_up), 1girl, 20 year old, 1male out of frame, long black hair, hime cut, small perky breasts, pretty face, long legs, purple eyes, light freckles, oversized hoodie, cloth black skirt, striped thigh-high socks, gothic boots, lustful, looking up, heavy blushing,  exhausted, open mouth, tongue out, seductive, heavy blush, looking up, sweaty, messy hair, paizuri, fellatio, licking cock, male sitting with girl hiding under table, girl hiding under table, ass, detailed background, night, moonlight, inside, office, volumetric lighting, vivid colours, g0thicPXL, Expressiveh, shot from above,",
-        "denoise": 0.4,
-        "sampler": "Euler a",
-        "cfgScale": 5.5,
-        "modelIds": [],
-        "scheduler": "normal",
-        "upscalers": [
-          "urn:air:multi:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "embedding:urn:air:sd1:embedding:civitai:222256@250712, embedding:urn:air:sd1:embedding:civitai:87243@287973, score_6, score_5, score_4, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, long neck, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, muscular, lipstick, massive ass, massive penis, looking at viewer,",
-        "civitaiResources": [
+        "ENSD": "31337",
+        "Size": "768x768",
+        "seed": 4024456844,
+        "steps": 30,
+        "prompt": "<lora:koreanDollLikeness_v15:0.5>, <lora:taiwanDollLikeness_v10:0.2>, ulzzang-6500v1.1, (original: 1.2), (realistic: 1.3) (mixed Korean), beautiful girl with beautiful details, extremely detailed eyes and face, eyes with beautiful details, absurd, incredibly absurd, huge file size, ultra detail, high resolution, ultra detailed, best quality, masterpiece, illustration, ultra detailed and beautiful, ultra detailed, CG, unity, 8k wallpaper, amazing, fine Detail, masterpiece, top quality, official art, extremely detailed CG unity 8k wallpaper, cinematic lighting, (perfect shiny skin:0.6), slim and smooth lines, (floating), (spread pussy:1.4),(spread legs:1.4),(large breasts:1.5), (evening dress:1.4),   ((Tiara on head)),  (half nude:1.5),  <lora:realisticVaginasGodPussy_godpussy2Innie:0.4>",
+        "sampler": "DPM++ SDE Karras",
+        "cfgScale": 8,
+        "Clip skip": "2",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 290640
-          },
-          {
+            "name": "koreanDollLikeness_v15",
             "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 244808
+            "weight": 0.5
           },
           {
+            "name": "taiwanDollLikeness_v10",
             "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 398847
+            "weight": 0.2
           },
           {
+            "name": "realisticVaginasGodPussy_godpussy2Innie",
             "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 436219
-          },
-          {
-            "type": "embedding",
-            "modelVersionId": 250708
-          },
-          {
-            "type": "embedding",
-            "modelVersionId": 250712
-          },
-          {
-            "type": "embedding",
-            "modelVersionId": 287973
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "weight": 0.4
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:212532@244808",
-            "type": "lora",
-            "strength": 0.5,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:352581@398847",
-            "type": "lora",
-            "strength": 0.55,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:300005@436219",
-            "type": "lora",
-            "strength": 0.75,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "95afa0d9ea",
+        "negativePrompt": "paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), dot, mole, lowres, normal quality, monochrome, grayscale, lowres, text, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature,"
       },
-      "username": "WiseBurrito",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        164821,
-        244808,
-        287973,
-        290640,
-        398847,
-        436219
-      ]
+      "username": "Druys",
+      "baseModel": "SD 1.5",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "24|1678251521676",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=24%7C1678251521676"
+    "nextCursor": "25|1743211375663",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=25%7C1743211375663"
   }
 }
