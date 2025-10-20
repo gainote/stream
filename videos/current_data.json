@@ -1,36 +1,39 @@
 {
   "items": [
     {
-      "id": 19269310,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/feb38730-00a8-4c9f-909e-3b107ec404b1/original=true/feb38730-00a8-4c9f-909e-3b107ec404b1.jpeg",
-      "hash": "U5C5k?160zj^=}?H9u$*0M}t}sWAJUa1={9[",
+      "id": 34854511,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c30136c-cf31-4129-9ab9-81fe610964ff/original=true/7c30136c-cf31-4129-9ab9-81fe610964ff.jpeg",
+      "hash": "UCDj*P}YE2sAE2NHj[bH0gI;%LkC}@xtI;WC",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-07-10T19:45:23.323Z",
-      "postId": 4306614,
+      "browsingLevel": 8,
+      "createdAt": "2024-10-16T05:11:40.196Z",
+      "postId": 7965560,
       "stats": {
-        "cryCount": 396,
-        "laughCount": 859,
-        "likeCount": 7264,
+        "cryCount": 400,
+        "laughCount": 822,
+        "likeCount": 5852,
         "dislikeCount": 0,
-        "heartCount": 4657,
-        "commentCount": 4
+        "heartCount": 4001,
+        "commentCount": 72
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1402302256,
-        "steps": 35,
-        "prompt": "(score_9, score_8_up, score_7_up), 1girl, 1male out of frame, 20 year old, two-toned hair, black and red hair, perky breasts, cleavage, pretty face, petite, purple eyes, light freckles, oversized hoodie, black skirt, striped thigh-high socks, gothic boots, exhausted, looking up, saliva leaking from mouth, cock slumped over girl face, cock worship, tongue out, penis on face detailed background, outside, ally, graffiti, night, volumetric lighting, vivid colours, Expressiveh, g0thicPXL, glowing, neon, full body shot from above,",
+        "seed": 1221194656,
+        "extra": {
+          "remixOfId": 34319249
+        },
+        "steps": 29,
+        "prompt": "Expressiveh, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, godrays, 1girl, Makima (Chainsaw man), red room, lingerie, thick thighs, narrow waist, big hips, elbow gloves, pose, closeup, dynamic angle, closeup, from below, hearts, oiled, looking back, bent over, leaning forward, from behind, ass focus, pussy focus, wet pussy, sexy",
         "sampler": "Euler a",
-        "cfgScale": 4.5,
+        "cfgScale": 4,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-07-10T1941:27.7997418Z",
-        "negativePrompt": "SimpleNegativeV3, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, massive penis, massive cock, massive breasts, massive ass, muscular,",
+        "Created Date": "2024-10-16T0442:56.2427418Z",
+        "negativePrompt": "easynegative, score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), extra hands, greyscale, black and white, muscular female, mixed characters",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -40,32 +43,32 @@
           {
             "type": "embed",
             "weight": 1,
-            "modelVersionId": 287973,
-            "modelVersionName": "V3"
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 378684,
-            "modelVersionName": "v2.0 (Max. Compatibility)"
+            "weight": 1,
+            "modelVersionId": 239420,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 1.4,
+            "weight": 0.65,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.4,
+            "weight": 0.45,
             "modelVersionId": 398847,
             "modelVersionName": "gothic neon v1.0"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
+            "weight": 0.5,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
             "type": "embed",
@@ -79,20 +82,20 @@
           }
         ]
       },
-      "username": "WiseBurrito",
+      "username": "Bancin",
       "baseModel": "Pony",
       "modelVersionIds": [
-        135867,
-        287973,
+        9208,
+        239420,
         290640,
-        378684,
         382152,
-        398847
+        398847,
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "7|1729055500196",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=7%7C1729055500196"
+    "nextCursor": "8|1716740256272",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=8%7C1716740256272"
   }
 }
