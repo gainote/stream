@@ -1,58 +1,74 @@
 {
   "items": [
     {
-      "id": 70982446,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da62e2a2-9406-4999-beb8-a907fdd96a73/original=true/da62e2a2-9406-4999-beb8-a907fdd96a73.jpeg",
-      "hash": "UDF#gl0Mo|-o~oMyxukV={R*IpWB9a-:Ipaf",
-      "width": 512,
-      "height": 896,
+      "id": 16647679,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/850e3cb0-4906-4b39-a6cc-149529f608aa/original=true/850e3cb0-4906-4b39-a6cc-149529f608aa.jpeg",
+      "hash": "UDJGm25q?^xZ~p9t~VemJ.RPn%xZDiIpD*Rj",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2025-04-19T06:14:10.857Z",
-      "postId": 15766878,
+      "createdAt": "2024-06-21T19:53:01.253Z",
+      "postId": 3734649,
       "stats": {
-        "cryCount": 228,
-        "laughCount": 545,
-        "likeCount": 4349,
+        "cryCount": 220,
+        "laughCount": 575,
+        "likeCount": 4411,
         "dislikeCount": 0,
-        "heartCount": 3149,
-        "commentCount": 18
+        "heartCount": 2936,
+        "commentCount": 2
       },
       "meta": {
-        "seed": 1071649667700075,
-        "vaes": [
-          "wan_2.1_vae.safetensors"
-        ],
-        "comfy": "{\"prompt\": {\"3\": {\"inputs\": {\"seed\": 1071649667700075, \"steps\": 20, \"cfg\": 6.0, \"sampler_name\": \"uni_pc\", \"scheduler\": \"simple\", \"denoise\": 1.0, \"model\": [\"58\", 0], \"positive\": [\"50\", 0], \"negative\": [\"50\", 1], \"latent_image\": [\"50\", 2]}, \"class_type\": \"KSampler\", \"_meta\": {\"title\": \"KSampler\"}}, \"6\": {\"inputs\": {\"text\": \"A woman is straddling an old man and having sex with him. She bounces up and down on top of the man's thick erect penis and her breasts are jiggling. You can the man's erect penis sliding in and out of woman's pussy.\\n\\n(Static camera). the camera is stationary, camera is fixed,\", \"clip\": [\"38\", 0]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Positive Prompt)\"}}, \"7\": {\"inputs\": {\"text\": \"Overexposure, static, blurred details, subtitles, paintings, pictures, still, overall gray, worst quality, low quality, JPEG compression residue, ugly, mutilated, redundant fingers, poorly painted hands, poorly painted faces, deformed, disfigured, deformed limbs, fused fingers, cluttered background, three legs, a lot of people in the background, upside down\", \"clip\": [\"38\", 0]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Negative Prompt)\"}}, \"8\": {\"inputs\": {\"samples\": [\"3\", 0], \"vae\": [\"39\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"28\": {\"inputs\": {\"filename_prefix\": \"Wan\", \"fps\": 16.0, \"lossless\": false, \"quality\": 90, \"method\": \"default\", \"images\": [\"8\", 0]}, \"class_type\": \"SaveAnimatedWEBP\", \"_meta\": {\"title\": \"SaveAnimatedWEBP\"}}, \"37\": {\"inputs\": {\"unet_name\": \"wan2.1_i2v_480p_14B_fp8_e4m3fn.safetensors\", \"weight_dtype\": \"default\"}, \"class_type\": \"UNETLoader\", \"_meta\": {\"title\": \"Load Diffusion Model\"}}, \"38\": {\"inputs\": {\"clip_name\": \"umt5_xxl_fp8_e4m3fn_scaled.safetensors\", \"type\": \"wan\", \"device\": \"default\"}, \"class_type\": \"CLIPLoader\", \"_meta\": {\"title\": \"Load CLIP\"}}, \"39\": {\"inputs\": {\"vae_name\": \"wan_2.1_vae.safetensors\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}, \"49\": {\"inputs\": {\"clip_name\": \"clip_vision_h.safetensors\"}, \"class_type\": \"CLIPVisionLoader\", \"_meta\": {\"title\": \"Load CLIP Vision\"}}, \"50\": {\"inputs\": {\"width\": 512, \"height\": 896, \"length\": 73, \"batch_size\": 1, \"positive\": [\"6\", 0], \"negative\": [\"7\", 0], \"vae\": [\"39\", 0], \"clip_vision_output\": [\"51\", 0], \"start_image\": [\"52\", 0]}, \"class_type\": \"WanImageToVideo\", \"_meta\": {\"title\": \"WanImageToVideo\"}}, \"51\": {\"inputs\": {\"crop\": \"none\", \"clip_vision\": [\"49\", 0], \"image\": [\"52\", 0]}, \"class_type\": \"CLIPVisionEncode\", \"_meta\": {\"title\": \"CLIP Vision Encode\"}}, \"52\": {\"inputs\": {\"image\": \"00118-988817209958123.png\"}, \"class_type\": \"LoadImage\", \"_meta\": {\"title\": \"Load Image\"}, \"is_changed\": [\"d485b236bc29154e55a7d354229ec24b8ddc6ff27114204bf75359151562ab18\"]}, \"55\": {\"inputs\": {\"unet_name\": \"wan2.1-i2v-14b-480p-Q4_0.gguf\"}, \"class_type\": \"UnetLoaderGGUF\", \"_meta\": {\"title\": \"Unet Loader (GGUF)\"}}, \"58\": {\"inputs\": {\"lora_name\": \"wan_cowgirl_v1.3.safetensors\", \"strength_model\": 1.0, \"model\": [\"55\", 0]}, \"class_type\": \"LoraLoaderModelOnly\", \"_meta\": {\"title\": \"LoraLoaderModelOnly\"}}}, \"workflow\": {\"3\": {\"inputs\": {\"seed\": 1071649667700075, \"steps\": 20, \"cfg\": 6.0, \"sampler_name\": \"uni_pc\", \"scheduler\": \"simple\", \"denoise\": 1.0, \"model\": [\"58\", 0], \"positive\": [\"50\", 0], \"negative\": [\"50\", 1], \"latent_image\": [\"50\", 2]}, \"class_type\": \"KSampler\", \"_meta\": {\"title\": \"KSampler\"}}, \"6\": {\"inputs\": {\"text\": \"A woman is straddling an old man and having sex with him. She bounces up and down on top of the man's thick erect penis and her breasts are jiggling. You can the man's erect penis sliding in and out of woman's pussy.\\n\\n(Static camera). the camera is stationary, camera is fixed,\", \"clip\": [\"38\", 0]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Positive Prompt)\"}}, \"7\": {\"inputs\": {\"text\": \"Overexposure, static, blurred details, subtitles, paintings, pictures, still, overall gray, worst quality, low quality, JPEG compression residue, ugly, mutilated, redundant fingers, poorly painted hands, poorly painted faces, deformed, disfigured, deformed limbs, fused fingers, cluttered background, three legs, a lot of people in the background, upside down\", \"clip\": [\"38\", 0]}, \"class_type\": \"CLIPTextEncode\", \"_meta\": {\"title\": \"CLIP Text Encode (Negative Prompt)\"}}, \"8\": {\"inputs\": {\"samples\": [\"3\", 0], \"vae\": [\"39\", 0]}, \"class_type\": \"VAEDecode\", \"_meta\": {\"title\": \"VAE Decode\"}}, \"28\": {\"inputs\": {\"filename_prefix\": \"Wan\", \"fps\": 16.0, \"lossless\": false, \"quality\": 90, \"method\": \"default\", \"images\": [\"8\", 0]}, \"class_type\": \"SaveAnimatedWEBP\", \"_meta\": {\"title\": \"SaveAnimatedWEBP\"}}, \"37\": {\"inputs\": {\"unet_name\": \"wan2.1_i2v_480p_14B_fp8_e4m3fn.safetensors\", \"weight_dtype\": \"default\"}, \"class_type\": \"UNETLoader\", \"_meta\": {\"title\": \"Load Diffusion Model\"}}, \"38\": {\"inputs\": {\"clip_name\": \"umt5_xxl_fp8_e4m3fn_scaled.safetensors\", \"type\": \"wan\", \"device\": \"default\"}, \"class_type\": \"CLIPLoader\", \"_meta\": {\"title\": \"Load CLIP\"}}, \"39\": {\"inputs\": {\"vae_name\": \"wan_2.1_vae.safetensors\"}, \"class_type\": \"VAELoader\", \"_meta\": {\"title\": \"Load VAE\"}}, \"49\": {\"inputs\": {\"clip_name\": \"clip_vision_h.safetensors\"}, \"class_type\": \"CLIPVisionLoader\", \"_meta\": {\"title\": \"Load CLIP Vision\"}}, \"50\": {\"inputs\": {\"width\": 512, \"height\": 896, \"length\": 73, \"batch_size\": 1, \"positive\": [\"6\", 0], \"negative\": [\"7\", 0], \"vae\": [\"39\", 0], \"clip_vision_output\": [\"51\", 0], \"start_image\": [\"52\", 0]}, \"class_type\": \"WanImageToVideo\", \"_meta\": {\"title\": \"WanImageToVideo\"}}, \"51\": {\"inputs\": {\"crop\": \"none\", \"clip_vision\": [\"49\", 0], \"image\": [\"52\", 0]}, \"class_type\": \"CLIPVisionEncode\", \"_meta\": {\"title\": \"CLIP Vision Encode\"}}, \"52\": {\"inputs\": {\"image\": \"00118-988817209958123.png\"}, \"class_type\": \"LoadImage\", \"_meta\": {\"title\": \"Load Image\"}, \"is_changed\": [\"d485b236bc29154e55a7d354229ec24b8ddc6ff27114204bf75359151562ab18\"]}, \"55\": {\"inputs\": {\"unet_name\": \"wan2.1-i2v-14b-480p-Q4_0.gguf\"}, \"class_type\": \"UnetLoaderGGUF\", \"_meta\": {\"title\": \"Unet Loader (GGUF)\"}}, \"58\": {\"inputs\": {\"lora_name\": \"wan_cowgirl_v1.3.safetensors\", \"strength_model\": 1.0, \"model\": [\"55\", 0]}, \"class_type\": \"LoraLoaderModelOnly\", \"_meta\": {\"title\": \"LoraLoaderModelOnly\"}}}}",
-        "steps": 20,
-        "width": 512,
-        "height": 896,
-        "models": [],
-        "denoise": 1,
-        "sampler": "UniPC",
-        "cfgScale": 6,
-        "modelIds": [],
-        "scheduler": "simple",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "additionalResources": [
+        "Size": "832x1216",
+        "seed": 1414600928,
+        "steps": 40,
+        "prompt": "(score_9, score_8_up, score_7_up), 1girl. 20 year old, 1male with detailed cock out of frame, thick long black hair, small perky breasts, pretty face, petite, amber eyes, looking up with lust, blushing, exhausted, sweaty skin, sexy pose, light freckles, sexy maid outfit with skirt, squatting on the floor against wall, riding anal dildo ,cock slumped over girl face, cum on face, cock worship, tongue out, penis on face tight innie pussy, sexy pose, cozy background, sunrise in window, god rays, volumetric lighting, lilandavastyle, OverallDetail, Expressiveh, full body shot",
+        "sampler": "Euler a",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-06-21T1933:45.2247341Z",
+        "negativePrompt": "(deformed, distorted, disfigured:1.3), monochrome background, furry, loli, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, missing fingers, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, background characters, SimpleNegativeV3, massive penis, massive cock, muscular, cross eyed, three people, (threesome)",
+        "civitaiResources": [
           {
-            "name": "wan_cowgirl_v1.3.safetensors",
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 287973,
+            "modelVersionName": "V3"
+          },
+          {
             "type": "lora",
-            "strength": 1
+            "weight": 0.7,
+            "modelVersionId": 378684,
+            "modelVersionName": "v2.0 (Max. Compatibility)"
+          },
+          {
+            "type": "lora",
+            "weight": 1.4,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
           }
         ]
       },
-      "username": "magemingo951",
-      "baseModel": null,
-      "modelVersionIds": []
+      "username": "WiseBurrito",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        287973,
+        290640,
+        378684,
+        382152
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "29|1718999581253",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=29%7C1718999581253"
+    "nextCursor": "30|1757498720976",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=30%7C1757498720976"
   }
 }
