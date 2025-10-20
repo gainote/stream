@@ -1,36 +1,36 @@
 {
   "items": [
     {
-      "id": 14452591,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76f3214e-f5ee-4eda-a53a-732608a28b22/original=true/76f3214e-f5ee-4eda-a53a-732608a28b22.jpeg",
-      "hash": "U8FYJhD%00_N^QR*MdM|ITxH.9J601-;wg01",
+      "id": 30108878,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d1108038-7cf4-413b-babc-1f5cbd856337/original=true/d1108038-7cf4-413b-babc-1f5cbd856337.jpeg",
+      "hash": "UMGHJEogEMNH0ft7%2WVE1R*nijr}@aeRjn$",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2024-06-03T10:08:55.484Z",
-      "postId": 3209394,
+      "browsingLevel": 16,
+      "createdAt": "2024-09-18T18:04:45.696Z",
+      "postId": 6736759,
       "stats": {
-        "cryCount": 271,
-        "laughCount": 602,
-        "likeCount": 5089,
+        "cryCount": 290,
+        "laughCount": 641,
+        "likeCount": 4957,
         "dislikeCount": 0,
-        "heartCount": 3443,
-        "commentCount": 6
+        "heartCount": 3510,
+        "commentCount": 12
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1214255954,
-        "steps": 40,
-        "prompt": "score_9, score_8_up, score_7_up, Expressiveh, one sexy dark-skinned Mexican girl, long wet hair, female focus, lustrous skin, parted lips, slender, large breasts, through breasts silhouette, blurry body silhouette, naked transparent shirt, oversized shirt, shirt overhang, see-through shirt, see-through silhouette, HD32k, expressiveh, arched back, sexy pose, under an outdoor shower, wet skin, wet hair, perfect body, wide hips, narrow waist, barefoot, bottomless, perfect innie pussy, tight thin labia, hands on own head, wet hair, wet skin, wet shirt, supermodel pose, chest thrust out, outdoors, on the beach, sun high in the sky, well lit, sexy trimmed pubic hair, standing, showering, eyes closed, 3/4 angle view, three quarter view, view from below, (head titled up:1.4), (outdoor shower), arched back, contrapposto pose, (3/4 view:1.5),  (wet hair:1.4)",
+        "seed": 812903186,
+        "steps": 35,
+        "prompt": "(score_9, score_8_up, score_7_up), detailed background, night, inside, apartment, volumetric lighting, vivid colours, g0thicPXL, lilandavastyle, Expressiveh, imminent sex, , mating press, from below,\nBREAK 1girl, 20 years old, kawaii, cute face, long silver hair, bangs, pale skin, curvy, glowing light orange eyes, half closed eyes, heavy blush, light makeup, nervous, looking up, nervous, covered small perky breasts, wearing oversized jumper, choker, sweaty skin, thigh-high striped socks, \nBREAK 1male, out of frame, nude, average penis,",
         "sampler": "Euler a",
-        "cfgScale": 4,
+        "cfgScale": 5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-06-03T1008:33.5069424Z",
-        "negativePrompt": "score_6, score_5, score_4, pony, gaping, muscular, censored, furry, milf, child, kid, chibi, monochrome, grayscale, bra, panties, upturned eyes",
+        "Created Date": "2024-09-18T1758:57.6031532Z",
+        "negativePrompt": "easynegative, (score_6, score_5, score_4), (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), watermark, border, monochrome background, furry, loli, poorly drawn, blurry, blurry eyes, muscular, large penis,",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -39,43 +39,81 @@
           },
           {
             "type": "lora",
-            "weight": 0.8,
+            "weight": 0.45,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 438481,
-            "modelVersionName": "v1.0"
+            "weight": 0.4,
+            "modelVersionId": 373439,
+            "modelVersionName": "Lil Andava style PDXL V1"
           },
           {
             "type": "lora",
-            "weight": 0.9,
-            "modelVersionId": 505635,
-            "modelVersionName": "v1.0"
+            "weight": 0.8,
+            "modelVersionId": 244808,
+            "modelVersionName": "v2.0"
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 522995,
-            "modelVersionName": "V1.0"
+            "weight": 0.6,
+            "modelVersionId": 722613,
+            "modelVersionName": "v0.2-pony"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 135867,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": "Ninjada",
+      "username": "WiseBurrito",
       "baseModel": "Pony",
       "modelVersionIds": [
+        9208,
+        135867,
+        244808,
         290640,
+        373439,
         382152,
-        438481,
-        505635,
-        522995
+        398847,
+        436219,
+        722613
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "17|1726682685696",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=17%7C1726682685696"
+    "nextCursor": "18|1721079870724",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=18%7C1721079870724"
   }
 }
