@@ -1,99 +1,103 @@
 {
   "items": [
     {
-      "id": 19999740,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97797f61-afd2-45a2-b06a-fafe14e894b4/original=true/97797f61-afd2-45a2-b06a-fafe14e894b4.jpeg",
-      "hash": "U28pZS530O0eAw0J=y=|0K=}}@t6s}}[0e9u",
-      "width": 1280,
-      "height": 1856,
-      "nsfwLevel": "X",
+      "id": 98360393,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e74bdd7e-c0e6-4ade-8b27-af243a31de4b/original=true/e74bdd7e-c0e6-4ade-8b27-af243a31de4b.jpeg",
+      "hash": "U78hX,8wpe%hDhyZMcXT00$$jER4#6ng%2jI",
+      "width": 1080,
+      "height": 1920,
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-07-15T21:44:30.724Z",
-      "postId": 4462960,
+      "browsingLevel": 4,
+      "createdAt": "2025-09-04T20:05:08.991Z",
+      "postId": 21824584,
       "stats": {
-        "cryCount": 261,
-        "laughCount": 550,
-        "likeCount": 5394,
+        "cryCount": 386,
+        "laughCount": 619,
+        "likeCount": 5779,
         "dislikeCount": 0,
-        "heartCount": 3162,
-        "commentCount": 3
+        "heartCount": 2478,
+        "commentCount": 5
       },
       "meta": {
-        "seed": 3610192022,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
-        "steps": 40,
-        "width": 1280,
-        "height": 1856,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:257749@290640"
-        ],
-        "prompt": "embedding:urn:air:sd1:embedding:civitai:222256@250708, (score_9, score_8_up, score_7_up), 1girl, 20 year old, 1male out of frame, long black hair, hime cut, perky breasts, cleavage, pretty face, long legs, purple eyes, light freckles, oversized hoodie, cloth black skirt, striped thigh-high socks, gothic boots, lustful, looking up, heavy blushing, petite ass, tight pussy, anal doggstyle sex, full penetration,on the floor, detailed background, inside, futuristic, neon lights, volumetric lighting, vivid colours,  g0thicPXL, glowing, neon, ass focus",
-        "denoise": 0.4,
+        "Size": "900x1600",
+        "seed": 1643915221,
+        "Model": "hsUltrahdCG_v50",
+        "steps": 35,
+        "hashes": {
+          "model": "f4cb428e63",
+          "lora:rimixO": "4cf2b76fbf7c",
+          "lora:96YOTTEA-WAI": "7a6cdc714921",
+          "lora:USNR_STYLE_ILL_V1_lokr3": "44586d05878a",
+          "lora:Semi-realism_illustrious": "035c19d9068f",
+          "lora:sdxl_lightning_8step_lora": "5cfab55e47cd"
+        },
+        "prompt": "masterpiece, best quality, high quality, good quality,limited palette, Purple pigment,Purple pigment,Purple pigment,\n(scenery:1.5), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, realistic, \nhigh resolution, sharp focus, soft lighting, aged up, close-up, 1girl, glowing eyes, back, hair bun, ear piercing, looking back, profile, single hair bun, multicolored eyes, blue eyes, black hair, hair between eyes, breasts, blue hair, short hair, bare shoulders, sidelocks, expressionless, blush, earrings, hair ornament, backless dress, dress, ring, blue fingernails, looking at viewer, sitting, knees up, glowing, backless outfit, bare back, piercing, blue theme, blurry, blurry background, from behind, from side, upper body, back focus, depth of field, monochrome, blue background, tattoo, back tattoo, jewelry, double dragon print tattoo, glowing tattoos, full-body tattoo, hand up, flower tattoo, scales, updo, pattern, light particles, glowing smoke, glowing tattoos, patterns, light particles, (dutch angle:1.2), (depth of field:1.3), \n<lora:rimixO:0.45> <lora:Semi-realism_illustrious:0.45> <lora:USNR_STYLE_ILL_V1_lokr3:0.4>  <lora:96YOTTEA-WAI:0.3> <lora:sdxl_lightning_8step_lora:0.3>",
+        "Refiner": "waiNSFWIllustrious_v140 [bdb59bac77]",
+        "Version": "v1.10.1",
         "sampler": "Euler a",
-        "cfgScale": 6,
-        "modelIds": [],
-        "scheduler": "simple",
-        "upscalers": [],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "embedding:urn:air:sd1:embedding:civitai:222256@250712, embedding:urn:air:sd1:embedding:civitai:87243@287973, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, muscular, lipstick, massive ass, massive penis,",
-        "civitaiResources": [
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 290640
+            "hash": "4cf2b76fbf7c",
+            "name": "rimixO",
+            "type": "lora",
+            "weight": 0.45
           },
           {
+            "hash": "035c19d9068f",
+            "name": "Semi-realism_illustrious",
             "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 398847
+            "weight": 0.45
           },
           {
+            "hash": "44586d05878a",
+            "name": "USNR_STYLE_ILL_V1_lokr3",
             "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 436219
+            "weight": 0.4
           },
           {
+            "hash": "7a6cdc714921",
+            "name": "96YOTTEA-WAI",
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 239420
+            "weight": 0.3
+          },
+          {
+            "hash": "5cfab55e47cd",
+            "name": "sdxl_lightning_8step_lora",
+            "type": "lora",
+            "weight": 0.3
+          },
+          {
+            "hash": "f4cb428e63",
+            "name": "hsUltrahdCG_v50",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:352581@398847",
-            "type": "lora",
-            "strength": 0.55,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:300005@436219",
-            "type": "lora",
-            "strength": 0.65,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:212532@239420",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "f4cb428e63",
+        "Hires upscale": "1.2",
+        "Schedule type": "Automatic",
+        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
+        "negativePrompt": "lowres, worst quality, low quality, bad anatomy, bad hands, jpeg artifacts, signature, watermark, text, logo, artist name, extra digits,  censored, patreon username, loli",
+        "Refiner switch at": "0.85",
+        "Denoising strength": "0.35"
       },
-      "username": "WiseBurrito",
-      "baseModel": "Pony",
+      "username": "1024590397552",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        239420,
-        290640,
-        398847,
-        436219
+        391999,
+        1082928,
+        1552087,
+        1882710,
+        1918677,
+        2077892
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "19|1757016308991",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=19%7C1757016308991"
+    "nextCursor": "20|1715016035606",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=20%7C1715016035606"
   }
 }

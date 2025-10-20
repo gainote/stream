@@ -6,4 +6,4 @@
 
 <img src="2025_10_20_10_thumb.webp" width="100"/> <img src="2025_10_20_11_thumb.webp" width="100"/> <img src="2025_10_20_12_thumb.webp" width="100"/> <img src="2025_10_20_13_thumb.webp" width="100"/> <img src="2025_10_20_14_thumb.webp" width="100"/> <img src="2025_10_20_15_thumb.webp" width="100"/> <img src="2025_10_20_16_thumb.webp" width="100"/> <img src="2025_10_20_17_thumb.webp" width="100"/> <img src="2025_10_20_18_thumb.webp" width="100"/>
 
-<img src="2025_10_20_19_thumb.webp" width="100"/>
+<img src="2025_10_20_19_thumb.webp" width="100"/> <img src="2025_10_20_20_thumb.webp" width="100"/>
