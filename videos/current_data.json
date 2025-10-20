@@ -1,36 +1,36 @@
 {
   "items": [
     {
-      "id": 16488123,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3db00576-dce1-4639-a360-694a24f44303/original=true/3db00576-dce1-4639-a360-694a24f44303.jpeg",
-      "hash": "UNHT?V01_N9FaeD*xtsl^kWXbboKs:M{xus:",
+      "id": 15335674,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79909118-1c59-4d2b-8da8-c24804a0a71b/original=true/79909118-1c59-4d2b-8da8-c24804a0a71b.jpeg",
+      "hash": "UHIE5}00u4E2X-D+-ot79uxaxDJ9~Vay9ajF",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2024-06-20T14:57:24.161Z",
-      "postId": 3698366,
+      "browsingLevel": 16,
+      "createdAt": "2024-06-10T22:13:14.242Z",
+      "postId": 3409884,
       "stats": {
-        "cryCount": 220,
-        "laughCount": 591,
-        "likeCount": 4837,
+        "cryCount": 225,
+        "laughCount": 520,
+        "likeCount": 4757,
         "dislikeCount": 0,
-        "heartCount": 3335,
-        "commentCount": 3
+        "heartCount": 3054,
+        "commentCount": 2
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1370200561,
-        "steps": 36,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, solo, Kim Possible, redhead, long hair, perfect face, perfect eyes, sexy, sexy girl, beautiful eyes, petite body, wide hips, perfect cute face, standing, large breasts, cleavage, oversized top, seductive look, pink panties, takes off panties, girl pulling down underwear to knees, clothes pulled down, leaning forward, pussy visible, perfect hands, blush, close up, dynamic angle",
-        "sampler": "Euler a",
-        "cfgScale": 4,
+        "seed": 356397507,
+        "steps": 25,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl,  leaning on wall, sexy face, ponytail hairstyle, wearing cap, sexy , cute face , kawai girl, bangs, long hair, hazel eyes, look away, shy , nose blush, large saggy boobs, cleavage, chest up, white sports bra, hands inside bra, breast grab , nipples, boob focus , pov",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-06-20T1456:32.3098682Z",
-        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, mutated hands, bad hand, blurry, (watermark), ugly face, mutated hands, low res, blurry face, athletic body, extra hands, easynegative, bad hands",
+        "Created Date": "2024-06-08T1953:59.8405503Z",
+        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -45,13 +45,7 @@
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 239420,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
+            "weight": 0.45,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
@@ -63,17 +57,16 @@
           },
           {
             "type": "lora",
-            "weight": 0.3,
+            "weight": 0.5,
             "modelVersionId": 436219,
             "modelVersionName": "v3.0 (PonyXL Edition)"
           }
         ]
       },
-      "username": null,
+      "username": "dororooo",
       "baseModel": "Pony",
       "modelVersionIds": [
         9208,
-        239420,
         290640,
         382152,
         398847,
@@ -82,7 +75,7 @@
     }
   ],
   "metadata": {
-    "nextCursor": "22|1718057594242",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=22%7C1718057594242"
+    "nextCursor": "23|1721764548876",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=23%7C1721764548876"
   }
 }
