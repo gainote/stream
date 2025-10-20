@@ -1,81 +1,57 @@
 {
   "items": [
     {
-      "id": 15335668,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f466a707-ee4a-4ca0-ad40-22f3c2817fa8/original=true/f466a707-ee4a-4ca0-ad40-22f3c2817fa8.jpeg",
-      "hash": "USI|?w^+_N?aNwx[%2oeNHt7s:az-pt6WBWW",
-      "width": 832,
-      "height": 1216,
+      "id": 11643641,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c96aa022-5734-4ff8-83a6-675579f2c0c3/original=true/c96aa022-5734-4ff8-83a6-675579f2c0c3.jpeg",
+      "hash": "U9E{FVuP2^^k0nkDvfEN00R5+Y%1n4nioaMx",
+      "width": 1728,
+      "height": 3024,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-06-10T22:13:08.285Z",
-      "postId": 3409884,
+      "browsingLevel": 8,
+      "createdAt": "2024-05-05T22:43:21.490Z",
+      "postId": 2563431,
       "stats": {
-        "cryCount": 438,
-        "laughCount": 897,
-        "likeCount": 7533,
+        "cryCount": 428,
+        "laughCount": 881,
+        "likeCount": 7169,
         "dislikeCount": 0,
-        "heartCount": 5061,
-        "commentCount": 7
+        "heartCount": 5229,
+        "commentCount": 4
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 2032897256,
+        "Size": "768x1344",
+        "seed": 563928757319322,
         "steps": 25,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl,  leaning on wall, sexy face, ponytail hairstyle, wearing cap, sexy , cute face , kawai girl, bangs, long hair, hazel eyes, look away, shy , nose blush, large saggy boobs, cleavage, chest up, white sports bra, breast grab , nipples, boob focus , pov , bubble boobs , close up",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 4,
-        "clipSkip": 2,
+        "hashes": {
+          "model": "67ab2fd8ec",
+          "LORA:Styles\\ExpressiveH": "7b53da0391",
+          "LORA:Styles\\Twilight Style": "2d9ee3fc65",
+          "LORA:Styles\\Disney Princess": "80aa67913a",
+          "LORA:Styles\\OfficialPit Style v1": "207296ad4a"
+        },
+        "prompt": "score_9, score_8_up, score_7_up,   1girl, egyptian princess, petite, cute, young, slim, gold jewelry, nude,  shiny skin, princess's chambers, canopy, sky, pool, back view, looking back, closeup, from below, low angle, spread ass, naughty_face, blush, parted lips, half-closed_eyes,   <lora:Styles\\Twilight Style:0.8> <lora:Styles\\Disney Princess:1> <lora:Styles\\ExpressiveH:0.8> ExpressiveH <lora:Styles\\OfficialPit Style v1:0.5>",
+        "sampler": "Euler a Karras",
+        "cfgScale": 7,
         "resources": [],
-        "Created Date": "2024-06-08T1955:24.7169549Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          }
-        ]
+        "Model hash": "67ab2fd8ec",
+        "negativePrompt": "score_6, score_5, score_4, molten body, malformed body, muscular, render, censored, monochrome, sagging breasts, big breasts",
+        "PonyV6XL Version": "ComfyUI"
       },
-      "username": "dororooo",
+      "username": "ADPA",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
+        244808,
         290640,
-        382152,
-        398847,
-        436219
+        330475,
+        342682,
+        382152
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "5|1714949001490",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=5%7C1714949001490"
+    "nextCursor": "6|1720640723323",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=6%7C1720640723323"
   }
 }
