@@ -1,103 +1,57 @@
 {
   "items": [
     {
-      "id": 98360393,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e74bdd7e-c0e6-4ade-8b27-af243a31de4b/original=true/e74bdd7e-c0e6-4ade-8b27-af243a31de4b.jpeg",
-      "hash": "U78hX,8wpe%hDhyZMcXT00$$jER4#6ng%2jI",
-      "width": 1080,
-      "height": 1920,
-      "nsfwLevel": "Mature",
+      "id": 11712729,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e88ddc21-501e-443b-bec8-9ab0a5c012f1/original=true/e88ddc21-501e-443b-bec8-9ab0a5c012f1.jpeg",
+      "hash": "U9JjVl{e7MR-~B[TcZK606.S]hx]u%C8jY?b",
+      "width": 1304,
+      "height": 2280,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-09-04T20:05:08.991Z",
-      "postId": 21824584,
+      "browsingLevel": 16,
+      "createdAt": "2024-05-06T17:20:35.606Z",
+      "postId": 2579406,
       "stats": {
-        "cryCount": 386,
-        "laughCount": 619,
-        "likeCount": 5779,
+        "cryCount": 282,
+        "laughCount": 653,
+        "likeCount": 4733,
         "dislikeCount": 0,
-        "heartCount": 2478,
+        "heartCount": 3568,
         "commentCount": 5
       },
       "meta": {
-        "Size": "900x1600",
-        "seed": 1643915221,
-        "Model": "hsUltrahdCG_v50",
-        "steps": 35,
+        "Size": "768x1344",
+        "seed": 605654760822443,
+        "steps": 25,
         "hashes": {
-          "model": "f4cb428e63",
-          "lora:rimixO": "4cf2b76fbf7c",
-          "lora:96YOTTEA-WAI": "7a6cdc714921",
-          "lora:USNR_STYLE_ILL_V1_lokr3": "44586d05878a",
-          "lora:Semi-realism_illustrious": "035c19d9068f",
-          "lora:sdxl_lightning_8step_lora": "5cfab55e47cd"
+          "model": "67ab2fd8ec",
+          "LORA:Styles\\ExpressiveH.safetensors": "7b53da0391",
+          "LORA:Styles\\Twilight Style.safetensors": "2d9ee3fc65",
+          "LORA:Styles\\Disney Princess.safetensors": "80aa67913a",
+          "LORA:Styles\\OfficialPit Style v2.safetensors": "ec0f0a1480"
         },
-        "prompt": "masterpiece, best quality, high quality, good quality,limited palette, Purple pigment,Purple pigment,Purple pigment,\n(scenery:1.5), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, realistic, \nhigh resolution, sharp focus, soft lighting, aged up, close-up, 1girl, glowing eyes, back, hair bun, ear piercing, looking back, profile, single hair bun, multicolored eyes, blue eyes, black hair, hair between eyes, breasts, blue hair, short hair, bare shoulders, sidelocks, expressionless, blush, earrings, hair ornament, backless dress, dress, ring, blue fingernails, looking at viewer, sitting, knees up, glowing, backless outfit, bare back, piercing, blue theme, blurry, blurry background, from behind, from side, upper body, back focus, depth of field, monochrome, blue background, tattoo, back tattoo, jewelry, double dragon print tattoo, glowing tattoos, full-body tattoo, hand up, flower tattoo, scales, updo, pattern, light particles, glowing smoke, glowing tattoos, patterns, light particles, (dutch angle:1.2), (depth of field:1.3), \n<lora:rimixO:0.45> <lora:Semi-realism_illustrious:0.45> <lora:USNR_STYLE_ILL_V1_lokr3:0.4>  <lora:96YOTTEA-WAI:0.3> <lora:sdxl_lightning_8step_lora:0.3>",
-        "Refiner": "waiNSFWIllustrious_v140 [bdb59bac77]",
-        "Version": "v1.10.1",
-        "sampler": "Euler a",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "resources": [
-          {
-            "hash": "4cf2b76fbf7c",
-            "name": "rimixO",
-            "type": "lora",
-            "weight": 0.45
-          },
-          {
-            "hash": "035c19d9068f",
-            "name": "Semi-realism_illustrious",
-            "type": "lora",
-            "weight": 0.45
-          },
-          {
-            "hash": "44586d05878a",
-            "name": "USNR_STYLE_ILL_V1_lokr3",
-            "type": "lora",
-            "weight": 0.4
-          },
-          {
-            "hash": "7a6cdc714921",
-            "name": "96YOTTEA-WAI",
-            "type": "lora",
-            "weight": 0.3
-          },
-          {
-            "hash": "5cfab55e47cd",
-            "name": "sdxl_lightning_8step_lora",
-            "type": "lora",
-            "weight": 0.3
-          },
-          {
-            "hash": "f4cb428e63",
-            "name": "hsUltrahdCG_v50",
-            "type": "model"
-          }
-        ],
-        "Model hash": "f4cb428e63",
-        "Hires upscale": "1.2",
-        "Schedule type": "Automatic",
-        "Hires upscaler": "R-ESRGAN 4x+ Anime6B",
-        "negativePrompt": "lowres, worst quality, low quality, bad anatomy, bad hands, jpeg artifacts, signature, watermark, text, logo, artist name, extra digits,  censored, patreon username, loli",
-        "Refiner switch at": "0.85",
-        "Denoising strength": "0.35"
+        "prompt": "score_9, score_8_up, score_7_up,  girl gets fuck, top down ass up, hard orgasm face, small waist, grab ass, head on side, dutch angle, low angle,  BREAK biting own lip, naked, cute, bob cut, tan lines, blonde, medium breast press, blush, saliva, eye rolling, half-closed eyes, one eye closed, (smiling:0.85), expressiveH,  <lora:Styles\\Twilight Style.safetensors:0.8> <lora:Styles\\Disney Princess.safetensors:0.8> <lora:Styles\\OfficialPit Style v2.safetensors:0.5> <lora:Styles\\ExpressiveH.safetensors:0.5>",
+        "sampler": "Euler a Karras",
+        "cfgScale": 7,
+        "resources": [],
+        "Model hash": "67ab2fd8ec",
+        "negativePrompt": "score_6, score_5, score_4, muscular, censored, monochrome, small breasts, makeup, dark skin",
+        "PonyV6XL Version": "ComfyUI"
       },
-      "username": "1024590397552",
-      "baseModel": "Illustrious",
+      "username": "ADPA",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        391999,
-        1082928,
-        1552087,
-        1882710,
-        1918677,
-        2077892
+        244808,
+        290640,
+        330475,
+        382152,
+        449028
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "20|1715016035606",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=20%7C1715016035606"
+    "nextCursor": "21|1718895444161",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=21%7C1718895444161"
   }
 }
