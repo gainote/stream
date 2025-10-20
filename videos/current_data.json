@@ -1,42 +1,39 @@
 {
   "items": [
     {
-      "id": 18438244,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/84c9c1f9-4d66-40e7-a9d4-e2a2e95de898/original=true/84c9c1f9-4d66-40e7-a9d4-e2a2e95de898.jpeg",
-      "hash": "UCJsUo003WrX0$IU~BRjO9Nd]%NI~BbcIq%1",
+      "id": 34854503,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/314ea556-42e8-4db5-948c-7203aa47e3a4/original=true/314ea556-42e8-4db5-948c-7203aa47e3a4.jpeg",
+      "hash": "U4FD#m0f010g00jF%gxt1J=dM{tR0z-V~B0f",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-07-04T18:04:39.093Z",
-      "postId": 4118975,
+      "createdAt": "2024-10-16T05:11:40.196Z",
+      "postId": 7965560,
       "stats": {
-        "cryCount": 264,
-        "laughCount": 657,
-        "likeCount": 5625,
+        "cryCount": 345,
+        "laughCount": 744,
+        "likeCount": 5206,
         "dislikeCount": 0,
-        "heartCount": 3228,
-        "commentCount": 3
+        "heartCount": 3447,
+        "commentCount": 66
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 80230502,
-        "steps": 40,
-        "prompt": "(score_9, score_8_up, score_7_up), 1girl. 20 year old, black hair with thick bangs, braids, small perky breasts, cleavage, pretty face, petite, red eyes, looking at viewer, blushing, smug, shiny skin, cute pose, light freckles, skimpy green swimsuit, laying by side of pool, laying on male stomach (<lora:cuddling-handjob-ponyxl-lora-nochekaiser:1>, cuddling handjob, handjob, penis, breast press, ejaculation, pov, erection, nude, nipples,) shot from above, detailed background, luxurious pool background, decorative plants sunrise, god rays, volumetric lighting, vivid colours, lilandavastyle, OverallDetail, Expressiveh, g0thicPXL,",
+        "seed": 3051737371,
+        "extra": {
+          "remixOfId": 34319249
+        },
+        "steps": 29,
+        "prompt": "Expressiveh, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, godrays, 1girl, Makima (Chainsaw man), red room, lingerie, thick thighs, narrow waist, big hips, elbow gloves, pose, closeup, dynamic angle, closeup, hearts, sound effects, sexy, 1man, blush, handjob, licking cock, smeared makeup, sweat, cum on face, from side, looking up",
         "sampler": "Euler a",
         "cfgScale": 4,
         "clipSkip": 2,
-        "resources": [
-          {
-            "name": "cuddling-handjob-ponyxl-lora-nochekaiser",
-            "type": "lora",
-            "weight": 1
-          }
-        ],
-        "Created Date": "2024-07-04T1803:18.4778220Z",
-        "negativePrompt": "SimpleNegativeV3, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, massive penis, massive cock, muscular, cross eyed, lazy eye, three people, (threesome),",
+        "resources": [],
+        "Created Date": "2024-10-16T0502:07.0880848Z",
+        "negativePrompt": "easynegative, score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), extra hands, greyscale, black and white, muscular female, mixed characters",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -46,32 +43,32 @@
           {
             "type": "embed",
             "weight": 1,
-            "modelVersionId": 287973,
-            "modelVersionName": "V3"
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
           },
           {
             "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 378684,
-            "modelVersionName": "v2.0 (Max. Compatibility)"
+            "weight": 1,
+            "modelVersionId": 239420,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 1.4,
+            "weight": 0.65,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.4,
+            "weight": 0.45,
             "modelVersionId": 398847,
             "modelVersionName": "gothic neon v1.0"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 606240,
-            "modelVersionName": "booru"
+            "weight": 0.5,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
             "type": "embed",
@@ -85,20 +82,20 @@
           }
         ]
       },
-      "username": "WiseBurrito",
+      "username": "Bancin",
       "baseModel": "Pony",
       "modelVersionIds": [
-        287973,
+        9208,
+        239420,
         290640,
-        378684,
         382152,
         398847,
-        606240
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "13|1729055500196",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=13%7C1729055500196"
+    "nextCursor": "14|1745929949089",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=14%7C1745929949089"
   }
 }
