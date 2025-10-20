@@ -1,61 +1,91 @@
 {
   "items": [
     {
-      "id": 212334,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/469199f5-6759-4282-79be-ca837d2a5700/original=true/469199f5-6759-4282-79be-ca837d2a5700.jpeg",
-      "hash": "UDLN0,01yX0000%M=|t70g_2^k~W9FM{%1M{",
-      "width": 768,
-      "height": 768,
+      "id": 65625217,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2fe6185-4e57-48b6-8b9b-a8172d95b2cc/original=true/f2fe6185-4e57-48b6-8b9b-a8172d95b2cc.jpeg",
+      "hash": "UMFE+SNG4.%g~WM{IU-px]Rjr=xuw]bbW;s:",
+      "width": 1024,
+      "height": 1024,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2023-03-08T04:58:41.676Z",
-      "postId": 110708,
+      "createdAt": "2025-03-29T01:22:55.663Z",
+      "postId": 13794317,
       "stats": {
-        "cryCount": 280,
-        "laughCount": 584,
-        "likeCount": 4105,
+        "cryCount": 449,
+        "laughCount": 680,
+        "likeCount": 4586,
         "dislikeCount": 0,
-        "heartCount": 3458,
-        "commentCount": 14
+        "heartCount": 2689,
+        "commentCount": 4
       },
       "meta": {
-        "ENSD": "31337",
-        "Size": "768x768",
-        "seed": 4024456844,
-        "steps": 30,
-        "prompt": "<lora:koreanDollLikeness_v15:0.5>, <lora:taiwanDollLikeness_v10:0.2>, ulzzang-6500v1.1, (original: 1.2), (realistic: 1.3) (mixed Korean), beautiful girl with beautiful details, extremely detailed eyes and face, eyes with beautiful details, absurd, incredibly absurd, huge file size, ultra detail, high resolution, ultra detailed, best quality, masterpiece, illustration, ultra detailed and beautiful, ultra detailed, CG, unity, 8k wallpaper, amazing, fine Detail, masterpiece, top quality, official art, extremely detailed CG unity 8k wallpaper, cinematic lighting, (perfect shiny skin:0.6), slim and smooth lines, (floating), (spread pussy:1.4),(spread legs:1.4),(large breasts:1.5), (evening dress:1.4),   ((Tiara on head)),  (half nude:1.5),  <lora:realisticVaginasGodPussy_godpussy2Innie:0.4>",
-        "sampler": "DPM++ SDE Karras",
-        "cfgScale": 8,
-        "Clip skip": "2",
-        "resources": [
+        "Size": "1024x1024",
+        "seed": 163362491,
+        "extra": {
+          "remixOfId": 64937931
+        },
+        "steps": 34,
+        "prompt": "score_9, score_8_up, score_8, score_7_up, 1girl, 1futa Arab thief, futanari Jasmine masturbating, harem pants, pants pulled down, Bed Canopy With Tie up French Style Canopy Curtain, blushing,  motion lines, movement lines, moving hips lines, cock motion lines, futa watching, watching from away, netorare, duo, bedroom, futa ntr,",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-03-21T1823:41.1751381Z",
+        "negativePrompt": "easynegative, worst quality, femboy, low quality, text, censored, deformed, bad hand, blurry, (watermark),  extra hands, extra limbs, missing limbs, extra hands, missing hands, muscles, ugly face, deformed face, inverted limbs,  ugly nose, deformed nose, ",
+        "civitaiResources": [
           {
-            "name": "koreanDollLikeness_v15",
-            "type": "lora",
-            "weight": 0.5
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
-            "name": "taiwanDollLikeness_v10",
-            "type": "lora",
-            "weight": 0.2
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
           },
           {
-            "name": "realisticVaginasGodPussy_godpussy2Innie",
             "type": "lora",
-            "weight": 0.4
+            "weight": 0.45,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "lora",
+            "weight": 0.15,
+            "modelVersionId": 447620,
+            "modelVersionName": "Futa NTR (Ver. 2) [Pony]"
           }
-        ],
-        "Model hash": "95afa0d9ea",
-        "negativePrompt": "paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), dot, mole, lowres, normal quality, monochrome, grayscale, lowres, text, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature,"
+        ]
       },
-      "username": "Druys",
-      "baseModel": "SD 1.5",
-      "modelVersionIds": []
+      "username": "revenge623",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        9208,
+        290640,
+        382152,
+        398847,
+        436219,
+        447620
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "25|1743211375663",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=25%7C1743211375663"
+    "nextCursor": "26|1715955246812",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=26%7C1715955246812"
   }
 }
