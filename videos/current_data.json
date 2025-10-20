@@ -1,101 +1,40 @@
 {
   "items": [
     {
-      "id": 34854503,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/314ea556-42e8-4db5-948c-7203aa47e3a4/original=true/314ea556-42e8-4db5-948c-7203aa47e3a4.jpeg",
-      "hash": "U4FD#m0f010g00jF%gxt1J=dM{tR0z-V~B0f",
-      "width": 832,
-      "height": 1216,
+      "id": 5547320,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6cb10b59-d01b-4114-b426-ddea6cd5891b/original=true/6cb10b59-d01b-4114-b426-ddea6cd5891b.jpeg",
+      "hash": "UJFOZC~V564.57IooJR*9tRj%2%LM{R*n+%2",
+      "width": 1088,
+      "height": 1920,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-10-16T05:11:40.196Z",
-      "postId": 7965560,
+      "createdAt": "2025-04-29T12:32:29.089Z",
+      "postId": 1208158,
       "stats": {
-        "cryCount": 345,
-        "laughCount": 744,
-        "likeCount": 5206,
+        "cryCount": 410,
+        "laughCount": 732,
+        "likeCount": 5241,
         "dislikeCount": 0,
-        "heartCount": 3447,
-        "commentCount": 66
+        "heartCount": 3190,
+        "commentCount": 12
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 3051737371,
-        "extra": {
-          "remixOfId": 34319249
-        },
-        "steps": 29,
-        "prompt": "Expressiveh, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, godrays, 1girl, Makima (Chainsaw man), red room, lingerie, thick thighs, narrow waist, big hips, elbow gloves, pose, closeup, dynamic angle, closeup, hearts, sound effects, sexy, 1man, blush, handjob, licking cock, smeared makeup, sweat, cum on face, from side, looking up",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-16T0502:07.0880848Z",
-        "negativePrompt": "easynegative, score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), extra hands, greyscale, black and white, muscular female, mixed characters",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 239420,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
-          }
-        ]
+        "seed": 2540306418,
+        "steps": 22,
+        "prompt": "*name of a real person*, age 20, (facial:1.2), (cum:1.2), cum on eyes, (from above), <lora:facialized:0.95>",
+        "sampler": "DPM++ 3M SDE",
+        "cfgScale": 5,
+        "negativePrompt": "cgi, cartoon, doll, jewelry"
       },
-      "username": "Bancin",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        9208,
-        239420,
-        290640,
-        382152,
-        398847,
-        436219
-      ]
+      "username": "MishGUN",
+      "baseModel": "SD 1.5",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "14|1745929949089",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=14%7C1745929949089"
+    "nextCursor": "15|1719322241060",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=15%7C1719322241060"
   }
 }
