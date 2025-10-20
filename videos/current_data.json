@@ -1,36 +1,36 @@
 {
   "items": [
     {
-      "id": 17142844,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7612b40-95e6-4e4f-842e-2f35532e73a9/original=true/f7612b40-95e6-4e4f-842e-2f35532e73a9.jpeg",
-      "hash": "UQIg};NH?^%2XnWBnij[I;s:RPRk%2ofRPR*",
+      "id": 14452591,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76f3214e-f5ee-4eda-a53a-732608a28b22/original=true/76f3214e-f5ee-4eda-a53a-732608a28b22.jpeg",
+      "hash": "U8FYJhD%00_N^QR*MdM|ITxH.9J601-;wg01",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2024-06-25T13:30:41.060Z",
-      "postId": 3842897,
+      "createdAt": "2024-06-03T10:08:55.484Z",
+      "postId": 3209394,
       "stats": {
-        "cryCount": 284,
-        "laughCount": 713,
-        "likeCount": 5041,
+        "cryCount": 271,
+        "laughCount": 602,
+        "likeCount": 5089,
         "dislikeCount": 0,
-        "heartCount": 3500,
-        "commentCount": 4
+        "heartCount": 3443,
+        "commentCount": 6
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1791819964,
-        "steps": 25,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, chun li, intense pleasure, headshot, worried, embarrassed, biting lip, blushing, cleavage, topless, breast grab, sky above, looking away",
-        "sampler": "DPM++ 2M Karras",
+        "seed": 1214255954,
+        "steps": 40,
+        "prompt": "score_9, score_8_up, score_7_up, Expressiveh, one sexy dark-skinned Mexican girl, long wet hair, female focus, lustrous skin, parted lips, slender, large breasts, through breasts silhouette, blurry body silhouette, naked transparent shirt, oversized shirt, shirt overhang, see-through shirt, see-through silhouette, HD32k, expressiveh, arched back, sexy pose, under an outdoor shower, wet skin, wet hair, perfect body, wide hips, narrow waist, barefoot, bottomless, perfect innie pussy, tight thin labia, hands on own head, wet hair, wet skin, wet shirt, supermodel pose, chest thrust out, outdoors, on the beach, sun high in the sky, well lit, sexy trimmed pubic hair, standing, showering, eyes closed, 3/4 angle view, three quarter view, view from below, (head titled up:1.4), (outdoor shower), arched back, contrapposto pose, (3/4 view:1.5),  (wet hair:1.4)",
+        "sampler": "Euler a",
         "cfgScale": 4,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-06-25T1328:12.4435669Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,",
+        "Created Date": "2024-06-03T1008:33.5069424Z",
+        "negativePrompt": "score_6, score_5, score_4, pony, gaping, muscular, censored, furry, milf, child, kid, chibi, monochrome, grayscale, bra, panties, upturned eyes",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -38,66 +38,44 @@
             "modelVersionName": "V6 (start with this one)"
           },
           {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
             "type": "lora",
             "weight": 0.8,
-            "modelVersionId": 333607,
-            "modelVersionName": "Smooth Anime 2"
-          },
-          {
-            "type": "lora",
-            "weight": 1.5,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 106916,
+            "weight": 0.3,
+            "modelVersionId": 438481,
             "modelVersionName": "v1.0"
           },
           {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 505635,
+            "modelVersionName": "v1.0"
           },
           {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 522995,
+            "modelVersionName": "V1.0"
           }
         ]
       },
-      "username": "screwball808",
+      "username": "Ninjada",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
         290640,
-        333607,
         382152,
-        398847,
-        436219
+        438481,
+        505635,
+        522995
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "16|1717409335484",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=16%7C1717409335484"
+    "nextCursor": "17|1726682685696",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=17%7C1726682685696"
   }
 }
