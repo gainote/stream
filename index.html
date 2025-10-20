@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的短影音</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+            color: white;
+        }
+
+        .app-wrapper {
+            width: 100%;
+            max-width: 400px;
+            height: 100vh;
+            max-height: 900px;
+            position: relative;
+            overflow: hidden;
+            background: #000;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .video-feed {
+            width: 100%;
+            height: 100%;
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+            position: relative;
+            scrollbar-width: none;
+        }
+
+        .video-feed::-webkit-scrollbar {
+            display: none;
+        }
+
+        .video-card {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+            position: relative;
+            background: #000;
+        }
+
+        .video-player {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background: #000;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                to bottom,
+                rgba(0,0,0,0.1) 0%,
+                rgba(0,0,0,0) 20%,
+                rgba(0,0,0,0) 60%,
+                rgba(0,0,0,0.7) 100%
+            );
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 25px;
+            z-index: 1;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            display: flex;
+            gap: 18px;
+            z-index: 3;
+        }
+
+        .control-btn {
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.3em;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .control-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .mute-unmute-btn {
+            display: none !important;
+        }
+
+        .side-actions {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            z-index: 3;
+        }
+
+        .action-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            font-size: 0.85em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .action-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .action-btn i {
+            font-size: 2em;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+            transition: all 0.3s ease;
+        }
+
+        .action-btn:hover i {
+            transform: scale(1.2);
+        }
+
+        .action-btn:nth-child(1) i {
+            color: #ff3040;
+        }
+
+        .action-btn:nth-child(2) i {
+            color: #25d366;
+        }
+
+        .action-btn:nth-child(3) i {
+            color: #1da1f2;
+        }
+
+        .play-indicator {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4em;
+            color: rgba(255, 255, 255, 0.9);
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 4;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .video-card.paused .play-indicator {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        /* Loading animation */
+        .video-card.loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid #fff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            z-index: 5;
+        }
+
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        /* Progress bar */
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.3);
+            width: 100%;
+            z-index: 2;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ff3040, #ff6b6b);
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+
+        /* Hide default video controls */
+        video::-webkit-media-controls,
+        video::-webkit-media-controls-enclosure {
+            display: none !important;
+        }
+
+        video {
+            -ms-media-controls-display: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+        }
+
+        /* End of content indicator */
+        .end-indicator {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 40px;
+        }
+
+        .end-indicator i {
+            font-size: 4em;
+            margin-bottom: 20px;
+            opacity: 0.6;
+        }
+
+        .end-indicator h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .end-indicator p {
+            font-size: 1em;
+            opacity: 0.7;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 480px) {
+            .app-wrapper {
+                max-width: 100vw;
+                height: 100vh;
+                border-radius: 0;
+                border: none;
+            }
+
+            .video-overlay {
+                padding: 20px;
+            }
+
+            .controls {
+                left: 20px;
+                bottom: 20px;
+                gap: 15px;
+            }
+
+            .control-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2em;
+            }
+
+            .side-actions {
+                right: 15px;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="video-feed">
+            <!-- Videos will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <script>
+        class VideoApp {
+    constructor() {
+        this.videoFeed = document.querySelector('.video-feed');
+        this.allVideos = []; // 所有影片的扁平化陣列
+        this.currentVideoIndex = 0;
+        this.preloadCount = 2; // 當前影片前後各預載2支，總共顯示 1 + 2*2 = 5 支影片
+        this.observer = null;
+        this.loadedDates = new Set(); // 已載入的日期
+        this.isLoading = false;
+        this.hasMoreContent = true; // 是否還有更舊的內容可以載入
+
+        this.init();
+    }
+
+    // 取得當前日期，格式：2025_09_08
+    getCurrentDateString() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        return `${year}_${month}_${day}`;
+    }
+
+    // 取得前一天的日期字串
+    getPreviousDateString(dateString) {
+        const [year, month, day] = dateString.split('_');
+        const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+        date.setDate(date.getDate() - 1);
+
+        const prevYear = date.getFullYear();
+        const prevMonth = String(date.getMonth() + 1).padStart(2, '0');
+        const prevDay = String(date.getDate()).padStart(2, '0');
+        return `${prevYear}_${prevMonth}_${prevDay}`;
+    }
+    
+    // 取得下一天的日期字串 (用於判斷是否要載入更新的影片，但在此情境下暫不需要，因為我們從最新開始)
+    // 如果需要未來日期來載入最新的影片，可以使用此函數
+    getNextDateString(dateString) {
+        const [year, month, day] = dateString.split('_');
+        const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+        date.setDate(date.getDate() + 1);
+
+        const nextYear = date.getFullYear();
+        const nextMonth = String(date.getMonth() + 1).padStart(2, '0');
+        const nextDay = String(date.getDate()).padStart(2, '0');
+        return `${nextYear}_${nextMonth}_${nextDay}`;
+    }
+
+
+    // 載入指定日期的 JSON 數據
+    async loadDateData(dateString) {
+        if (this.loadedDates.has(dateString)) {
+            return [];
+        }
+
+        try {
+            const response = await fetch(`videos/${dateString}/data.json`);
+            if (!response.ok) {
+                if (response.status === 404) {
+                    console.log(`沒有找到 ${dateString} 的資料.`);
+                    this.loadedDates.add(dateString);
+                    return [];
+                }
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            this.loadedDates.add(dateString);
+
+            // 轉換數據格式，添加額外信息
+            // 由於希望序號大的在前面，所以要將影片反轉
+            return data.videos.map((video, index) => ({
+                id: `${dateString}_${index + 1}`,
+                src: `${video.filename}`, // 修正路徑
+                thumb: `${video.thumb_path}`, // 修正路徑
+                timestamp: video.timestamp,
+                date: dateString
+            })).reverse(); // 反轉，讓最新的影片排在前面
+        } catch (error) {
+            console.warn(`無法載入 ${dateString} 的數據:`, error);
+            this.loadedDates.add(dateString);
+            return [];
+        }
+    }
+
+    // 載入更多影片數據（現在是載入更「舊」的影片）
+    async loadMoreVideos() {
+        if (this.isLoading || !this.hasMoreContent) return 0;
+        
+        this.isLoading = true;
+        let dateToLoad = this.getCurrentDateString(); // 預設從今天開始
+
+        // 如果已經有載入的日期，從最「舊」的日期開始往前找
+        // 由於我們將影片push到allVideos，所以allVideos的最後一個影片日期是最舊的
+        if (this.allVideos.length > 0) {
+            dateToLoad = this.getPreviousDateString(this.allVideos[this.allVideos.length - 1].date);
+        } else {
+             // 如果 allVideos 是空的，且 loadedDates 已經有資料，從已載入的最舊日期繼續往前
+             if (this.loadedDates.size > 0) {
+                const sortedDates = Array.from(this.loadedDates).sort(); // 升序排列
+                dateToLoad = this.getPreviousDateString(sortedDates[0]);
+             }
+        }
+
+        let maxAttempts = 30; // 最多嘗試30天
+        let attempts = 0;
+        let newVideosCount = 0;
+
+        while (attempts < maxAttempts) {
+            const newVideos = await this.loadDateData(dateToLoad);
+            
+            if (newVideos.length > 0) {
+                // 將新影片插入到陣列末尾 (因為是更舊的影片)
+                this.allVideos.push(...newVideos);
+                newVideosCount += newVideos.length;
+                this.isLoading = false;
+                return newVideosCount;
+            } else {
+                // 空陣列或載入失敗，繼續嘗試前一天
+                dateToLoad = this.getPreviousDateString(dateToLoad);
+                attempts++;
+            }
+        }
+
+        this.hasMoreContent = false;
+        this.isLoading = false;
+        console.log("沒有更多舊影片了.");
+        return 0;
+    }
+
+    // 初始化載入
+    async init() {
+        // 初始載入當天的影片
+        await this.loadMoreVideos(); 
+        
+        if (this.allVideos.length === 0) {
+            this.showEndIndicator();
+            return;
+        }
+
+        // 確保 currentVideoIndex 在有效範圍內
+        this.currentVideoIndex = 0; // 從最新影片開始
+        this.renderVisibleVideos(); // 初始渲染
+        this.setupKeyboardEvents();
+    }
+
+    // 顯示結束指示器
+    showEndIndicator() {
+        // 如果已經有影片卡片，則將結束指示器添加到最後
+        if (document.querySelector('.end-card')) return; // 避免重複添加
+
+        const endCard = document.createElement('div');
+        endCard.classList.add('video-card', 'end-card');
+        endCard.innerHTML = `
+            <div class="end-indicator">
+                <i class="fas fa-film"></i>
+                <h3>暫無更多影片</h3>
+                <p>請稍後再來查看新內容</p>
+            </div>
+        `;
+        // 如果 videoFeed 已經有內容，則添加到最後，否則替換內容
+        if (this.videoFeed.children.length > 0 && !this.videoFeed.querySelector('.end-card')) {
+            this.videoFeed.appendChild(endCard);
+        } else if (this.videoFeed.children.length === 0) {
+             this.videoFeed.innerHTML = ''; // 清空可能存在的其他內容
+             this.videoFeed.appendChild(endCard);
+        }
+       
+       // 確保結束指示器也參與 IntersectionObserver
+       this.initObserver();
+    }
+
+    // 創建進度條
+    createProgressBar() {
+        const progressBar = document.createElement('div');
+        progressBar.classList.add('progress-bar');
+        const progressFill = document.createElement('div');
+        progressFill.classList.add('progress-fill');
+        progressBar.appendChild(progressFill);
+        return progressBar;
+    }
+
+    // 更新進度條
+    updateProgressBar(video, progressFill) {
+        if (video.duration) {
+            const progress = (video.currentTime / video.duration) * 100;
+            progressFill.style.width = `${progress}%`;
+        }
+    }
+
+    // 創建單個影片卡片
+    createVideoCard(videoItem, index) {
+        const videoCard = document.createElement('div');
+        videoCard.classList.add('video-card', 'loading');
+        videoCard.dataset.index = index;
+        videoCard.dataset.id = videoItem.id; // 添加 id，方便查找
+
+        const videoPlayer = document.createElement('video');
+        videoPlayer.classList.add('video-player');
+        videoPlayer.src = videoItem.src;
+        videoPlayer.loop = true;
+        videoPlayer.muted = true;
+        videoPlayer.playsInline = true;
+        videoPlayer.preload = 'metadata';
+        // videoPlayer.poster = videoItem.thumb; // 可以使用縮圖作為預載畫面
+
+        const videoOverlay = document.createElement('div');
+        videoOverlay.classList.add('video-overlay');
+
+        const controls = document.createElement('div');
+        controls.classList.add('controls');
+        const playPauseBtn = document.createElement('button');
+        playPauseBtn.classList.add('control-btn', 'play-pause-btn');
+        playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+        controls.appendChild(playPauseBtn);
+
+        const sideActions = document.createElement('div');
+        sideActions.classList.add('side-actions');
+        const likeBtn = document.createElement('div');
+        likeBtn.classList.add('action-btn');
+        likeBtn.innerHTML = '<i class="fas fa-heart"></i><span>1.2M</span>';
+        const commentBtn = document.createElement('div');
+        commentBtn.classList.add('action-btn');
+        commentBtn.innerHTML = '<i class="fas fa-comment-dots"></i><span>5.7K</span>';
+        const shareBtn = document.createElement('div');
+        shareBtn.classList.add('action-btn');
+        shareBtn.innerHTML = '<i class="fas fa-share"></i><span>分享</span>';
+        sideActions.appendChild(likeBtn);
+        sideActions.appendChild(commentBtn);
+        sideActions.appendChild(shareBtn);
+
+        const playIndicator = document.createElement('div');
+        playIndicator.classList.add('play-indicator');
+        playIndicator.innerHTML = '<i class="fas fa-play"></i>';
+
+        const progressBar = this.createProgressBar();
+        const progressFill = progressBar.querySelector('.progress-fill');
+
+        videoCard.appendChild(videoPlayer);
+        videoCard.appendChild(videoOverlay);
+        videoCard.appendChild(controls);
+        videoCard.appendChild(sideActions);
+        videoCard.appendChild(playIndicator);
+        videoCard.appendChild(progressBar);
+
+        // 影片載入完成事件
+        videoPlayer.addEventListener('loadedmetadata', () => {
+            videoCard.classList.remove('loading');
+        });
+
+        // 進度更新
+        videoPlayer.addEventListener('timeupdate', () => {
+            this.updateProgressBar(videoPlayer, progressFill);
+        });
+
+        // 事件監聽器
+        playPauseBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+        });
+
+        videoPlayer.addEventListener('click', () => {
+            this.togglePlayPause(videoPlayer, playPauseBtn, videoCard, playIndicator);
+        });
+
+        // 按讚動畫
+        likeBtn.addEventListener('click', () => {
+            likeBtn.style.transform = 'scale(1.3)';
+            setTimeout(() => {
+                likeBtn.style.transform = 'scale(1)';
+            }, 200);
+        });
+
+        videoCard.classList.add('paused'); // 預設為暫停
+        return videoCard;
+    }
+
+    // 播放/暫停功能
+    togglePlayPause(video, btn, card, indicator) {
+        if (video.paused) {
+            video.play().catch(e => console.error("Play error:", e));
+            btn.innerHTML = '<i class="fas fa-pause"></i>';
+            card.classList.remove('paused');
+            indicator.innerHTML = '<i class="fas fa-pause"></i>';
+        } else {
+            video.pause();
+            btn.innerHTML = '<i class="fas fa-play"></i>';
+            card.classList.add('paused');
+            indicator.innerHTML = '<i class="fas fa-play"></i>';
+        }
+
+        indicator.style.opacity = 1;
+        clearTimeout(video.indicatorTimeout);
+        video.indicatorTimeout = setTimeout(() => {
+            indicator.style.opacity = 0;
+        }, 800);
+    }
+
+    // 渲染當前可見及預載的影片
+    async renderVisibleVideos() {
+        const requiredIndices = new Set();
+        const firstIndex = Math.max(0, this.currentVideoIndex - this.preloadCount);
+        const lastIndex = Math.min(this.allVideos.length - 1, this.currentVideoIndex + this.preloadCount);
+
+        for (let i = firstIndex; i <= lastIndex; i++) {
+            requiredIndices.add(i);
+        }
+
+        // 移除不再需要的影片卡片
+        this.videoFeed.querySelectorAll('.video-card:not(.end-card)').forEach(card => {
+            const index = parseInt(card.dataset.index);
+            if (!requiredIndices.has(index)) {
+                card.remove();
+            }
+        });
+
+        const existingCards = new Map(); // 存放已存在的卡片，以 index 為 key
+        this.videoFeed.querySelectorAll('.video-card:not(.end-card)').forEach(card => {
+            existingCards.set(parseInt(card.dataset.index), card);
+        });
+
+        const frag = document.createDocumentFragment();
+
+        // 從 firstIndex 到 lastIndex 遍歷，確保影片按順序排列
+        for (let i = firstIndex; i <= lastIndex; i++) {
+            if (!this.allVideos[i]) continue; // 確保影片數據存在
+
+            let videoCard = existingCards.get(i);
+            if (!videoCard) {
+                // 如果卡片不存在，則創建它
+                videoCard = this.createVideoCard(this.allVideos[i], i);
+                frag.appendChild(videoCard);
+            }
+            
+            // 確保影片卡片按正確順序排列
+            // 找到正確的插入點 (依據 index 尋找，確保小的 index 在前面)
+            let targetSibling = null;
+            if (i < this.allVideos.length - 1) { // 如果不是最後一張，尋找後一張的DOM元素
+                targetSibling = this.videoFeed.querySelector(`[data-index="${i + 1}"]`);
+            }
+            
+            // 如果卡片不在正確的位置，重新插入
+            if (videoCard.parentNode !== this.videoFeed || (targetSibling && videoCard.nextElementSibling !== targetSibling)) {
+                if (targetSibling) {
+                    this.videoFeed.insertBefore(videoCard, targetSibling);
+                } else {
+                    // 如果沒有 targetSibling，表示這是最後一張卡片，直接 append
+                    this.videoFeed.appendChild(videoCard);
+                }
+            }
+        }
+        
+        if (frag.children.length > 0) {
+            // 將 DocumentFragment 中的新卡片添加到 DOM 中
+            // 由於上面已經處理了順序，這裡只需要簡單的 append 即可
+            this.videoFeed.appendChild(frag);
+        }
+        
+        // 重新初始化觀察器以監視新加入的卡片
+        this.initObserver(); 
+        
+        // 確保當前影片播放
+        this.playCurrentVideo(); 
+
+        // 檢查是否需要載入更多「舊」內容 (當滑動到接近底部時)
+        // 如果 currentVideoIndex 接近 allVideos 的末尾，且還有更多內容
+        if (this.currentVideoIndex >= this.allVideos.length - 1 - this.preloadCount && this.hasMoreContent) {
+            const initialAllVideosLength = this.allVideos.length;
+            await this.loadMoreVideos(); // 嘗試載入更多舊影片
+            if (this.allVideos.length > initialAllVideosLength) {
+                // 如果成功載入新影片，需要重新渲染以顯示它們
+                this.renderVisibleVideos();
+            } else {
+                // 如果沒有更多影片可以載入，顯示結束指示器
+                this.showEndIndicator();
+            }
+        }
+    }
+
+    // 播放當前影片並暫停其他影片
+    playCurrentVideo() {
+        this.videoFeed.querySelectorAll('.video-card').forEach(card => {
+            const video = card.querySelector('.video-player');
+            const playPauseBtn = card.querySelector('.play-pause-btn');
+            // const playIndicator = card.querySelector('.play-indicator'); // Indicator在這裡不需要，因為用戶正在滾動
+
+            const index = parseInt(card.dataset.index);
+
+            if (index === this.currentVideoIndex) {
+                if (video.paused) {
+                    video.play().catch(e => console.error("Play error:", e));
+                    card.classList.remove('paused');
+                    playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                }
+                // *** 移除此處的 scrollTo，避免與用戶手動滾動衝突 ***
+                // this.videoFeed.scrollTo({
+                //     top: card.offsetTop,
+                //     behavior: 'smooth'
+                // });
+            } else {
+                if (!video.paused) {
+                    video.pause();
+                    card.classList.add('paused');
+                    playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+                }
+            }
+        });
+    }
+
+    // 初始化觀察器
+    initObserver() {
+        if (this.observer) this.observer.disconnect();
+
+        const options = {
+            root: this.videoFeed,
+            rootMargin: '0px',
+            threshold: 0.8 // 當影片有 80% 進入視圖時觸發
+        };
+
+        this.observer = new IntersectionObserver((entries) => {
+            let bestCandidateIndex = this.currentVideoIndex; // 預設是當前影片
+            let maxIntersectionRatio = 0;
+
+            entries.forEach(entry => {
+                const videoCard = entry.target;
+                if (!videoCard.classList.contains('video-card') || videoCard.classList.contains('end-card')) return;
+
+                const index = parseInt(videoCard.dataset.index);
+
+                if (entry.isIntersecting) {
+                    // 找出交叉比例最大的影片，認為這是用戶「真正想看」的影片
+                    if (entry.intersectionRatio > maxIntersectionRatio) {
+                        maxIntersectionRatio = entry.intersectionRatio;
+                        bestCandidateIndex = index;
+                    }
+                }
+            });
+
+            // 只有當最優候選影片的索引與當前索引不同時才更新
+            if (bestCandidateIndex !== this.currentVideoIndex) {
+                this.currentVideoIndex = bestCandidateIndex;
+                // console.log("Observer detected new current index:", this.currentVideoIndex);
+                this.renderVisibleVideos(); // 更新可見影片，並播放新當前影片
+            }
+        }, options);
+
+        this.videoFeed.querySelectorAll('.video-card').forEach(card => { // 包含 .end-card 讓它也能被觀察
+            this.observer.observe(card);
+        });
+    }
+
+    // 設置鍵盤事件
+    setupKeyboardEvents() {
+        document.addEventListener('keydown', (e) => {
+            if (e.repeat) return; // 防止長按重複觸發
+
+            const currentVideoCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+            if (!currentVideoCard) return;
+
+            const video = currentVideoCard.querySelector('.video-player');
+            const playPauseBtn = currentVideoCard.querySelector('.play-pause-btn');
+            const playIndicator = currentVideoCard.querySelector('.play-indicator');
+
+            switch (e.code) {
+                case 'Space':
+                    e.preventDefault();
+                    this.togglePlayPause(video, playPauseBtn, currentVideoCard, playIndicator);
+                    break;
+                case 'ArrowDown': // 往下滑動 (查看更舊的影片，索引增加)
+                case 'PageDown':
+                    e.preventDefault();
+                    if (this.currentVideoIndex < this.allVideos.length - 1) {
+                        this.currentVideoIndex++;
+                        this.renderVisibleVideos(); 
+                        // 鍵盤事件需要手動滾動到新位置
+                        const nextCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                        if (nextCard) {
+                            this.videoFeed.scrollTo({
+                                top: nextCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                    } else if (this.currentVideoIndex === this.allVideos.length - 1 && this.hasMoreContent) {
+                        // 如果已經是最後一支影片且還有更多內容，則嘗試載入並滾動
+                        this.loadMoreVideos().then(newCount => {
+                            if (newCount > 0) {
+                                this.currentVideoIndex++; // 新影片會被加到後面，所以索引遞增
+                                this.renderVisibleVideos();
+                                const nextCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                                if (nextCard) {
+                                    this.videoFeed.scrollTo({
+                                        top: nextCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            } else {
+                                this.showEndIndicator(); // 已經是最後，且沒有更多內容
+                                // 滾動到結束指示器
+                                const endCard = this.videoFeed.querySelector('.end-card');
+                                if (endCard) {
+                                     this.videoFeed.scrollTo({
+                                        top: endCard.offsetTop,
+                                        behavior: 'smooth'
+                                    });
+                                }
+                            }
+                        });
+                    } else if (this.currentVideoIndex === this.allVideos.length - 1 && !this.hasMoreContent) {
+                         this.showEndIndicator(); // 已經是最後，且沒有更多內容
+                         const endCard = this.videoFeed.querySelector('.end-card');
+                         if (endCard) {
+                             this.videoFeed.scrollTo({
+                                top: endCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                         }
+                    }
+                    break;
+                case 'ArrowUp': // 往上滑動 (查看較新的影片，索引減少)
+                case 'PageUp':
+                    e.preventDefault();
+                    if (this.currentVideoIndex > 0) {
+                        this.currentVideoIndex--;
+                        this.renderVisibleVideos(); // 這會觸發滾動
+                        const prevCard = this.videoFeed.querySelector(`[data-index="${this.currentVideoIndex}"]`);
+                        if (prevCard) {
+                            this.videoFeed.scrollTo({
+                                top: prevCard.offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                    break;
+            }
+        });
+    }
+}
+
+// 初始化應用
+document.addEventListener('DOMContentLoaded', () => {
+    new VideoApp();
+});
+</script>
+</body>
+</html>
