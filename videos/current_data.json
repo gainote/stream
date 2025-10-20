@@ -1,95 +1,63 @@
 {
   "items": [
     {
-      "id": 13650835,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d72d0307-8a9b-4cbd-b64c-04ca85cf84f2/original=true/d72d0307-8a9b-4cbd-b64c-04ca85cf84f2.jpeg",
-      "hash": "U2FX@yxC3?_3.nV@PpM{00%Mv0IoIptR56%2",
+      "id": 10518346,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d666af43-abed-485f-8188-bce0303cd68a/original=true/d666af43-abed-485f-8188-bce0303cd68a.jpeg",
+      "hash": "UFH_Vy_3?^.lOsVFNH%MDir;R5EK9FSynOv#",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-05-26T16:17:36.272Z",
-      "postId": 3023813,
+      "createdAt": "2024-04-23T02:10:55.247Z",
+      "postId": 2303993,
       "stats": {
-        "cryCount": 334,
-        "laughCount": 671,
-        "likeCount": 5848,
+        "cryCount": 352,
+        "laughCount": 743,
+        "likeCount": 5911,
         "dislikeCount": 0,
-        "heartCount": 4136,
-        "commentCount": 6
+        "heartCount": 3957,
+        "commentCount": 5
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1835089060,
-        "steps": 35,
-        "prompt": "score_9, score_8_up, score_8_up, 1girl, sitting on bed,, sitting on her knees,  spread legs, arms behind her back , thick thighs,, posing sexy, nsfw (bdsm), tied up, bondage, tied ankles, tied wrists, belts, , focus on tits, ((penis deep in throat)), jacko pose, ass up head down,  ((cum)), ((drooling)),(head grab), (cumshot), cumming, rough, spit on face, drooling ,,spit, sloppy, cock worship, looking up at him, man standing above her, showing off body, raised sexy, view from above,  portrait, (boob worship),, ahegao, tongue drop, mouth open, drooling,, window shutters lighting, lace, sleeves, stockings, high heels,  short high waist skirt, naked tits, eye contact, long hair,  leashed, collar, on a leash, , high res image, masterpiece, golden hour, high contras shadows, bedroom background, negative_hand, ,g0thicPXL, raw lighting, overexposed, harsh flash, 1dk",
+        "seed": 873126814,
+        "steps": 50,
+        "prompt": "score_9, score_8_up, score_8,  1girl, cute, excited, white skin, brown eyes, Seductive look, green tshirt, medium breasts, one breast out, hold breasts, pov from below, bra, lucy heartfilia",
         "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
+        "cfgScale": 4,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-05-26T1616:53.0253060Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, shemale, transgender",
+        "negativePrompt": "score_6, score_5, score_4, busty, (large breasts:0.3), ugly face, phone, smartphone, mutated hands, low res, blurry face, (hairy pussy:1.2), pumped body, athletic body, black and white",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
+            "modelVersionId": 290640
           },
           {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "lora",
+            "type": "ImageJobNetworkParams { Strength = 0.25, TriggerWord = , Type = Lora }",
             "weight": 0.25,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
+            "modelVersionId": 244808
           },
           {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 399443,
-            "modelVersionName": "detailed painting v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.95,
-            "modelVersionId": 466475,
-            "modelVersionName": "For Pony v0.2"
+            "type": "ImageJobNetworkParams { Strength = 0.8, TriggerWord = , Type = Lora }",
+            "weight": 0.8,
+            "modelVersionId": 298238
           }
         ]
       },
-      "username": "Ljuba2611",
+      "username": "ceciltheeasel",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
+        244808,
         290640,
-        382152,
-        398847,
-        399443,
-        436219,
-        466475
+        298238
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "9|1713838255247",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=9%7C1713838255247"
+    "nextCursor": "10|1713759310165",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=10%7C1713759310165"
   }
 }
