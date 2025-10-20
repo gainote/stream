@@ -1,89 +1,75 @@
 {
   "items": [
     {
-      "id": 12757445,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a087c91d-b888-4295-a4ab-413d72a95ca9/original=true/a087c91d-b888-4295-a4ab-413d72a95ca9.jpeg",
-      "hash": "UZI;u6oz0en$y?WVivoIGGoyxCjYOsozivjE",
+      "id": 31709762,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3941adee-40ad-4ae0-91fb-6d56dd572a42/original=true/3941adee-40ad-4ae0-91fb-6d56dd572a42.jpeg",
+      "hash": "UJID]u-p0M9F~qWExFIUOt$$%19a%Mn$t7s.",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2024-05-17T14:14:06.812Z",
-      "postId": 2819414,
+      "createdAt": "2024-09-28T06:33:09.513Z",
+      "postId": 7170442,
       "stats": {
-        "cryCount": 256,
-        "laughCount": 626,
-        "likeCount": 4447,
+        "cryCount": 239,
+        "laughCount": 574,
+        "likeCount": 4488,
         "dislikeCount": 0,
-        "heartCount": 3061,
-        "commentCount": 5
+        "heartCount": 3046,
+        "commentCount": 4
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 2121200146,
+        "seed": 1739730999,
         "steps": 29,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, dynamic, bending over, legs apart, straight legs, view from behind, ass focus, sneakers, outdoors, beautiful, source_anime, doing the splits, (cute 18 year old girl), exposed vagina, exposed breasts, platform trainers, knee-high socks, colour theory, long white hair, tanlines, dark eyeshadow, huge smile, light tan, jade green eyes, cute face, small tight ass, teardrop breasts, petite body, (face down ass up:1.5)",
+        "prompt": "(score_9, score_8_up, score_7_up), 1girl, freckles, 1woman, gorgeous girl ,kawai face,  cute face, cute woman, long black hair, bangs, topless,  breasts, cleavage, puffy nipples, (slim fit), breast focus , sexy thighs, waist chain, ((wide hip)), loincloth , market , glossy , pretty body , breast focus",
         "sampler": "Euler a",
-        "cfgScale": 7,
+        "cfgScale": 6.5,
         "clipSkip": 2,
         "resources": [],
-        "negativePrompt": "score_6, score_5, score_4, futanari, (large breasts:0.3),  ugly face, mutated hands, low res, blurry face, watermark, title, signature, hairy pussy, NegativeDynamics, negative_hand, monochrome, chibi, hair in a bun, black and white",
+        "Created Date": "2024-09-27T1659:57.2475027Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, deformed body, deformed fingers, low quality body ,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 60938
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 179964
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 298238
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 378950
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 421754
+            "weight": 0.65,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
             "type": "embed",
-            "modelVersionId": 250708
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
           },
           {
             "type": "embed",
-            "modelVersionId": 250712
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "solumbragt355",
+      "username": "dororooo",
       "baseModel": "Pony",
       "modelVersionIds": [
-        60938,
-        179964,
         290640,
-        298238,
-        378950,
-        421754
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "27|1727505189513",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=27%7C1727505189513"
+    "nextCursor": "28|1745043250857",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=28%7C1745043250857"
   }
 }
