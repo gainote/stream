@@ -1,93 +1,78 @@
 {
   "items": [
     {
-      "id": 9232495,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/442066a0-ca11-463c-b83d-27594e87b7d5/original=true/442066a0-ca11-463c-b83d-27594e87b7d5.jpeg",
-      "hash": "UBE.Lsz:0L$j?wa0M{xaI=kCxDX9IpxasmRj",
-      "width": 832,
-      "height": 1216,
+      "id": 29213825,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/807caa5b-fa7a-4610-a870-306a1ae02f04/original=true/807caa5b-fa7a-4610-a870-306a1ae02f04.jpeg",
+      "hash": "UVQ+NYR**0%M_NROtRxu%$yDX8S3smRjRPNH",
+      "width": 1328,
+      "height": 1328,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-04-05T17:51:45.567Z",
-      "postId": 1995308,
+      "createdAt": "2025-01-23T14:43:27.530Z",
+      "postId": 6537189,
       "stats": {
-        "cryCount": 640,
-        "laughCount": 1353,
-        "likeCount": 10020,
+        "cryCount": 734,
+        "laughCount": 1752,
+        "likeCount": 9758,
         "dislikeCount": 0,
-        "heartCount": 6574,
-        "commentCount": 11
+        "heartCount": 5525,
+        "commentCount": 21
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1282012561,
-        "steps": 18,
-        "prompt": "score_9, score_8_up, score_8, sexy 20 year old girl taking in a giant penis, skimpy sexy clothes, showing lots of skin, shirt pulled up over tits, bare tits, prone bone, skimpy mini skirt, skirt around ankles, skimpy clothes, big perfectly round breasts, petite body, full body shot, petite body, 1boy, sex, giant penis, arched back, cinematic lighting, g0thicPXL, glowing, neon,",
-        "sampler": "Euler a",
-        "cfgScale": 4,
+        "": {},
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "1328x1328",
+        "seed": 127055629,
+        "Model": "boleromix_Pony_V1.4",
+        "steps": 20,
+        "hashes": {
+          "vae": "735e4c3a44",
+          "model": "989a88b3c5",
+          "lora:arched back 69_pony_V1.0": "c8de1ca3fe9e"
+        },
+        "prompt": "score_9, score_8_up, score_7_up,source_anime, high res image,masterpiece,best quality,(futanari,2girls:1.0),cute face,clear skin,shiny hair,ultra detailed eyes,uncensored,simple background,  \n  <lora:arched back 69_pony_V1.0:0.9> arched back 69, arched back, 69, 1girl, 1boy, nude, oral, penis, fellatio, lying",
+        "Version": "v1.7.0",
+        "sampler": "DPM++ 2M Karras",
+        "{Method": {},
+        "Upscaler": {},
+        "cfgScale": 7,
         "clipSkip": 2,
-        "resources": [],
-        "negativePrompt": "score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female , extra penis",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 290640
+            "hash": "c8de1ca3fe9e",
+            "name": "arched back 69_pony_V1.0",
+            "type": "lora"
           },
           {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 135867
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 244808
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 309802
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 330475
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 354128
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 382152
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 398847
+            "hash": "989a88b3c5",
+            "name": "boleromix_Pony_V1.4",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "989a88b3c5",
+        "Tile Overlap": "48",
+        "Upscale factor": "1.3",
+        "negativePrompt": "score_6, score_5, score_4, ugly face, low res, interlocked fingers, anatomically incorrect hands, bad anatomy, pony, furry, censored,realistic,3D",
+        "Keep input size": "true}",
+        "Tile batch size": "4",
+        "Tile tile width": "96",
+        "Tiled Diffusion": {},
+        "Tile tile height": "96",
+        "Denoising strength": "0.4",
+        "Tiled Diffusion upscaler": "R-ESRGAN 4x+ Anime6B",
+        "Tiled Diffusion scale factor": "1.3"
       },
-      "username": "Pharo",
+      "username": "bolero537",
       "baseModel": "Pony",
       "modelVersionIds": [
-        135867,
-        244808,
-        290640,
-        309802,
-        330475,
-        354128,
-        382152,
-        398847
+        513252
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "2|1737643407530",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=2%7C1737643407530"
+    "nextCursor": "3|1713639702319",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=3%7C1713639702319"
   }
 }
