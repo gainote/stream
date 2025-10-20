@@ -1,57 +1,88 @@
 {
   "items": [
     {
-      "id": 11712729,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e88ddc21-501e-443b-bec8-9ab0a5c012f1/original=true/e88ddc21-501e-443b-bec8-9ab0a5c012f1.jpeg",
-      "hash": "U9JjVl{e7MR-~B[TcZK606.S]hx]u%C8jY?b",
-      "width": 1304,
-      "height": 2280,
+      "id": 16488123,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3db00576-dce1-4639-a360-694a24f44303/original=true/3db00576-dce1-4639-a360-694a24f44303.jpeg",
+      "hash": "UNHT?V01_N9FaeD*xtsl^kWXbboKs:M{xus:",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-05-06T17:20:35.606Z",
-      "postId": 2579406,
+      "browsingLevel": 8,
+      "createdAt": "2024-06-20T14:57:24.161Z",
+      "postId": 3698366,
       "stats": {
-        "cryCount": 282,
-        "laughCount": 653,
-        "likeCount": 4733,
+        "cryCount": 220,
+        "laughCount": 591,
+        "likeCount": 4837,
         "dislikeCount": 0,
-        "heartCount": 3568,
-        "commentCount": 5
+        "heartCount": 3335,
+        "commentCount": 3
       },
       "meta": {
-        "Size": "768x1344",
-        "seed": 605654760822443,
-        "steps": 25,
-        "hashes": {
-          "model": "67ab2fd8ec",
-          "LORA:Styles\\ExpressiveH.safetensors": "7b53da0391",
-          "LORA:Styles\\Twilight Style.safetensors": "2d9ee3fc65",
-          "LORA:Styles\\Disney Princess.safetensors": "80aa67913a",
-          "LORA:Styles\\OfficialPit Style v2.safetensors": "ec0f0a1480"
-        },
-        "prompt": "score_9, score_8_up, score_7_up,  girl gets fuck, top down ass up, hard orgasm face, small waist, grab ass, head on side, dutch angle, low angle,  BREAK biting own lip, naked, cute, bob cut, tan lines, blonde, medium breast press, blush, saliva, eye rolling, half-closed eyes, one eye closed, (smiling:0.85), expressiveH,  <lora:Styles\\Twilight Style.safetensors:0.8> <lora:Styles\\Disney Princess.safetensors:0.8> <lora:Styles\\OfficialPit Style v2.safetensors:0.5> <lora:Styles\\ExpressiveH.safetensors:0.5>",
-        "sampler": "Euler a Karras",
-        "cfgScale": 7,
+        "Size": "832x1216",
+        "seed": 1370200561,
+        "steps": 36,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, solo, Kim Possible, redhead, long hair, perfect face, perfect eyes, sexy, sexy girl, beautiful eyes, petite body, wide hips, perfect cute face, standing, large breasts, cleavage, oversized top, seductive look, pink panties, takes off panties, girl pulling down underwear to knees, clothes pulled down, leaning forward, pussy visible, perfect hands, blush, close up, dynamic angle",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
         "resources": [],
-        "Model hash": "67ab2fd8ec",
-        "negativePrompt": "score_6, score_5, score_4, muscular, censored, monochrome, small breasts, makeup, dark skin",
-        "PonyV6XL Version": "ComfyUI"
+        "Created Date": "2024-06-20T1456:32.3098682Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, mutated hands, bad hand, blurry, (watermark), ugly face, mutated hands, low res, blurry face, athletic body, extra hands, easynegative, bad hands",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 239420,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          }
+        ]
       },
-      "username": "ADPA",
+      "username": null,
       "baseModel": "Pony",
       "modelVersionIds": [
-        244808,
+        9208,
+        239420,
         290640,
-        330475,
         382152,
-        449028
+        398847,
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "21|1718895444161",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=21%7C1718895444161"
+    "nextCursor": "22|1718057594242",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=22%7C1718057594242"
   }
 }
