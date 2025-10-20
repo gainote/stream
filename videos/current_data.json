@@ -1,81 +1,117 @@
 {
   "items": [
     {
-      "id": 15335674,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/79909118-1c59-4d2b-8da8-c24804a0a71b/original=true/79909118-1c59-4d2b-8da8-c24804a0a71b.jpeg",
-      "hash": "UHIE5}00u4E2X-D+-ot79uxaxDJ9~Vay9ajF",
-      "width": 832,
-      "height": 1216,
+      "id": 21072666,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb51d6da-16d3-4f88-9369-43b802ad8078/original=true/cb51d6da-16d3-4f88-9369-43b802ad8078.jpeg",
+      "hash": "U67,uy-p1I$*?G?G%2t7AE=|~Bg3?Hx]xu%1",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-06-10T22:13:14.242Z",
-      "postId": 3409884,
+      "createdAt": "2024-07-23T19:55:48.876Z",
+      "postId": 4699743,
       "stats": {
-        "cryCount": 225,
-        "laughCount": 520,
-        "likeCount": 4757,
+        "cryCount": 249,
+        "laughCount": 524,
+        "likeCount": 4695,
         "dislikeCount": 0,
-        "heartCount": 3054,
-        "commentCount": 2
+        "heartCount": 2972,
+        "commentCount": 6
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 356397507,
-        "steps": 25,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl,  leaning on wall, sexy face, ponytail hairstyle, wearing cap, sexy , cute face , kawai girl, bangs, long hair, hazel eyes, look away, shy , nose blush, large saggy boobs, cleavage, chest up, white sports bra, hands inside bra, breast grab , nipples, boob focus , pov",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-06-08T1953:59.8405503Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,",
+        "seed": 1237470355,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
+        "steps": 35,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:257749@290640"
+        ],
+        "prompt": "embedding:urn:air:sd1:embedding:civitai:222256@250708, (score_9, score_8_up, score_7_up), 1girl, 20 year old, 1male out of frame, long black hair, hime cut, small perky breasts, pretty face, long legs, purple eyes, light freckles, oversized hoodie, cloth black skirt, striped thigh-high socks, gothic boots, lustful, looking up, heavy blushing,  exhausted, open mouth, tongue out, seductive, heavy blush, looking up, sweaty, messy hair, paizuri, fellatio, licking cock, male sitting with girl hiding under table, girl hiding under table, ass, detailed background, night, moonlight, inside, office, volumetric lighting, vivid colours, g0thicPXL, Expressiveh, shot from above,",
+        "denoise": 0.4,
+        "sampler": "Euler a",
+        "cfgScale": 5.5,
+        "modelIds": [],
+        "scheduler": "normal",
+        "upscalers": [
+          "urn:air:multi:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "embedding:urn:air:sd1:embedding:civitai:222256@250712, embedding:urn:air:sd1:embedding:civitai:87243@287973, score_6, score_5, score_4, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, long neck, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, muscular, lipstick, massive ass, massive penis, looking at viewer,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
+            "modelVersionId": 290640
           },
           {
             "type": "lora",
             "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
+            "modelVersionId": 244808
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 398847
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 436219
+          },
+          {
+            "type": "embedding",
+            "modelVersionId": 250708
+          },
+          {
+            "type": "embedding",
+            "modelVersionId": 250712
+          },
+          {
+            "type": "embedding",
+            "modelVersionId": 287973
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:212532@244808",
+            "type": "lora",
+            "strength": 0.5,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:352581@398847",
+            "type": "lora",
+            "strength": 0.55,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:300005@436219",
+            "type": "lora",
+            "strength": 0.75,
+            "strengthClip": 1
           }
         ]
       },
-      "username": "dororooo",
+      "username": "WiseBurrito",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
+        164821,
+        244808,
+        287973,
         290640,
-        382152,
         398847,
         436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "23|1721764548876",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=23%7C1721764548876"
+    "nextCursor": "24|1678251521676",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=24%7C1678251521676"
   }
 }
