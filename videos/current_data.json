@@ -1,39 +1,36 @@
 {
   "items": [
     {
-      "id": 34854511,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7c30136c-cf31-4129-9ab9-81fe610964ff/original=true/7c30136c-cf31-4129-9ab9-81fe610964ff.jpeg",
-      "hash": "UCDj*P}YE2sAE2NHj[bH0gI;%LkC}@xtI;WC",
+      "id": 13650835,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d72d0307-8a9b-4cbd-b64c-04ca85cf84f2/original=true/d72d0307-8a9b-4cbd-b64c-04ca85cf84f2.jpeg",
+      "hash": "U2FX@yxC3?_3.nV@PpM{00%Mv0IoIptR56%2",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2024-10-16T05:11:40.196Z",
-      "postId": 7965560,
+      "browsingLevel": 16,
+      "createdAt": "2024-05-26T16:17:36.272Z",
+      "postId": 3023813,
       "stats": {
-        "cryCount": 400,
-        "laughCount": 822,
-        "likeCount": 5852,
+        "cryCount": 334,
+        "laughCount": 671,
+        "likeCount": 5848,
         "dislikeCount": 0,
-        "heartCount": 4001,
-        "commentCount": 72
+        "heartCount": 4136,
+        "commentCount": 6
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1221194656,
-        "extra": {
-          "remixOfId": 34319249
-        },
-        "steps": 29,
-        "prompt": "Expressiveh, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, godrays, 1girl, Makima (Chainsaw man), red room, lingerie, thick thighs, narrow waist, big hips, elbow gloves, pose, closeup, dynamic angle, closeup, from below, hearts, oiled, looking back, bent over, leaning forward, from behind, ass focus, pussy focus, wet pussy, sexy",
-        "sampler": "Euler a",
-        "cfgScale": 4,
+        "seed": 1835089060,
+        "steps": 35,
+        "prompt": "score_9, score_8_up, score_8_up, 1girl, sitting on bed,, sitting on her knees,  spread legs, arms behind her back , thick thighs,, posing sexy, nsfw (bdsm), tied up, bondage, tied ankles, tied wrists, belts, , focus on tits, ((penis deep in throat)), jacko pose, ass up head down,  ((cum)), ((drooling)),(head grab), (cumshot), cumming, rough, spit on face, drooling ,,spit, sloppy, cock worship, looking up at him, man standing above her, showing off body, raised sexy, view from above,  portrait, (boob worship),, ahegao, tongue drop, mouth open, drooling,, window shutters lighting, lace, sleeves, stockings, high heels,  short high waist skirt, naked tits, eye contact, long hair,  leashed, collar, on a leash, , high res image, masterpiece, golden hour, high contras shadows, bedroom background, negative_hand, ,g0thicPXL, raw lighting, overexposed, harsh flash, 1dk",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-10-16T0442:56.2427418Z",
-        "negativePrompt": "easynegative, score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), extra hands, greyscale, black and white, muscular female, mixed characters",
+        "Created Date": "2024-05-26T1616:53.0253060Z",
+        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, shemale, transgender",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -48,13 +45,7 @@
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 239420,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
+            "weight": 0.25,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
@@ -66,36 +57,39 @@
           },
           {
             "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 399443,
+            "modelVersionName": "detailed painting v1.0"
+          },
+          {
+            "type": "lora",
             "weight": 0.5,
             "modelVersionId": 436219,
             "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "type": "lora",
+            "weight": 0.95,
+            "modelVersionId": 466475,
+            "modelVersionName": "For Pony v0.2"
           }
         ]
       },
-      "username": "Bancin",
+      "username": "Ljuba2611",
       "baseModel": "Pony",
       "modelVersionIds": [
         9208,
-        239420,
         290640,
         382152,
         398847,
-        436219
+        399443,
+        436219,
+        466475
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "8|1716740256272",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=8%7C1716740256272"
+    "nextCursor": "9|1713838255247",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=9%7C1713838255247"
   }
 }
