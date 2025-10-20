@@ -1,57 +1,98 @@
 {
   "items": [
     {
-      "id": 11643641,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c96aa022-5734-4ff8-83a6-675579f2c0c3/original=true/c96aa022-5734-4ff8-83a6-675579f2c0c3.jpeg",
-      "hash": "U9E{FVuP2^^k0nkDvfEN00R5+Y%1n4nioaMx",
-      "width": 1728,
-      "height": 3024,
+      "id": 19269310,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/feb38730-00a8-4c9f-909e-3b107ec404b1/original=true/feb38730-00a8-4c9f-909e-3b107ec404b1.jpeg",
+      "hash": "U5C5k?160zj^=}?H9u$*0M}t}sWAJUa1={9[",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2024-05-05T22:43:21.490Z",
-      "postId": 2563431,
+      "browsingLevel": 16,
+      "createdAt": "2024-07-10T19:45:23.323Z",
+      "postId": 4306614,
       "stats": {
-        "cryCount": 428,
-        "laughCount": 881,
-        "likeCount": 7169,
+        "cryCount": 396,
+        "laughCount": 859,
+        "likeCount": 7264,
         "dislikeCount": 0,
-        "heartCount": 5229,
+        "heartCount": 4657,
         "commentCount": 4
       },
       "meta": {
-        "Size": "768x1344",
-        "seed": 563928757319322,
-        "steps": 25,
-        "hashes": {
-          "model": "67ab2fd8ec",
-          "LORA:Styles\\ExpressiveH": "7b53da0391",
-          "LORA:Styles\\Twilight Style": "2d9ee3fc65",
-          "LORA:Styles\\Disney Princess": "80aa67913a",
-          "LORA:Styles\\OfficialPit Style v1": "207296ad4a"
-        },
-        "prompt": "score_9, score_8_up, score_7_up,   1girl, egyptian princess, petite, cute, young, slim, gold jewelry, nude,  shiny skin, princess's chambers, canopy, sky, pool, back view, looking back, closeup, from below, low angle, spread ass, naughty_face, blush, parted lips, half-closed_eyes,   <lora:Styles\\Twilight Style:0.8> <lora:Styles\\Disney Princess:1> <lora:Styles\\ExpressiveH:0.8> ExpressiveH <lora:Styles\\OfficialPit Style v1:0.5>",
-        "sampler": "Euler a Karras",
-        "cfgScale": 7,
+        "Size": "832x1216",
+        "seed": 1402302256,
+        "steps": 35,
+        "prompt": "(score_9, score_8_up, score_7_up), 1girl, 1male out of frame, 20 year old, two-toned hair, black and red hair, perky breasts, cleavage, pretty face, petite, purple eyes, light freckles, oversized hoodie, black skirt, striped thigh-high socks, gothic boots, exhausted, looking up, saliva leaking from mouth, cock slumped over girl face, cock worship, tongue out, penis on face detailed background, outside, ally, graffiti, night, volumetric lighting, vivid colours, Expressiveh, g0thicPXL, glowing, neon, full body shot from above,",
+        "sampler": "Euler a",
+        "cfgScale": 4.5,
+        "clipSkip": 2,
         "resources": [],
-        "Model hash": "67ab2fd8ec",
-        "negativePrompt": "score_6, score_5, score_4, molten body, malformed body, muscular, render, censored, monochrome, sagging breasts, big breasts",
-        "PonyV6XL Version": "ComfyUI"
+        "Created Date": "2024-07-10T1941:27.7997418Z",
+        "negativePrompt": "SimpleNegativeV3, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, massive penis, massive cock, massive breasts, massive ass, muscular,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 287973,
+            "modelVersionName": "V3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 378684,
+            "modelVersionName": "v2.0 (Max. Compatibility)"
+          },
+          {
+            "type": "lora",
+            "weight": 1.4,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 135867,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
+          }
+        ]
       },
-      "username": "ADPA",
+      "username": "WiseBurrito",
       "baseModel": "Pony",
       "modelVersionIds": [
-        244808,
+        135867,
+        287973,
         290640,
-        330475,
-        342682,
-        382152
+        378684,
+        382152,
+        398847
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "6|1720640723323",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=6%7C1720640723323"
+    "nextCursor": "7|1729055500196",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=7%7C1729055500196"
   }
 }
