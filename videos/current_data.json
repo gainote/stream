@@ -1,40 +1,92 @@
 {
   "items": [
     {
-      "id": 52369764,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97bf007a-6c74-4f54-8628-148ae3d80430/original=true/97bf007a-6c74-4f54-8628-148ae3d80430.jpeg",
-      "hash": "U4CPI+9a0w004a9Y?D-V00^k^*^*}^WA00%1",
-      "width": 1600,
-      "height": 1600,
-      "nsfwLevel": "Mature",
+      "id": 98058156,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2067ee9e-ba8a-4997-b12d-de0402a12125/original=true/2067ee9e-ba8a-4997-b12d-de0402a12125.jpeg",
+      "hash": "U6Enqx02TcIUk;E1JAt50fxt4:%1E2~Br?EM",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-04-28T14:01:52.648Z",
-      "postId": 11769205,
+      "browsingLevel": 16,
+      "createdAt": "2025-09-05T09:27:19.290Z",
+      "postId": 21756067,
       "stats": {
-        "cryCount": 270,
-        "laughCount": 403,
-        "likeCount": 3818,
+        "cryCount": 261,
+        "laughCount": 499,
+        "likeCount": 3877,
         "dislikeCount": 0,
-        "heartCount": 2050,
-        "commentCount": 10
+        "heartCount": 1866,
+        "commentCount": 0
       },
       "meta": {
-        "seed": 1220123665,
-        "steps": 28,
-        "prompt": "cinematic dark photo, 18 year old model, lying down, large breasts, skirt, bangs, gorgeous, pale skin, beautiful face, goth, (toned:1.5), (abs:1.5), one eye closed, looking away, bedroom, bed\n",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 6,
-        "negativePrompt": "airbrushed, blurry, watermark, text, from above"
+        "Size": "832x1216",
+        "seed": 1027162615,
+        "draft": false,
+        "steps": 32,
+        "width": 832,
+        "height": 1216,
+        "prompt": "detailed photo, rich colors, high contrast, artist:moriimee, morimee_style, \n1girl, depth of field, from below, (squatting on a cock:1.4), pov cowboy style sex, (size difference:1.4),\n((1boy, pov,)) (squatting on a cock:1.3), (guided penetration:1.2), one hand on his stomach, cowboy style sex, <lora:EffectboosterIL:1>, 1girl, full body shot, cute face, beautiful, innocent, coming of age, slim fit, naked, nude, flat chest, nipples, nude girl, pussy, sparse pubic hair, blond, alluring pose, come hither expression, necklace, (fetal position), pussy juice, hint of pubic hair,\nvaginal sex, pov, large penis, impossible fit,\nclose view,\nhighest quality, angel face, eye contact, seductive, awe, semi realistic, highest quality, focus on face, golden hour lighting,\nDynamic lighting, masterpiece, UHD, p0nyd1sney1ncasev1x0n2, DISNEY_ANIMATION",
+        "process": "txt2img",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3,
+        "clipSkip": 2,
+        "quantity": 1,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [
+          {
+            "name": "EffectboosterIL",
+            "type": "lora",
+            "weight": 1
+          }
+        ],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-24T2043:18.6493234Z",
+        "experimental": false,
+        "negativePrompt": "worst quality, low quality, displeasing, text, , watermark, bad anatomy, text, artist name, signature, hearts, deformed hands, missing finger, emotionless, tanlines, futa, futanari, man boobs, man, crotch,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 2091617
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 1860423
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1280045
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 1416874
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1926285
+          }
+        ]
       },
-      "username": "Ah0gaGu",
-      "baseModel": "SDXL 1.0",
-      "modelVersionIds": []
+      "username": "Pickledcrab",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1280045,
+        1416874,
+        1860423,
+        1926285,
+        2091617
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "69|1757064439290",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=69%7C1757064439290"
+    "nextCursor": "70|1755645684359",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=70%7C1755645684359"
   }
 }
