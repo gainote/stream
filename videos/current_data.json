@@ -1,70 +1,165 @@
 {
   "items": [
     {
-      "id": 295538,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e73216ad-a0a5-4770-37f2-df3dd504f000/original=true/e73216ad-a0a5-4770-37f2-df3dd504f000.jpeg",
-      "hash": "UCI;q[IV0K^+00%2D%?H00%2?b4o~W-p-;t7",
-      "width": 512,
-      "height": 768,
+      "id": 25751845,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e1a0a6e-475f-42f6-a9cb-a8df6c54cd6e/original=true/9e1a0a6e-475f-42f6-a9cb-a8df6c54cd6e.jpeg",
+      "hash": "UOHwol~VoyV@W;NGRjRjI;IVn+t8M|IpNGbH",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2024-02-03T12:46:09.622Z",
-      "postId": 108572,
+      "createdAt": "2024-08-24T00:05:00.000Z",
+      "postId": 5756991,
       "stats": {
-        "cryCount": 211,
-        "laughCount": 426,
-        "likeCount": 3827,
+        "cryCount": 208,
+        "laughCount": 410,
+        "likeCount": 4038,
         "dislikeCount": 0,
-        "heartCount": 3061,
-        "commentCount": 15
+        "heartCount": 2714,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "512x768",
-        "seed": 2668558297,
-        "Model": "chilloutmix_NiPrunedFp32Fix",
-        "steps": 20,
-        "prompt": "(RAW photo, best quality), (realistic, photo-realistic:1.3), best quality ,masterpiece, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,2k wallpaper, Amazing, finely detail, masterpiece, light smile, best quality, extremely detailed CG unity 8k wallpaper, huge filesize , ultra-detailed, highres, extremely detailed, 1girl, maid,(nude:1.2),(moist pussy:1), (spread legs), hair ornament, looking at looking at viewer, small breasts, <lora:japaneseDollLikeness_v10:0.2>, <lora:koreanDollLikeness_v15:0.2>, <lora:cuteGirlMix4_v10:0.4>, <lora:chilloutmixss30_v30:0.2>, pureerosface_v1:0.8",
-        "sampler": "DPM++ SDE Karras",
-        "cfgScale": 8,
-        "resources": [
+        "seed": 3876255434,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
+        "extra": {
+          "remixOfId": 23307246
+        },
+        "steps": 40,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:257749@290640"
+        ],
+        "prompt": "safe_pos, score_9, score_8_up, score_7_up, score_6_up, gorgeous 2 girls, topless, cute, one with short black bun hair, puffy nipples, one with long brown hair, (riding on another girl:1.1), kissing, love, black panties, whitepanties, large breast, sexy thighs, very intimate, bangles, choker, lacey, thighhigh, wide hip, thick, large ass focus , bubble ass, (slim fit), bedroom, onbed, Expressiveh, clothes on bed, detailed room and background, vase, plant, lamp, photo hanging on the wall, posters, nicely decorated room, bohemian curtain",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 9,
+        "modelIds": [],
+        "workflow": "img2img-hires",
+        "upscalers": [
+          "urn:air:multi:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "safe_neg, score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, extra dicks, transgender, pants, (side part), (black man) , extra fingers , deformed fingers",
+        "civitaiResources": [
           {
-            "name": "japaneseDollLikeness_v10",
-            "type": "lora",
-            "weight": 0.2
+            "strength": 1,
+            "modelVersionId": 290640
           },
           {
-            "name": "koreanDollLikeness_v15",
-            "type": "lora",
-            "weight": 0.2
+            "strength": 0.55,
+            "modelVersionId": 398847
           },
           {
-            "name": "cuteGirlMix4_v10",
-            "type": "lora",
-            "weight": 0.4
+            "strength": 1,
+            "modelVersionId": 9208
           },
           {
-            "name": "chilloutmixss30_v30",
-            "type": "lora",
-            "weight": 0.2
+            "strength": 0.65,
+            "modelVersionId": 436219
           },
           {
-            "hash": "fc2511737a",
-            "name": "chilloutmix_NiPrunedFp32Fix",
-            "type": "model"
+            "strength": 0.75,
+            "modelVersionId": 135867
+          },
+          {
+            "strength": 1,
+            "modelVersionId": 239420
+          },
+          {
+            "strength": 0.7,
+            "modelVersionId": 382152
+          },
+          {
+            "modelVersionId": 250708
+          },
+          {
+            "modelVersionId": 250712
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 290640
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          },
+          {
+            "type": "lora",
+            "weight": 0.55,
+            "modelVersionId": 398847
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 436219
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 135867
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 239420
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 382152
           }
         ],
-        "Model hash": "fc2511737a",
-        "negativePrompt": "bra, covered nipples, underwear,EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,((watermark:2)),(white letters:1), (multi nipples), lowres, bad anatomy, bad hands, text, error, missing fingers,extra digit, fewer digits, cropped, worst quality, low qualitynormal quality, jpeg artifacts, signature, watermark, username,bad feet, {Multiple people},lowres,bad anatomy,bad hands, text, error, missing fingers,extra digit, fewer digits, cropped, worstquality, low quality, normal quality,jpegartifacts,signature, watermark, blurry,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,worst quality,low quality,normal quality,jpeg artifacts,signature,extra fingers,fewer digits,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,polar lowres,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,extra arms,missing legs,wrong feet bottom render,extra digit,abdominal stretch, glans, pants, briefs, knickers, kecks, thong, {{fused fingers}}, {{bad body}}, ((long hair))"
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:352581@398847",
+            "type": "lora",
+            "strength": 0.55,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:300005@436219",
+            "type": "lora",
+            "strength": 0.65,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:122359@135867",
+            "type": "lora",
+            "strength": 0.75,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:212532@239420",
+            "type": "lora",
+            "strength": 1,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:341353@382152",
+            "type": "lora",
+            "strength": 0.7,
+            "strengthClip": 1
+          }
+        ]
       },
-      "username": "sEthan",
-      "baseModel": "SD 1.5",
-      "modelVersionIds": []
+      "username": "smth_uncanny",
+      "baseModel": "Pony",
+      "modelVersionIds": [
+        290640,
+        382152,
+        398847,
+        436219,
+        9208,
+        135867,
+        164821,
+        239420
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "41|1724457900000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=41%7C1724457900000"
+    "nextCursor": "42|1741478700000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=42%7C1741478700000"
   }
 }
