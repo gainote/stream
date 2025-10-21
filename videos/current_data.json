@@ -1,112 +1,89 @@
 {
   "items": [
     {
-      "id": 49389410,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d919ddc-b5f5-4d2f-b91d-8f0d87ba9050/original=true/5d919ddc-b5f5-4d2f-b91d-8f0d87ba9050.jpeg",
-      "hash": "UFHBb=og0N-;.Toz%htRAdt7emX9D*V@w]bc",
+      "id": 11351158,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c531b7ee-d363-4e1a-86bd-2337e05fe474/original=true/c531b7ee-d363-4e1a-86bd-2337e05fe474.jpeg",
+      "hash": "U5E.6E#l00xdmnJCI;}@01;^~CtT:%F|%LVs",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-01-04T00:14:39.750Z",
-      "postId": 11128657,
+      "browsingLevel": 16,
+      "createdAt": "2024-05-02T16:55:40.086Z",
+      "postId": 2494844,
       "stats": {
-        "cryCount": 160,
-        "laughCount": 387,
-        "likeCount": 3553,
+        "cryCount": 230,
+        "laughCount": 481,
+        "likeCount": 3175,
         "dislikeCount": 0,
-        "heartCount": 2223,
-        "commentCount": 4
+        "heartCount": 2434,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1670741952,
-        "draft": false,
-        "steps": 19,
-        "width": 832,
-        "height": 1216,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, Expressiveh, 18 year old girl, cute innocent girl, petite, slender body, large perky round breasts, ((freckles)), ((full pouty lips)), slim legs, braided BLONDE hair,\n1girl, solo, posing, on her knees, sucking on an icicle, low angle,, unzipping jacket, revealing cleavage, naked breasts, hard nipples, squeezing breasts\nfully dressed, clothed, wearing tight snow onesie, skiing outfit, tight snow pants, winter clothes, ski goggles and headband, braided hair\nin the snow on a mountain side, next to wooden chalet in the swiss alps, snow covered, sunny weather, snowy mountain panorama in the background",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
+        "seed": 2061401586,
+        "steps": 45,
+        "prompt": "score_9, score_8_up, score_7_up, pinup girl pose, Expressiveh, a sexy girl in skimpy tight night gown, bright red lipstick, lying on stomach, small breasts, flat chest, perfect face, long and slender body, long legs, eyes closed, eyes closed, big smile, semi realistic, floating neon hearts, laying on pink girly bed,  score_9,score_8_up,score_7_up,very aesthetic ,(masterpiece:1.4), (best quality), (colorful), (detailed) dramatic angle, unique perspective, unique angle, comic book angle and perspective, wide angle, cinematic lighting, volumetric lighting, brown hair, short cute hair, pink panties, hair over one eye, pussy showing, nipples showing, man hands pulling down panties, ass focus, pov foot of bed",
+        "sampler": "Euler a",
+        "cfgScale": 2.5,
         "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
         "resources": [],
-        "Created Date": "2025-01-04T0008:13.1187115Z",
-        "negativePrompt": "score_4, score_5, score_6, futanari,extra fingers,distorted hands,distorted fingers, low quality, lowres, bad anatomy,worst quality, simple background, censored,text,signature, lineless, watermark,signature, logo, easynegative,  low-quality, moir pattern, downsampling, aliasing, distorted, blurry, glossy, blur, jpeg artifacts, compression artifacts, poorly drawn, low-resolution, bad, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, symmetrical, duplicate, error, pattern, beginner, pixelated, fake, hyper, glitch, overexposed, high-contrast, bad-contrast, Deformed, Deformed face, Deformed fingers, Deformed hands, Out of frame, Poorly drawn face, Poorly drawn feet, Poorly drawn hands, Draft, Grainy, Kitsch, Low-res, old, sketch, black and white, doujinshi, exaggerated anatomy, long neck, SimpleNegativeV3, (large areola), pubes, zPDXLxxx, earrings, maid, muscular, jacket, saggy breasts, panties",
+        "negativePrompt": "score_6, score_5, score_4, ugly face, low res, blurry face, black and white, muscular female,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
+            "modelVersionId": 290640
           },
           {
-            "type": "lora",
-            "weight": 1.25,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
+            "type": "ImageJobNetworkParams { Strength = 0.4, TriggerWord = , Type = lora }",
+            "weight": 0.4,
+            "modelVersionId": 135867
           },
           {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
+            "type": "ImageJobNetworkParams { Strength = 0.8, TriggerWord = , Type = lora }",
+            "weight": 0.8,
+            "modelVersionId": 330475
           },
           {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
+            "type": "ImageJobNetworkParams { Strength = 0.2, TriggerWord = , Type = lora }",
+            "weight": 0.2,
+            "modelVersionId": 354128
           },
           {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 380277,
-            "modelVersionName": "XXX Rating"
+            "type": "ImageJobNetworkParams { Strength = 0.4, TriggerWord = , Type = lora }",
+            "weight": 0.4,
+            "modelVersionId": 382152
           },
           {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 333587,
-            "modelVersionName": "Smooth 2"
+            "type": "ImageJobNetworkParams { Strength = 0.7, TriggerWord = , Type = lora }",
+            "weight": 0.7,
+            "modelVersionId": 388595
           },
           {
             "type": "embed",
-            "weight": 1,
-            "modelVersionId": 287973,
-            "modelVersionName": "V3"
+            "modelVersionId": 250708
           },
           {
             "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "modelVersionId": 250712
           }
         ]
       },
-      "username": "MiraBelle666",
+      "username": "Atomicbooger",
       "baseModel": "Pony",
       "modelVersionIds": [
-        287973,
+        135867,
         290640,
-        333587,
-        380277,
+        330475,
+        354128,
         382152,
-        398847,
-        436219
+        388595
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "81|1714668940086",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=81%7C1714668940086"
+    "nextCursor": "82|1718818740448",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=82%7C1718818740448"
   }
 }
