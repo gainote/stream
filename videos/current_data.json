@@ -1,73 +1,95 @@
 {
   "items": [
     {
-      "id": 92161135,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8da7f63-74c2-4109-b616-80b308d23442/original=true/a8da7f63-74c2-4109-b616-80b308d23442.jpeg",
-      "hash": "U5DkobNI01=x0z%1-99[0LJ7}?EMAGI=$*$h",
-      "width": 832,
-      "height": 1216,
+      "id": 97528635,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8af7802-7995-44c4-a153-fc60eb301e72/original=true/b8af7802-7995-44c4-a153-fc60eb301e72.jpeg",
+      "hash": "UKE{LZ~p%#%Nx]xu-;%gXn%MxubbD%NGIUWB",
+      "width": 768,
+      "height": 1152,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2025-08-03T20:42:15.089Z",
-      "postId": 20445050,
+      "createdAt": "2025-09-02T09:17:33.419Z",
+      "postId": 21637429,
       "stats": {
-        "cryCount": 311,
-        "laughCount": 464,
-        "likeCount": 3832,
+        "cryCount": 239,
+        "laughCount": 428,
+        "likeCount": 4116,
         "dislikeCount": 0,
-        "heartCount": 2040,
-        "commentCount": 5
+        "heartCount": 1807,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 576441443,
-        "draft": false,
+        "Model": "urn:air:sdxl:checkpoint:civitai:443821@2071650",
         "extra": {
-          "remixOfId": 88951716
+          "remixOfId": 97349776
         },
-        "steps": 32,
-        "width": 832,
-        "height": 1216,
-        "prompt": "masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, 30yo, goth girl, mature, elf girl, dark skin, brown skin, latina girl, colombian, black hair, short bangs, mini bangs, micro bangs, smooth skin, fit, medium breasts, tall girl, angular face, defined cheekbones, high cheekbones, defined chin, strong chin, mature, blushing, rolling eyes, big eyes, beautiful eyes, detailed eyes, eye shadow, thick eyebrows, pierce eyebrow, detailed face, green eyes, perky tits, pierced nipples, choker, topless, garter belt, belly button piercing, nose ring, lying on floor, restrained, held down, manhandled, messy apartment, very petite boys watching, rough sex, anal, brutal anal sex, pussy, dildo in mouth, cinematic lighting, soft light, soft contrast, cum, bukkake, excessive cum, drunk, wild party, exposed tits, night, smooth skin, gangbang, lots of very petite men, cute men, petite men, much larger female, very small penises, lots of petite boys,",
+        "steps": 34,
+        "width": 768,
+        "height": 1152,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:443821@2071650"
+        ],
+        "prompt": "score_9, score_8_up, score_7_up, realistic, low light, , Expressiveh, reddit, high quality, traditional media, amateur, real life photo, raw, film grain, igbaddie, real_beauty, 1girl, rsgrl, russian girl, blonde hair, cute russian girl, solo, young, 20yo, pale skin, white, slavic, ukrainain, flat chest, small breasts, naked, wide hips, thin waist, black hair, straight thin hair, lips, makeup, eyeliner, reflective, shiny skin, climbing out of pool ,light skin, hair strands, dynamic angle, shaved pussy, pussy visible, backyard, deep south , pool, posh,",
+        "denoise": 0.6,
         "process": "txt2img",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 2.5,
+        "sampler": "Euler a",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-facefix",
+        "baseModel": "Pony",
         "disablePoi": true,
         "aspectRatio": "13:19",
-        "Created Date": "2025-08-03T1938:31.7383498Z",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/Z942RBW9ZY64ENVEV6224BRJ50?sig=CfDJ8J868rbHQQlNuTOL2qbAsuQEHNSsEAYAz3M8F3auV060GLg4k97uR4jYvCtYDgoLivanDnztNrdfoccucyGo-GJKaY3eEW5-06rvXNq8tKJ0WPRA-kBK7hWSPnBcrla_dA4psEVOe9EDAfEpRlrWphvgsMNoDdtITwrmFNLUs8EcGQXWw88pWxv4q6BStpVL7bvIgmUTssL8uv_-BIK2CcxsknSnCJ9V6S88c66S-J6RuKiw7_SLJzAaWLgvzEwM01P8wfxfDRomH30r-Krk6OxM3Y8gAzmwU55CLUhKYBRk&exp=2026-08-30T14:27:14.7169158Z",
+          "width": 768,
+          "height": 1152
+        },
         "experimental": false,
-        "negativePrompt": "lowres, worst quality, low quality, low score, bad score,  blurry, text, ugly, hooded eyes, watermark, pale",
+        "negativePrompt": "(3d, render, cgi, doll, painting, fake, 3d modeling:1.4), (worst quality, low quality:1.4), old, deformed, malformed, bad hands, bad fingers, bad eyes, bad teeth, long body, blurry, duplicated, cloned, duplicate body parts, disfigured, extra limbs, fused fingers, extra fingers, twisted, distorted, malformed hands, malformed fingers, mutated hands and fingers, conjoined, missing limbs, bad anatomy, bad proportions, logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, gross, ugly, depth of field, asian, face defects), tanned skin, car, old, milf,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1761560,
-            "modelVersionName": "v14.0"
+            "modelVersionId": 2071650
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1945697,
-            "modelVersionName": "V1"
+            "weight": 0.45,
+            "modelVersionId": 382152
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 534756
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 556208
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 596040
           }
         ]
       },
-      "username": "MysticCreations",
-      "baseModel": "Illustrious",
+      "username": "Cumfetishism1",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1761560,
-        1945697
+        382152,
+        534756,
+        556208,
+        596040,
+        2071650
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "64|1756804653419",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=64%7C1756804653419"
+    "nextCursor": "65|1756374389378",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=65%7C1756374389378"
   }
 }
