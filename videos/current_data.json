@@ -1,56 +1,47 @@
 {
   "items": [
     {
-      "id": 61066803,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b77339-a12c-4486-83f0-76cf3640309a/original=true/c7b77339-a12c-4486-83f0-76cf3640309a.jpeg",
-      "hash": "UDIz-a.800R4*Hxvv}NF?[JB^i=w?]xaaJxs",
+      "id": 24090962,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/095eec97-9c16-4438-9057-048a05dd21a7/original=true/095eec97-9c16-4438-9057-048a05dd21a7.jpeg",
+      "hash": "U5AJmAkq0056~XS09Ft700M{^P%2yDsqs+M|",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2025-03-04T17:48:04.177Z",
-      "postId": 13657365,
+      "createdAt": "2024-08-13T09:44:34.122Z",
+      "postId": 5375064,
       "stats": {
-        "cryCount": 196,
-        "laughCount": 437,
-        "likeCount": 3782,
+        "cryCount": 190,
+        "laughCount": 391,
+        "likeCount": 3553,
         "dislikeCount": 0,
-        "heartCount": 1972,
-        "commentCount": 2
+        "heartCount": 2227,
+        "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 2027363888,
-        "extra": {
-          "remixOfId": 21212666
-        },
-        "steps": 40,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, elf girl, kawaii face, view from front, athletic, skinny, wet, round face, perfect cute face, ponytail, small breasts, facing viewer, closeup of face,  seductive look, cleavage, topless, squeezing tits together, arched back, nude, standing, tiny waist, bubble butt, ((flat stomach)), standing in a waterfall, pinup pose, official art, masterpiece, source_painted_concept_art, (young:1.4)\nBREAK",
+        "seed": 1100700147,
+        "steps": 25,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, gorgeous girl , wet gothic girl , long black hair, black , naked, large saggy breast, nipples, ((slim fit)), sexy thighs , legs spread, feet, pose , laying on bed, laying face up, horny girl , face focus , (((from front))), ((selfie)), upside down selfie, on bed , pussy",
         "sampler": "Euler a",
-        "cfgScale": 6,
+        "cfgScale": 7,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-09-12T2055:36.9633589Z",
-        "negativePrompt": "score_6, score_5, score_4, ugly face, mutated hands, monochrome, bad eyes, blue skin, bad teeth, bad arms, missing limbs, (:1.4), tiny waist, poorly drawn face, three feet, fused feet, fused thigh, three thigh, fused thigh, extra thigh, missing fingers, extra fingers, ugly fingers,amputation, square jawline, simple background, mutilated, wide hips, deformed, disconnected limbs, worst quality, low quality, jpeg artifacts, abs, ribs, snow, simple background",
+        "Created Date": "2024-08-13T0942:06.3054048Z",
+        "negativePrompt": "score_6, score_5, score_4, score_3, fat, ugly",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 714359,
-            "modelVersionName": "v1.0"
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
             "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
+            "weight": 0.8,
+            "modelVersionId": 717026,
+            "modelVersionName": "GTHAN v1.0"
           },
           {
             "type": "embed",
@@ -61,20 +52,24 @@
             "type": "embed",
             "modelVersionId": 250712,
             "modelVersionName": "safe_neg"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 106916,
+            "modelVersionName": "v1.0"
           }
         ]
       },
-      "username": "ElvishDreams",
+      "username": "blacksnowskill",
       "baseModel": "Pony",
       "modelVersionIds": [
-        135867,
-        244808,
-        714359
+        290640,
+        717026
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "79|1723542274122",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=79%7C1723542274122"
+    "nextCursor": "80|1735949679750",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=80%7C1735949679750"
   }
 }
