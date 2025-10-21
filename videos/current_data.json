@@ -1,83 +1,71 @@
 {
   "items": [
     {
-      "id": 18697711,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be36f594-6190-467e-a4fa-858aa40064b0/original=true/be36f594-6190-467e-a4fa-858aa40064b0.jpeg",
-      "hash": "U6EAv20j9[w40g5m}?Iq10-SENt60$^hNLtO",
+      "id": 18829674,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdabdb1d-2027-4038-a48b-fd6ff7fe5e45/original=true/cdabdb1d-2027-4038-a48b-fd6ff7fe5e45.jpeg",
+      "hash": "UHGRYgMdTJbb~BxtNbs:01o}WWRPxZM{RQxG",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-07-06T15:34:48.850Z",
-      "postId": 4176053,
+      "createdAt": "2024-07-07T14:04:01.482Z",
+      "postId": 4205114,
       "stats": {
-        "cryCount": 148,
-        "laughCount": 432,
-        "likeCount": 3576,
+        "cryCount": 213,
+        "laughCount": 468,
+        "likeCount": 3484,
         "dislikeCount": 0,
-        "heartCount": 2258,
-        "commentCount": 1
+        "heartCount": 2246,
+        "commentCount": 0
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 216034423,
-        "steps": 25,
-        "prompt": "score_9, score_8_up, score_7_up, Expressiveh, 1girl, solo, native, braided hair, skimpy clothing, tribal clothing, tan skin, ultra detailed,  beautiful fit girl, dark hair, loincloth, small perky breasts, navel, topless, bare shoulders, freckles, blue tattoos, 1boy, (2 girls), tan skin, ((ffm)), (threesome), sex, (dark hair), (red hair), hair in messy braid, long hair, (small perky breasts;1.3), narrow hips, earrings, breasts exposed,  high res image, masterpiece, tribal, tribe background, ritual, native tribe, campfire, 1guy, small man, small penis:1,2, tiny dick, (guy fucking one girl in pussy while other girl watches), vaginal sex, penis in pussy,",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5.5,
+        "seed": 1003004234,
+        "steps": 35,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, solo,\nperfect face, perfect eyes, sexy, sexy girl, beautiful eyes, petite body, wide hips, perfect cute face, turtle neck sweater, tight black jeans, boob window, medium breasts, cleavage, kneeling, eyes up, looking on penis, cumshot, cum on face, cum on chest, cum strings, hungry for penis, excited, open mouth, saliva, 1boy, large penis, penis on face, penis worship face focus, from above, male POV, dynamic angle, g0thicPXL, glowing, neon, cum on body, Expressiveh, cum on face, wet massive penis, realistic, photorealism, hd, high definition, cock worship, penis awe, tongue out",
+        "sampler": "Euler a",
+        "cfgScale": 4,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-07-06T1506:55.6158577Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands,",
+        "Created Date": "2024-07-07T1401:59.2302192Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, mutated hands, bad hand, blurry, (watermark), ugly face, mutated hands, low res, blurry face, athletic body, extra hands, (black and white), glowing eyes, easynegative",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
+            "modelVersionId": 534642,
+            "modelVersionName": "v2.1 Main + VAE"
           },
           {
             "type": "embed",
             "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
+            "modelVersionId": 107234,
+            "modelVersionName": "v2"
           },
           {
             "type": "lora",
-            "weight": 1.25,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
+            "weight": 0.1,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 393998,
-            "modelVersionName": "pony"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
+            "weight": 0.3,
             "modelVersionId": 398847,
             "modelVersionName": "gothic neon v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
+            "weight": 0.4,
+            "modelVersionId": 559962,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 571832,
+            "modelVersionName": "Penis Worship"
           },
           {
             "type": "embed",
@@ -99,19 +87,17 @@
       "username": null,
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
-        135867,
-        244808,
-        290640,
+        107234,
         382152,
-        393998,
         398847,
-        436219
+        534642,
+        559962,
+        571832
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "74|1720361041482",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=74%7C1720361041482"
+    "nextCursor": "75|1754354772419",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=75%7C1754354772419"
   }
 }
