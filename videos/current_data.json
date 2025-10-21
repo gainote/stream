@@ -1,195 +1,98 @@
 {
   "items": [
     {
-      "id": 60941454,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e5b199e-64b9-4bb3-b150-37650b08dc6e/original=true/1e5b199e-64b9-4bb3-b150-37650b08dc6e.jpeg",
-      "hash": "UMJ7RF~p%g$*?HI;IoofMIITD%S40KaK-VR+",
-      "width": 1280,
-      "height": 1856,
+      "id": 18981547,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9229d324-e9dc-4ff3-b8a2-7b24fe810e06/original=true/9229d324-e9dc-4ff3-b8a2-7b24fe810e06.jpeg",
+      "hash": "U8C=b$7f2^%MzUEfVYwcOsIoGG]+}9-A56od",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2025-03-02T00:37:43.483Z",
-      "postId": 13631484,
+      "createdAt": "2024-07-08T16:19:56.130Z",
+      "postId": 4238203,
       "stats": {
-        "cryCount": 291,
-        "laughCount": 574,
-        "likeCount": 4204,
+        "cryCount": 234,
+        "laughCount": 485,
+        "likeCount": 4139,
         "dislikeCount": 0,
-        "heartCount": 2741,
-        "commentCount": 10
+        "heartCount": 2911,
+        "commentCount": 0
       },
       "meta": {
-        "nsfw": true,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1410435",
-        "extra": {
-          "remixOfId": 45876054
-        },
-        "steps": 48,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:827184@1410435"
-        ],
-        "prompt": "safe_pos, masterpiece, best quality, absurdres, ultra-detailed, detailed skin, footworship, 1girl, 2boys, (((anal sex))), massive penis, (((yor briar))), (arched back:2), nude, (black hair:4), earrings, long hair, bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs, (loose-fitting dress:1.5), (((breast grab))), (((nude medium breast))), (yanguire girl:2), (pussy juice:1.5), (pantyhose feet:2), (pantyhose:2), nipple, head back, on back, suck large penis, (((fellatio))), (((spread pussy))), foreshortening, feet, feet focus, detailed feet, from high up, hair ornament, perspective, foreshortening, leaning to the side, round ass, legs up, top view",
-        "denoise": 0.45,
+        "Size": "832x1216",
+        "seed": 2024067631,
+        "steps": 36,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, solo, Kim Possible, redhead, long hair, wet hair, wet black top, wet pink panties, perfect face, green eyes, sexy, sexy girl, beautiful eyes, glossy lips, petite body, wide hips, thigh gap, wet skin, medium breasts, underboob, intense pleasure, headshot, worried, titty fuck, nipples visible, panting, embarrassed, biting lip, blushing, cleavage, breast grab, looking away, dynamic angle,",
         "sampler": "Euler a",
-        "cfgScale": 5,
+        "cfgScale": 4,
         "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Illustrious",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/NVJQ68K0G8BENXYRMA30EDHKC0",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "safe_neg, bad quality, worst quality, worst detail, sketch, censure, censured, displeasing, ugly, poorly drawn, displeasing, very displeasing, bad quality, deformed limbs, bad anatomy, simple background, glasses, comic, frames, negative_hand, bokeh, blur, weapon, green hair",
+        "resources": [],
+        "Created Date": "2024-07-08T1618:57.2998410Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, mutated hands, bad hand, blurry, (watermark), ugly face, mutated hands, low res, blurry face, athletic body, extra hands, easynegative",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 1410435
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1410435
-          },
-          {
-            "weight": 1.35,
-            "modelVersionId": 135867
-          },
-          {
-            "weight": 0.35,
-            "modelVersionId": 1171421
-          },
-          {
-            "weight": 0.8,
-            "modelVersionId": 1402984
-          },
-          {
-            "weight": 0.3,
-            "modelVersionId": 1253442
-          },
-          {
-            "weight": 0.7,
-            "modelVersionId": 1399405
-          },
-          {
-            "weight": 0.2,
-            "modelVersionId": 695827
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 250708
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 250712
-          },
-          {
             "type": "checkpoint",
-            "modelVersionId": 1410435
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
           },
           {
             "type": "lora",
-            "weight": 1.35,
-            "modelVersionId": 135867
+            "weight": 1,
+            "modelVersionId": 239420,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 1171421
+            "weight": 0.65,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
           },
           {
-            "type": "lycoris",
-            "weight": 0.8,
-            "modelVersionId": 1402984
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
           },
           {
             "type": "lora",
             "weight": 0.3,
-            "modelVersionId": 1253442
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
-            "type": "lycoris",
-            "weight": 0.7,
-            "modelVersionId": 1399405
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
           },
           {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 695827
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:122359@135867",
-            "type": "lora",
-            "strength": 1.35,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:946498@1171421",
-            "type": "lora",
-            "strength": 0.35,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lycoris:civitai:1241933@1402984",
-            "type": "lora",
-            "strength": 0.8,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:1107767@1253442",
-            "type": "lora",
-            "strength": 0.3,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lycoris:civitai:985385@1399405",
-            "type": "lora",
-            "strength": 0.7,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:478319@695827",
-            "type": "lora",
-            "strength": 0.2,
-            "strengthClip": 1
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": "Pixelimba",
-      "baseModel": "Illustrious",
+      "username": "Cony3D",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        135867,
-        164821,
-        695827,
-        1171421,
-        1253442,
-        1399405,
-        1402984,
-        1410435
+        9208,
+        239420,
+        290640,
+        382152,
+        398847,
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "37|1720455596130",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=37%7C1720455596130"
+    "nextCursor": "38|1739014924990",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=38%7C1739014924990"
   }
 }
