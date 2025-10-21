@@ -1,42 +1,67 @@
 {
   "items": [
     {
-      "id": 83039867,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c86b13-7316-4a9b-8627-5fb5778c4c11/original=true/40c86b13-7316-4a9b-8627-5fb5778c4c11.jpeg",
-      "hash": "UHIXT~NK00~WIURkxuV@00D%xt%2xaM{Rj%M",
-      "width": 1280,
-      "height": 1856,
-      "nsfwLevel": "X",
+      "id": 82226459,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebd5cce5-73ac-4031-b2bc-310d2c0622b8/original=true/ebd5cce5-73ac-4031-b2bc-310d2c0622b8.jpeg",
+      "hash": "UBG@V:E30e=d|ERjE%-A03Jo-:bb%LJ7bbR+",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-06-20T12:49:28.404Z",
-      "postId": 18442428,
+      "browsingLevel": 4,
+      "createdAt": "2025-06-18T03:57:00.000Z",
+      "postId": 18262364,
       "stats": {
-        "cryCount": 253,
-        "laughCount": 468,
-        "likeCount": 4046,
+        "cryCount": 269,
+        "laughCount": 512,
+        "likeCount": 4213,
         "dislikeCount": 0,
-        "heartCount": 2101,
-        "commentCount": 1
+        "heartCount": 1871,
+        "commentCount": 15
       },
-      "meta": null,
-      "username": "Kalrdr",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1651555218,
+        "steps": 19,
+        "prompt": "pirate ship,1girl, solo, beautiful eyes,detailed, beautiful lighting, nami, long hair, orange hair, brown eyes, jewelry, swimsuit, bikini, earrings, pants, high heels, bracelet, denim, bikini top only, jeans, tattoo, closeup, dynamic angle, looking at viewer,\nwhite borders, closeup",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2025-06-14T0612:34.6726288Z",
+        "negativePrompt": "easynegative",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1697082,
+            "modelVersionName": "v2.2"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1900876,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "unempty",
       "baseModel": "Illustrious",
       "modelVersionIds": [
         9208,
-        111363,
-        164821,
-        333245,
-        372639,
-        1412563,
-        1425924,
-        1490781
+        1697082,
+        1900876
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "55|1750219020000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=55%7C1750219020000"
+    "nextCursor": "56|1755943221019",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=56%7C1755943221019"
   }
 }
