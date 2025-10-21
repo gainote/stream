@@ -1,76 +1,70 @@
 {
   "items": [
     {
-      "id": 77552143,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92b7e556-1100-403c-9647-3f82422a5db6/original=true/92b7e556-1100-403c-9647-3f82422a5db6.jpeg",
-      "hash": "UNK_au~o?^xZGakqRjj?NIX-r=xuS$wd-pni",
+      "id": 65604298,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0bd8c03-fefd-4c1a-8906-5bd7f2160376/original=true/f0bd8c03-fefd-4c1a-8906-5bd7f2160376.jpeg",
+      "hash": "UFKTDD%200xFwN~CEK01xbRkIoxtE2-o-;xZ",
       "width": 832,
       "height": 1216,
-      "nsfwLevel": "Mature",
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-07-26T00:00:00.000Z",
-      "postId": 17183349,
+      "browsingLevel": 8,
+      "createdAt": "2025-03-27T07:39:46.791Z",
+      "postId": 14606550,
       "stats": {
-        "cryCount": 282,
-        "laughCount": 651,
-        "likeCount": 4191,
+        "cryCount": 357,
+        "laughCount": 509,
+        "likeCount": 4110,
         "dislikeCount": 0,
-        "heartCount": 1993,
-        "commentCount": 3
+        "heartCount": 2133,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1083711136,
+        "seed": 959016312,
         "extra": {
-          "remixOfId": 75068500
+          "remixOfId": 56256319
         },
-        "steps": 42,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, BREAK masterpiece, beautiful lighting, beautiful shadows, beautiful skin,perfect face, perfect hands, high quality, source_cartoon, BREAK (1girl, solo,) <lora:Jenny_Wakeman_PDXL_V2:1> jenny, android, robot, twintails, colored skin, aqua hair, robot joints, bikini, curvy, big breasts, wide hips,smug, dynamic angle, dynamic pose, posing, hand on hips, coconut with straw, drinking coconut with straw,\npatterned background, dots background, beach, suny, clouds,white borders, low angle, palm tree",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 7,
+        "steps": 31,
+        "prompt": "masterpiece, best quality, amazing quality, intricate detail, highly detailed, absurdres,, 1girl, sexy elf, slim, eyeliner, green eyes, pink hair, twintails, flat bangs, open black kimono, floral print, off shoulder, bare shoulders, wide sleeves, long sleeves, sash, lipstick, small breasts, nipple, pussy, collarbone, loving smile, ?, drunk, holding sake bottle, indoors, east asian architecture, dynamic angle,",
+        "sampler": "Euler a",
+        "cfgScale": 5,
         "clipSkip": 2,
-        "resources": [
-          {
-            "name": "Jenny_Wakeman_PDXL_V2",
-            "type": "lora",
-            "weight": 1
-          }
-        ],
-        "Created Date": "2025-05-21T0155:07.0281423Z",
-        "negativePrompt": "photo realism, realistic, ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, umbrella, text, letters, too many feet, too many fingers, (((2 heads))), duplicate, abstract, disfigured, deformed, toy, figure, framed, disfigured, shirt, covered breasts, bad art, deformed, poorly drawn, extra limbs, weird colors, long neck, elongated body, cropped image, out of frame, draft, deformed hands, twisted fingers, extra fingers, double image, malformed hands, multiple heads, extra limb, poorly drawn hands, missing limb, cut-off, over saturated, grain, lowres, bad anatomy, poorly drawn face, mutation, mutated, floating limbs, disconnected limbs, out of focus, long body, disgusting, extra fingers, gross proportions, missing arms, mutated hands, cloned face, missing legs, deformed, noisy, blurry, distorted, grainy, monochrome,",
+        "resources": [],
+        "Created Date": "2025-03-23T0614:40.8963133Z",
+        "negativePrompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, jpeg artifacts, signature, watermark, censored, bar_censor, chibi, loli\u200b\u200b\u200b",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 324619,
-            "modelVersionName": "AutismMix_pony"
+            "modelVersionId": 1490781,
+            "modelVersionName": "v12.0"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 772758,
-            "modelVersionName": "v2.0"
+            "weight": 0.75,
+            "modelVersionId": 1158510,
+            "modelVersionName": "Illustrious"
           },
           {
             "type": "lora",
-            "weight": 1.2,
-            "modelVersionId": 1810178,
-            "modelVersionName": "V1"
+            "weight": 0.75,
+            "modelVersionId": 1355026,
+            "modelVersionName": "- Illustrious XL -"
           }
         ]
       },
-      "username": "unempty",
-      "baseModel": "Pony",
+      "username": "ElvishDreams",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        324619,
-        772758,
-        1810178
+        1158510,
+        1355026,
+        1490781
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "47|1743061186791",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=47%7C1743061186791"
+    "nextCursor": "48|1731501796422",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=48%7C1731501796422"
   }
 }
