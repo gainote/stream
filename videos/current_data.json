@@ -1,77 +1,124 @@
 {
   "items": [
     {
-      "id": 91263293,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a5775666-dab0-4307-b748-da1f56364de1/original=true/a5775666-dab0-4307-b748-da1f56364de1.jpeg",
-      "hash": "UTKn0ixZY5xu~pRjXSozF3i^wcbc%Lf,WVjF",
-      "width": 1296,
-      "height": 1800,
-      "nsfwLevel": "Mature",
+      "id": 20112124,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7548c525-f2b0-4a7f-9068-0f2f8a9485a2/original=true/7548c525-f2b0-4a7f-9068-0f2f8a9485a2.jpeg",
+      "hash": "U5ASc3-C-Y}[0KWX9tEL0_Ns5PI.^SIo^R-V",
+      "width": 1280,
+      "height": 1856,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-07-29T23:29:05.104Z",
-      "postId": 20243573,
+      "browsingLevel": 16,
+      "createdAt": "2024-07-16T17:04:56.696Z",
+      "postId": 4487504,
       "stats": {
-        "cryCount": 347,
-        "laughCount": 710,
-        "likeCount": 3895,
+        "cryCount": 173,
+        "laughCount": 368,
+        "likeCount": 3845,
         "dislikeCount": 0,
-        "heartCount": 1792,
-        "commentCount": 1
+        "heartCount": 2352,
+        "commentCount": 0
       },
       "meta": {
-        "Size": "832x1152",
-        "seed": 570144833357743,
-        "Model": "cyberrealisticXL_v60",
-        "steps": 8,
-        "prompt": "photorealistic, sharp focus, depth of field, bokeh, vivid, vibrant, high contrast,\n(full body, full shot, full frame shot:1.1),    25 year old, detailed skin, realistic skin,\n  pale skin, freckles, freckles on body, brunette hair, petite,    \neye contact,   shocked,  (shocked, surprised, mouth wide open, eyes wide open, eyebrows raised:1.3), \n    btstrbrbo, stripping bra, holding bra straps, \n    (in a changing room, dressing room), blue jeans,\n(turned to the side:1.2),",
-        "Version": "ComfyUI",
-        "sampler": "DPM++ SDE",
-        "cfgScale": 2,
-        "clipSkip": 2,
-        "resources": [],
-        "negativePrompt": "watermark,\nsdxl_cyberrealistic_simpleneg-neg,",
+        "seed": 2598663730,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
+        "steps": 41,
+        "width": 1280,
+        "height": 1856,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:257749@290640"
+        ],
+        "prompt": "embedding:urn:air:sd1:embedding:civitai:222256@250708, (score_9, score_8_up, score_7_up), 1girl, 20 year old, 1male, long black hair, hime cut, perky breasts, cleavage, pretty face, long legs, purple eyes, light freckles, sweaty skin oversized hoodie, cloth black skirt, striped thigh-high socks, gothic boots, lustful, smug, looking at viewer, heavy blushing, tight pussy, cowgirl position, penetration, femdom, leaning forward, ( f3md0m_p0v, male pov, dominant female, f3md0m_p0v_l345h, leash, viewer wearing a leash held by girl, full continuous single leash from viewer to girl's hand), detailed background, inside, futuristic, neon lights, volumetric lighting, atmospheric lighting, vivid colours,  g0thicPXL, glowing, neon, close up, low angle,",
+        "denoise": 0.4,
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "modelIds": [],
+        "scheduler": "simple",
+        "upscalers": [],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "embedding:urn:air:sd1:embedding:civitai:222256@250712, embedding:urn:air:sd1:embedding:civitai:87243@287973, (deformed, distorted, disfigured:1.5), (mutated hands and fingers:1.5), monochrome background, furry, loli, poorly drawn, bad anatomy, wrong anatomy, extra limbs, missing limb, floating limbs, missing fingers, elongated hands, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, blurry eyes, background characters, muscular, lipstick, massive ass, massive penis, showing teeth",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1962475
+            "modelVersionId": 290640
           },
           {
             "type": "lora",
-            "weight": 3.5,
-            "modelVersionId": 135867
+            "weight": 0.55,
+            "modelVersionId": 398847
           },
           {
             "type": "lora",
-            "weight": 2,
-            "modelVersionId": 251954
+            "weight": 0.65,
+            "modelVersionId": 436219
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 547581
+            "weight": 1,
+            "modelVersionId": 239420
+          },
+          {
+            "type": "lora",
+            "weight": 0.4,
+            "modelVersionId": 636238
           },
           {
             "type": "embedding",
-            "weight": 1,
-            "modelVersionId": 1753690
+            "modelVersionId": 250708
+          },
+          {
+            "type": "embedding",
+            "modelVersionId": 250712
+          },
+          {
+            "type": "embedding",
+            "modelVersionId": 287973
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:352581@398847",
+            "type": "lora",
+            "strength": 0.55,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:300005@436219",
+            "type": "lora",
+            "strength": 0.65,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:212532@239420",
+            "type": "lora",
+            "strength": 1,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:570808@636238",
+            "type": "lora",
+            "strength": 0.4,
+            "strengthClip": 1
           }
         ]
       },
-      "username": "pixel8er",
-      "baseModel": "SDXL 1.0",
+      "username": "WiseBurrito",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        135867,
-        251954,
-        547581,
-        1753690,
-        1962475
+        239420,
+        287973,
+        290640,
+        398847,
+        436219,
+        636238
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "59|1721149496696",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=59%7C1721149496696"
+    "nextCursor": "60|1756897264692",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=60%7C1756897264692"
   }
 }
