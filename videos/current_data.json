@@ -1,98 +1,62 @@
 {
   "items": [
     {
-      "id": 61847730,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc054968-1953-45a8-81ca-8779b383d2a6/original=true/fc054968-1953-45a8-81ca-8779b383d2a6.jpeg",
-      "hash": "UC8||v8^9t_4x]M{s:xuDix]xFMdMxt7X9M{",
-      "width": 1344,
-      "height": 2240,
-      "nsfwLevel": "Mature",
+      "id": 80372372,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b9694b4-e410-4ca5-935e-96041036c268/original=true/2b9694b4-e410-4ca5-935e-96041036c268.jpeg",
+      "hash": "UHH_V+rX0yoI0#E2%Ms.IA-;$gt6~UtSnMIo",
+      "width": 1536,
+      "height": 2688,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-03-09T00:05:00.000Z",
-      "postId": 13821164,
+      "browsingLevel": 8,
+      "createdAt": "2025-06-04T12:48:30.543Z",
+      "postId": 17850244,
       "stats": {
-        "cryCount": 203,
-        "laughCount": 412,
-        "likeCount": 4281,
+        "cryCount": 248,
+        "laughCount": 491,
+        "likeCount": 4249,
         "dislikeCount": 0,
-        "heartCount": 2446,
-        "commentCount": 1
+        "heartCount": 2215,
+        "commentCount": 0
       },
       "meta": {
-        "Size": "768x1280",
-        "seed": 581457533345805,
-        "Model": "waiNSFWIllustrious_v110.safetensors",
-        "https": "//www.deviantart.com/marlandco",
-        "steps": 30,
+        "Size": "3328x4864",
+        "seed": 315924594314856,
+        "Model": "Illustrious\\waiNSFWIllustrious_v120",
+        "steps": 20,
         "hashes": {
-          "model": "c3688ee04c",
-          "lora:klskx_wai": "a50376f7d2",
-          "lora:DarkerThanDarkIllustriousV1": "692bd4f9ae",
-          "lora:illustriousXL_stabilizer_v1.23": "a2efee207a",
-          "lora:spo_sdxl_10ep_4k-data_lora_webui": "b6c2c16f3e",
-          "lora:illustrious_quality_modifiers_masterpieces_v1": "c1144df40a"
+          "model": "89cb4ec0a9",
+          "lora:ZZZ_Emoji_style_ILv2": "1.0>"
         },
-        "prompt": "masterpiece, best quality, amazing quality, klskx, nsfw, explicit, (1girl:1.0), redhead, open fridge, dim blue fridge light, nude, oversized t-shirt slipping off shoulder, panties, barefoot, (messy hair:1.0), (licking fingers:1.1), one hand on hip, standing by (fridge:1.0), looking back, midnight snack\nindoors, kitchen, wooden floor, (open fridge door:1.2), scattered snacks, napkin, (night:1.2), (dark shadows:0.9), (high contrast:0.9), volumetric lighting, intricate details, blurry background, depth of field <lora:spo_sdxl_10ep_4k-data_lora_webui:2.0> <lora:illustriousXL_stabilizer_v1.23:1.0> <lora:illustrious_quality_modifiers_masterpieces_v1:0.6> <lora:klskx_wai:0.7000000000000001> <lora:DarkerThanDarkIllustriousV1:0.3>",
-        "Creator": "Marland_C",
-        "sampler": "res_multistep_kl_optimal",
-        "cfgScale": 5,
-        "clipSkip": 2,
+        "prompt": "zzzemoji,, chibi masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject,   action, A digital artwork portraying a female figure with a mystical aura. She is adorned with intricate, tribal-like patterns on her body, predominantly in shades of blue and gold. Her skin is a deep shade of blue, and her eyes are a striking shade of red. She wears a headpiece with curved horns, and she has long, flowing hair. The figure is seated on a circular, golden-hued platform, surrounded by a dark, starry background. The overall color palette is dominated by deep blues, golds, and blacks, creating a sense of depth and dimension. The style of the artwork leans towards fantasy, with a high level of detail and realism. 1girl, solo, long_hair, looking_at_viewer, black_hair, thighhighs, jewelry, sitting, ass, earrings, nude, horns, barefoot, pussy, pointy_ears, artist_name, black_thighhighs, looking_back, from_behind, feet, toes, tattoo, colored_skin, pussy_juice, soles, wariza, toeless_legwear, magic_circle, back_tattoo, zzzemoji,, chibi",
+        "Version": "ComfyUI",
+        "sampler": "euler",
+        "CFG Scale": "8.0",
         "resources": [
           {
-            "hash": "b6c2c16f3e",
-            "name": "spo_sdxl_10ep_4k-data_lora_webui",
-            "type": "lora",
-            "weight": 2
+            "hash": "1.0>",
+            "name": "ZZZ_Emoji_style_ILv2",
+            "type": "lora"
           },
           {
-            "hash": "a2efee207a",
-            "name": "illustriousXL_stabilizer_v1.23",
-            "type": "lora",
-            "weight": 1
-          },
-          {
-            "hash": "c1144df40a",
-            "name": "illustrious_quality_modifiers_masterpieces_v1",
-            "type": "lora",
-            "weight": 0.6
-          },
-          {
-            "hash": "a50376f7d2",
-            "name": "klskx_wai",
-            "type": "lora",
-            "weight": 0.7000000000000001
-          },
-          {
-            "hash": "692bd4f9ae",
-            "name": "DarkerThanDarkIllustriousV1",
-            "type": "lora",
-            "weight": 0.3
-          },
-          {
-            "hash": "c3688ee04c",
-            "name": "waiNSFWIllustrious_v110.safetensors",
+            "hash": "89cb4ec0a9",
+            "name": "Illustrious\\waiNSFWIllustrious_v120",
             "type": "model"
           }
         ],
-        "Model hash": "c3688ee04c",
-        "negativePrompt": "loli, bad quality, worst quality, sketch, censor, censored, watermark, plain simple background, blank eyes, hydrokinesis, symmetry, huge breasts, sparks, dust, garter straps, thighhighs, stockings, tights"
+        "Model hash": "89cb4ec0a9",
+        "negativePrompt": "score_6, score_5, score_4, text, watermark, signature, pubic hair"
       },
-      "username": "Marland_C",
+      "username": "serget2",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        567119,
-        1050644,
-        1095977,
-        1284348,
-        1345990,
-        1410435
+        1490781
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "43|1749041310543",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=43%7C1749041310543"
+    "nextCursor": "44|1745678822871",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=44%7C1745678822871"
   }
 }
