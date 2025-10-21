@@ -1,77 +1,105 @@
 {
   "items": [
     {
-      "id": 95304727,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8296d2b-0295-4097-a192-23a08efb928b/original=true/a8296d2b-0295-4097-a192-23a08efb928b.jpeg",
-      "hash": "UTHMDmb^E%yX?^VsjZozCR$%%MNH9aWCWWs.",
-      "width": 1248,
-      "height": 1824,
+      "id": 34673039,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f17117dc-c4dc-4176-ae39-4fc2ca3ca20c/original=true/f17117dc-c4dc-4176-ae39-4fc2ca3ca20c.jpeg",
+      "hash": "UDHT:Q.8yX~W%#?a-:%200IUwIIUMd9FD%E1",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-08-19T23:21:24.359Z",
-      "postId": 21139516,
+      "browsingLevel": 16,
+      "createdAt": "2024-10-15T04:12:42.992Z",
+      "postId": 7922457,
       "stats": {
-        "cryCount": 246,
-        "laughCount": 384,
-        "likeCount": 3826,
+        "cryCount": 239,
+        "laughCount": 435,
+        "likeCount": 3495,
         "dislikeCount": 0,
-        "heartCount": 2042,
-        "commentCount": 2
+        "heartCount": 2261,
+        "commentCount": 63
       },
       "meta": {
-        "VAE": "sdxl_vae_fixed.safetensors",
         "Size": "832x1216",
-        "seed": 2972502555,
-        "Model": "prefect_illustrious_XL_2.fp16",
-        "steps": 20,
-        "hashes": {
-          "vae": "235745af8d",
-          "model": "9d73bac23a",
-          "lora:loose_tank_top_ilxl_goofy": "78d4ccffb16c"
-        },
-        "prompt": "masterpiece, best quality, amazing quality, absurdres, <lora:loose_tank_top_ilxl_goofy:1> loose tank top, 1girl, hanging breasts, large breasts, brown hair, barefoot, spoken heart, no bra, bottomless, ponytail, long hair, hair ornament, green eyes, hairclip, smile, low-cut armhole, sideboob, hair ribbon, looking at viewer, armchair, loose shirt, loose clothes, simple background, couch, naked shirt, chair, profile, from side, head rest, aqua background, no panties, bare shoulders, full body, blue background, bare legs, covered nipples",
-        "Version": "v1.10.1-84-g374bb6cc",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 5,
-        "resources": [
+        "seed": 913149384,
+        "steps": 29,
+        "prompt": "masterpiece,best quality, highly detailed, score_9, score_8_up, score_7_up, score_6_up,source_anime, \nBREAK, 1girl, Raven, bedroom, laying on side, ass up, ass focus, from below, pussy focus, naked, pussy focus, wet pussy, pose, sexy, wet, looking back, face focus, closeup, posing, wet hair, dynamic angle, thick thighs, big ass, spreading ass, hand on ass, nail polish, asshole focus, cum in ass, cum in pussy, biting lip, blush, hearts",
+        "sampler": "Euler a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-10-15T0235:03.8001355Z",
+        "negativePrompt": "score_4, score_5, score_6, (lesbians),futanari,extra fingers,distorted hands,distorted fingers, muscular,low quality, lowres, bad anatomy,worst quality, simple background, censored,text,signature,  lineless,watermark,signature, logo, source_anime, FastNegativeEmbedding,  low-quality, moir pattern, downsampling, aliasing, distorted, blurry, glossy, blur, jpeg artifacts, compression artifacts, poorly drawn, low-resolution, bad, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, symmetrical, duplicate, error, pattern, beginner, pixelated, fake, hyper, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, messy, Deformed, Deformed face, Deformed fingers, Deformed hands, Out of frame, Poorly drawn face, Poorly drawn feet, Poorly drawn hands, Draft, Grainy, Kitsch, Low-res, old, sketch, black and white, doujinshi, exaggerated anatomy",
+        "civitaiResources": [
           {
-            "hash": "78d4ccffb16c",
-            "name": "loose_tank_top_ilxl_goofy",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
-            "hash": "9d73bac23a",
-            "name": "prefect_illustrious_XL_2.fp16",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.85,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 438417,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 333587,
+            "modelVersionName": "Smooth 2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.7,
+            "modelVersionId": 373439,
+            "modelVersionName": "Lil Andava style PDXL V1"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
-        ],
-        "Model hash": "9d73bac23a",
-        "Schedule type": "Karras",
-        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censored, artist name, signature, watermark,patreon username, patreon logo,",
-        "ADetailer model": "yolov11m-face.pt",
-        "ADetailer version": "24.11.1",
-        "Denoising strength": "0.2",
-        "SD upscale overlap": "64",
-        "ADetailer mask blur": "4",
-        "SD upscale upscaler": "4x-UltraSharp",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
+        ]
       },
-      "username": "Goofy_Ai",
-      "baseModel": "Illustrious",
+      "username": "Bancin",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1873831
+        290640,
+        333587,
+        373439,
+        382152,
+        398847,
+        436219,
+        438417
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "71|1728965562992",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=71%7C1728965562992"
+    "nextCursor": "72|1745664070517",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=72%7C1745664070517"
   }
 }
