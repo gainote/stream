@@ -1,119 +1,81 @@
 {
   "items": [
     {
-      "id": 92368807,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1e8f809-cd53-4864-bdfb-2e8cab4f6aa4/original=true/f1e8f809-cd53-4864-bdfb-2e8cab4f6aa4.jpeg",
-      "hash": "U6BWVt}?AI4T:OS#0fpco|I;ogrq=GQ-KPtm",
+      "id": 103950366,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af76b316-e1a9-4f07-97f0-9cff6c66c782/original=true/af76b316-e1a9-4f07-97f0-9cff6c66c782.jpeg",
+      "hash": "UCNv=7H=_N~Bie4T?b-o%$8_RjRP?I-;I.I;",
       "width": 832,
       "height": 1216,
-      "nsfwLevel": "Mature",
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-08-05T00:46:12.419Z",
-      "postId": 20490368,
+      "browsingLevel": 8,
+      "createdAt": "2025-10-03T18:10:00.000Z",
+      "postId": 23063130,
       "stats": {
-        "cryCount": 247,
-        "laughCount": 403,
-        "likeCount": 4006,
+        "cryCount": 244,
+        "laughCount": 482,
+        "likeCount": 3767,
         "dislikeCount": 0,
-        "heartCount": 1754,
-        "commentCount": 0
+        "heartCount": 1910,
+        "commentCount": 14
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 410043999,
-        "draft": false,
-        "steps": 50,
+        "Model": "urn:air:sdxl:checkpoint:civitai:1025051@2186168",
+        "extra": {},
+        "steps": 30,
         "width": 832,
         "height": 1216,
-        "prompt": "score_9, score_8_up, score_8, score_7_up, score_6_up, \n1girl, solo, sweating, small breasts, blushing, standing, bare midriff, ((flat sexy tummy, skinny, slender, thin, )), navel, breast focus, looking to towards the side, smiling, seductive, posing, looking at viewer, front upper body shot, fitness, at gym, gym locker, locker room, arm up, sweat, sweaty, aqua yoga pants, tight sports bra, aqua sports bra , \n1girl, RslnDef, hair over one eye, crown,",
-        "process": "txt2img",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:1025051@2186168"
+        ],
+        "prompt": "masterpiece, best quality, amazing quality,\n\nsexy hot,\nposing,\ncell shading,\n(pastel colors:0.4),\n\n(messy hairs:0.3),\n\nstanding,\nbent over,\nhand vacuum cleaner,\nroom,\nblack socks,\nblack shirt,\nupdo,\nass folds,\ninnie pussy,\nwhite carpet,",
+        "denoise": 0.01,
+        "process": "img2img",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img",
+        "baseModel": "Illustrious",
         "disablePoi": true,
         "aspectRatio": "13:19",
-        "Created Date": "2025-08-04T2203:10.1249653Z",
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/92295141806430356048735308765049895366.jpg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuQBfcPCfjHskU1m7TXEQmGb1D_hW7VByokAN3YdXLozI7OmcORt9GCB8CCvBIaM-0x2KY6v-XwjghicL-07NPwRXJPJE2_0jddJJpLvxKKVLajHhsQVP0xmEXLeQY1baiOwtfX5XsBpQimmvw6q7_wLY6eHt8f4PnMEHzD6RZTLNtGGU7Sp-W9CQP4aZIdvBOd_iH7q_sDeb-nZGO2MnYx5xvD5YxeNMsRUbc-EaurJgWrwIGD_n-rFxfLM2p_fDZnVls_y7TK8FCjjallobtQWSjz_yyRprW6kzan3DJM-Ew&exp=2026-10-03T16:51:15.0045772Z",
+          "width": 832,
+          "height": 1216
+        },
         "experimental": false,
-        "negativePrompt": "score_5, score_4, censored, deformed, bad hand, blurry, (watermark), extra hands, extra dicks, futanari, white pupils, small pupils, bright pupils, detached hand, bad anatomy, (((young, loli))). (((futa, t-girl))), six pack, defined muscles, detached sleeves, fingerless glove, elbow gloves,",
+        "negativePrompt": "censor, censored, watermark, artist name, bestiality,\n",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 770375,
-            "modelVersionName": "MeichiDarkAnimV2_Lust"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
+            "modelVersionId": 2186168
           },
           {
             "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "embed",
             "weight": 1,
-            "modelVersionId": 220262,
-            "modelVersionName": "epiCPhoto"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 708019,
-            "modelVersionName": "v1.0"
+            "modelVersionId": 2234776
           },
           {
             "type": "lora",
             "weight": 0.2,
-            "modelVersionId": 835055,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1029540,
-            "modelVersionName": "Gothic Neon v2"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1058404,
-            "modelVersionName": "V2 [Pony XL]"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 414516,
-            "modelVersionName": "v1.0"
+            "modelVersionId": 1976924
           }
         ]
       },
-      "username": "MackRibs",
-      "baseModel": "Pony",
+      "username": "vovkkabanko",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        9208,
-        220262,
-        414516,
-        436219,
-        708019,
-        770375,
-        835055,
-        1029540,
-        1058404
+        1976924,
+        2186168,
+        2234776
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "76|1759515000000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=76%7C1759515000000"
+    "nextCursor": "77|1756208037683",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=77%7C1756208037683"
   }
 }
