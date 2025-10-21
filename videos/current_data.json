@@ -1,62 +1,133 @@
 {
   "items": [
     {
-      "id": 99160636,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a803734-9617-4a9a-b275-ee6dfc7d4d2c/original=true/4a803734-9617-4a9a-b275-ee6dfc7d4d2c.jpeg",
-      "hash": "UHKwRyvfNG_34:00={%19a-:W=kr~VnhIAI=",
-      "width": 1408,
-      "height": 2048,
+      "id": 51589725,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4b0c77bd-4da3-4fa9-ba6c-7320ac7badfa/original=true/4b0c77bd-4da3-4fa9-ba6c-7320ac7badfa.jpeg",
+      "hash": "UGGRL|~U6z9uoy}?$%5701RP,txa-pS}X8xt",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2025-09-10T10:05:20.976Z",
-      "postId": 22001476,
+      "createdAt": "2025-01-14T14:55:37.808Z",
+      "postId": 11601582,
       "stats": {
-        "cryCount": 343,
-        "laughCount": 583,
-        "likeCount": 4730,
+        "cryCount": 254,
+        "laughCount": 459,
+        "likeCount": 4543,
         "dislikeCount": 0,
-        "heartCount": 2451,
+        "heartCount": 2805,
         "commentCount": 7
       },
       "meta": {
-        "seed": 241165283,
-        "extra": {},
-        "steps": 31,
-        "prompt": "masterpiece, best quality, amazing quality, 4k, very aesthetic, high resolution, ultra-detailed, frieren, cleft_of_venus, legs, thick_thighs, tongue_out, white_skirt, feet, no_shoes, skirt, solo, blush, twintails, uncensored, elf, lifted_by_self, long_hair, pointy_ears, thighs, tongue, anus, capelet, nipples, breasts, clothes_lift, white_capelet, no_panties, skirt_lift, foot_out_of_frame, looking_at_viewer, parted_bangs, soles, pussy, ass, grey_hair, long_sleeves, fat_mons, stirrup_legwear, green_eyes, thighhighs, toes, purple_thighhighs, toeless_legwear",
+        "Size": "832x1216",
+        "nsfw": true,
+        "seed": 1210694158,
+        "draft": false,
+        "steps": 32,
+        "width": 832,
+        "height": 1216,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, solo, extreme detail, Masterpiece, Best Quality, beautiful, high res image, rating_explicit, \nclose up,\nplaying billiards,\ncue in hand,\nhand on table,\n(((sexy))),\n(neon:1.35),\nBREAK\n(brown girl  :1.6),\n(one shoulder off:1.2),\n(blonde :1.5),\n(huge braid :1.5),\n(freckles:1.2),\nview from side behind,\n(thigh gap:1.2),\n(got caught:1.4),\n(blush),\nfocus on ass,\nback head,\n(mini skirt close up:1.4),\n(pussy slip:0.9),\nelbow gloves,\npanties,\ncamisole,\nbent over,\nBREAK",
         "sampler": "Euler a",
-        "cfgScale": 5,
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "negativePrompt": "Base:bad quality,worst quality,worst detail,sketch,censor, fat, ugly, tanlines, shoes,signature",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Pony",
+        "resources": [],
+        "Created Date": "2025-01-13T0830:52.6033741Z",
+        "negativePrompt": "source_pony, source_furry, source_cartoon, score_3, score_2, score_1, bad hands, worst quality, low quality, bad anatomy, bad proportions, censored, bar censor, mosaic censoring, extra legs, deformed anatomy, messy color, 3d, deformed fingers, distracted, jpeg artifacts, ugly, 6 fingers, extra limb, missing limb, floating limbs, watermark, patreon, patreon logo, patreon username, extra hands, bad fingers, wrong fingers, cross eyed, easynegative,",
         "civitaiResources": [
           {
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
+          },
+          {
+            "type": "lora",
+            "weight": -0.45,
+            "modelVersionId": 530596,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 983142,
+            "modelVersionName": "v1.4-pony"
+          },
+          {
+            "type": "embed",
             "weight": 1,
-            "modelVersionId": 1410435
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
           },
           {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 98441,
+            "modelVersionName": "V2"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 128461,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1.2,
+            "modelVersionId": 135867,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
             "weight": 0.7,
-            "modelVersionId": 1355026
+            "modelVersionId": 298238,
+            "modelVersionName": "Smooth Anime"
           },
           {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": "Big_Master",
-      "baseModel": "Illustrious",
+      "username": "vovkkabanko",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        164821,
-        1355026,
-        1410435
+        9208,
+        98441,
+        128461,
+        135867,
+        290640,
+        298238,
+        382152,
+        436219,
+        530596,
+        983142
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "31|1736866537808",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=31%7C1736866537808"
+    "nextCursor": "32|1747557486782",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=32%7C1747557486782"
   }
 }
