@@ -1,129 +1,70 @@
 {
   "items": [
     {
-      "id": 76163061,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a0fc2f2-b159-49fa-84d8-911bd0a0a5b7/original=true/6a0fc2f2-b159-49fa-84d8-911bd0a0a5b7.jpeg",
-      "hash": "UTLfdoH?KjRk~DZ$t6M{Iq?Hw^S3jax]IAR*",
-      "width": 832,
-      "height": 1216,
-      "nsfwLevel": "Mature",
+      "id": 295538,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e73216ad-a0a5-4770-37f2-df3dd504f000/original=true/e73216ad-a0a5-4770-37f2-df3dd504f000.jpeg",
+      "hash": "UCI;q[IV0K^+00%2D%?H00%2?b4o~W-p-;t7",
+      "width": 512,
+      "height": 768,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-05-18T07:51:25.893Z",
-      "postId": 16912943,
+      "browsingLevel": 8,
+      "createdAt": "2024-02-03T12:46:09.622Z",
+      "postId": 108572,
       "stats": {
-        "cryCount": 287,
-        "laughCount": 559,
-        "likeCount": 4443,
+        "cryCount": 211,
+        "laughCount": 426,
+        "likeCount": 3827,
         "dislikeCount": 0,
-        "heartCount": 2316,
-        "commentCount": 0
+        "heartCount": 3061,
+        "commentCount": 15
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 1227852978,
-        "draft": false,
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "prompt": "ultra realistic, masterpiece, high detailed skin, best quality, high res, very aesthetic, absurdres, anime style, studio anime, source_ecchi, anime, ((ecchi)), ((nsfw)), (finely detailed face), (petite body:1.3), <lora:volume-nikke-richy-v1_ixl:1>, vlmrnd, yellow eyes, dark skin, tan, red hair, long hair, bangs, large breasts, ass, firm perky ass, body writing, tattoo, breast tattoo, tally, 1girl, barcode tattoo, pubic tattoo, clothes writing, chest tattoo, heart tattoo, long hair, breasts, leg tattoo, barcode, thighhighs, solo, shirt, number tattoo, arm tattoo, mori calliope, stomach tattoo, looking at viewer, virtual youtuber, bodypaint, facepaint, cleavage, shoulder tattoo, smile, large breasts, simple background, bangs, sitting, white background, body markings, black legwear, collarbone, white shirt, t-shirt, blunt bangs, profanity, eyebrows visible through hair. relaxed but provocative, soft ambient glow, dramatic scenery, intricate details, (blurry background, depth of field:1.1), erotic and aesthetic, the picture has an sexuel, alluring and erotic vibe, lascivious pose, aroused, ((dynamic dutch angle from behind:1.5)), ((focus on butt and feet:1.5)), from below, blurry background, bright colors, stunningly artwork",
-        "sampler": "DDIM",
-        "cfgScale": 3.5,
-        "clipSkip": 2,
-        "quantity": 4,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
+        "Size": "512x768",
+        "seed": 2668558297,
+        "Model": "chilloutmix_NiPrunedFp32Fix",
+        "steps": 20,
+        "prompt": "(RAW photo, best quality), (realistic, photo-realistic:1.3), best quality ,masterpiece, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,2k wallpaper, Amazing, finely detail, masterpiece, light smile, best quality, extremely detailed CG unity 8k wallpaper, huge filesize , ultra-detailed, highres, extremely detailed, 1girl, maid,(nude:1.2),(moist pussy:1), (spread legs), hair ornament, looking at looking at viewer, small breasts, <lora:japaneseDollLikeness_v10:0.2>, <lora:koreanDollLikeness_v15:0.2>, <lora:cuteGirlMix4_v10:0.4>, <lora:chilloutmixss30_v30:0.2>, pureerosface_v1:0.8",
+        "sampler": "DPM++ SDE Karras",
+        "cfgScale": 8,
         "resources": [
           {
-            "name": "volume-nikke-richy-v1_ixl",
+            "name": "japaneseDollLikeness_v10",
             "type": "lora",
-            "weight": 1
+            "weight": 0.2
+          },
+          {
+            "name": "koreanDollLikeness_v15",
+            "type": "lora",
+            "weight": 0.2
+          },
+          {
+            "name": "cuteGirlMix4_v10",
+            "type": "lora",
+            "weight": 0.4
+          },
+          {
+            "name": "chilloutmixss30_v30",
+            "type": "lora",
+            "weight": 0.2
+          },
+          {
+            "hash": "fc2511737a",
+            "name": "chilloutmix_NiPrunedFp32Fix",
+            "type": "model"
           }
         ],
-        "Created Date": "2025-05-13T2029:26.8110193Z",
-        "negativePrompt": "score_6, score_5, score_4, embedding:negativeXL_D, skinny, anorexic, furry, halo, (worst quality, low quality, sketch:1.1), error, bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, abstract, signature",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1412789,
-            "modelVersionName": "v2.90"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1781737,
-            "modelVersionName": "volume-nikke-richy-v1_ixl"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 60938,
-            "modelVersionName": "negative_hand"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 91028,
-            "modelVersionName": "aid291"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 135867,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 211788,
-            "modelVersionName": "v1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1193082,
-            "modelVersionName": "Illustrious"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1387520,
-            "modelVersionName": "v1.0"
-          }
-        ]
+        "Model hash": "fc2511737a",
+        "negativePrompt": "bra, covered nipples, underwear,EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,((watermark:2)),(white letters:1), (multi nipples), lowres, bad anatomy, bad hands, text, error, missing fingers,extra digit, fewer digits, cropped, worst quality, low qualitynormal quality, jpeg artifacts, signature, watermark, username,bad feet, {Multiple people},lowres,bad anatomy,bad hands, text, error, missing fingers,extra digit, fewer digits, cropped, worstquality, low quality, normal quality,jpegartifacts,signature, watermark, blurry,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,worst quality,low quality,normal quality,jpeg artifacts,signature,extra fingers,fewer digits,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,polar lowres,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,extra arms,missing legs,wrong feet bottom render,extra digit,abdominal stretch, glans, pants, briefs, knickers, kecks, thong, {{fused fingers}}, {{bad body}}, ((long hair))"
       },
-      "username": "Chimi83",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        9208,
-        60938,
-        91028,
-        135867,
-        211788,
-        244808,
-        1193082,
-        1387520,
-        1412789,
-        1781737
-      ]
+      "username": "sEthan",
+      "baseModel": "SD 1.5",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "40|1706964369622",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=40%7C1706964369622"
+    "nextCursor": "41|1724457900000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=41%7C1724457900000"
   }
 }
