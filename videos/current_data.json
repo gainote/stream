@@ -1,62 +1,33 @@
 {
   "items": [
     {
-      "id": 80372372,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b9694b4-e410-4ca5-935e-96041036c268/original=true/2b9694b4-e410-4ca5-935e-96041036c268.jpeg",
-      "hash": "UHH_V+rX0yoI0#E2%Ms.IA-;$gt6~UtSnMIo",
-      "width": 1536,
-      "height": 2688,
+      "id": 51513992,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/916f8540-8bed-4bea-8dd0-788f46b28626/original=true/916f8540-8bed-4bea-8dd0-788f46b28626.jpeg",
+      "hash": "UQKm;9~V4.a|O??GV?bI8_t7-;t7-oWCt7xa",
+      "width": 3072,
+      "height": 5376,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-06-04T12:48:30.543Z",
-      "postId": 17850244,
+      "browsingLevel": 16,
+      "createdAt": "2025-04-26T14:47:02.871Z",
+      "postId": 11585162,
       "stats": {
-        "cryCount": 248,
-        "laughCount": 491,
-        "likeCount": 4249,
+        "cryCount": 290,
+        "laughCount": 484,
+        "likeCount": 4129,
         "dislikeCount": 0,
-        "heartCount": 2215,
-        "commentCount": 0
+        "heartCount": 2272,
+        "commentCount": 5
       },
-      "meta": {
-        "Size": "3328x4864",
-        "seed": 315924594314856,
-        "Model": "Illustrious\\waiNSFWIllustrious_v120",
-        "steps": 20,
-        "hashes": {
-          "model": "89cb4ec0a9",
-          "lora:ZZZ_Emoji_style_ILv2": "1.0>"
-        },
-        "prompt": "zzzemoji,, chibi masterpiece, best quality, good quality, very aesthetic, absurdres, newest, 8K, depth of field, focused subject,   action, A digital artwork portraying a female figure with a mystical aura. She is adorned with intricate, tribal-like patterns on her body, predominantly in shades of blue and gold. Her skin is a deep shade of blue, and her eyes are a striking shade of red. She wears a headpiece with curved horns, and she has long, flowing hair. The figure is seated on a circular, golden-hued platform, surrounded by a dark, starry background. The overall color palette is dominated by deep blues, golds, and blacks, creating a sense of depth and dimension. The style of the artwork leans towards fantasy, with a high level of detail and realism. 1girl, solo, long_hair, looking_at_viewer, black_hair, thighhighs, jewelry, sitting, ass, earrings, nude, horns, barefoot, pussy, pointy_ears, artist_name, black_thighhighs, looking_back, from_behind, feet, toes, tattoo, colored_skin, pussy_juice, soles, wariza, toeless_legwear, magic_circle, back_tattoo, zzzemoji,, chibi",
-        "Version": "ComfyUI",
-        "sampler": "euler",
-        "CFG Scale": "8.0",
-        "resources": [
-          {
-            "hash": "1.0>",
-            "name": "ZZZ_Emoji_style_ILv2",
-            "type": "lora"
-          },
-          {
-            "hash": "89cb4ec0a9",
-            "name": "Illustrious\\waiNSFWIllustrious_v120",
-            "type": "model"
-          }
-        ],
-        "Model hash": "89cb4ec0a9",
-        "negativePrompt": "score_6, score_5, score_4, text, watermark, signature, pubic hair"
-      },
-      "username": "serget2",
+      "meta": null,
+      "username": "Tozi_White",
       "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1490781
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "44|1745678822871",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=44%7C1745678822871"
+    "nextCursor": "45|1756896592146",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=45%7C1756896592146"
   }
 }
