@@ -1,92 +1,77 @@
 {
   "items": [
     {
-      "id": 98058156,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2067ee9e-ba8a-4997-b12d-de0402a12125/original=true/2067ee9e-ba8a-4997-b12d-de0402a12125.jpeg",
-      "hash": "U6Enqx02TcIUk;E1JAt50fxt4:%1E2~Br?EM",
-      "width": 832,
-      "height": 1216,
+      "id": 95304727,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8296d2b-0295-4097-a192-23a08efb928b/original=true/a8296d2b-0295-4097-a192-23a08efb928b.jpeg",
+      "hash": "UTHMDmb^E%yX?^VsjZozCR$%%MNH9aWCWWs.",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2025-09-05T09:27:19.290Z",
-      "postId": 21756067,
+      "browsingLevel": 8,
+      "createdAt": "2025-08-19T23:21:24.359Z",
+      "postId": 21139516,
       "stats": {
-        "cryCount": 261,
-        "laughCount": 499,
-        "likeCount": 3877,
+        "cryCount": 246,
+        "laughCount": 384,
+        "likeCount": 3826,
         "dislikeCount": 0,
-        "heartCount": 1866,
-        "commentCount": 0
+        "heartCount": 2042,
+        "commentCount": 2
       },
       "meta": {
+        "VAE": "sdxl_vae_fixed.safetensors",
         "Size": "832x1216",
-        "seed": 1027162615,
-        "draft": false,
-        "steps": 32,
-        "width": 832,
-        "height": 1216,
-        "prompt": "detailed photo, rich colors, high contrast, artist:moriimee, morimee_style, \n1girl, depth of field, from below, (squatting on a cock:1.4), pov cowboy style sex, (size difference:1.4),\n((1boy, pov,)) (squatting on a cock:1.3), (guided penetration:1.2), one hand on his stomach, cowboy style sex, <lora:EffectboosterIL:1>, 1girl, full body shot, cute face, beautiful, innocent, coming of age, slim fit, naked, nude, flat chest, nipples, nude girl, pussy, sparse pubic hair, blond, alluring pose, come hither expression, necklace, (fetal position), pussy juice, hint of pubic hair,\nvaginal sex, pov, large penis, impossible fit,\nclose view,\nhighest quality, angel face, eye contact, seductive, awe, semi realistic, highest quality, focus on face, golden hour lighting,\nDynamic lighting, masterpiece, UHD, p0nyd1sney1ncasev1x0n2, DISNEY_ANIMATION",
-        "process": "txt2img",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 3,
-        "clipSkip": 2,
-        "quantity": 1,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
+        "seed": 2972502555,
+        "Model": "prefect_illustrious_XL_2.fp16",
+        "steps": 20,
+        "hashes": {
+          "vae": "235745af8d",
+          "model": "9d73bac23a",
+          "lora:loose_tank_top_ilxl_goofy": "78d4ccffb16c"
+        },
+        "prompt": "masterpiece, best quality, amazing quality, absurdres, <lora:loose_tank_top_ilxl_goofy:1> loose tank top, 1girl, hanging breasts, large breasts, brown hair, barefoot, spoken heart, no bra, bottomless, ponytail, long hair, hair ornament, green eyes, hairclip, smile, low-cut armhole, sideboob, hair ribbon, looking at viewer, armchair, loose shirt, loose clothes, simple background, couch, naked shirt, chair, profile, from side, head rest, aqua background, no panties, bare shoulders, full body, blue background, bare legs, covered nipples",
+        "Version": "v1.10.1-84-g374bb6cc",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 5,
         "resources": [
           {
-            "name": "EffectboosterIL",
+            "hash": "78d4ccffb16c",
+            "name": "loose_tank_top_ilxl_goofy",
             "type": "lora",
             "weight": 1
+          },
+          {
+            "hash": "9d73bac23a",
+            "name": "prefect_illustrious_XL_2.fp16",
+            "type": "model"
           }
         ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-08-24T2043:18.6493234Z",
-        "experimental": false,
-        "negativePrompt": "worst quality, low quality, displeasing, text, , watermark, bad anatomy, text, artist name, signature, hearts, deformed hands, missing finger, emotionless, tanlines, futa, futanari, man boobs, man, crotch,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 2091617
-          },
-          {
-            "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 1860423
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 1280045
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 1416874
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 1926285
-          }
-        ]
+        "Model hash": "9d73bac23a",
+        "Schedule type": "Karras",
+        "negativePrompt": "bad quality,worst quality,worst detail,sketch,censored, artist name, signature, watermark,patreon username, patreon logo,",
+        "ADetailer model": "yolov11m-face.pt",
+        "ADetailer version": "24.11.1",
+        "Denoising strength": "0.2",
+        "SD upscale overlap": "64",
+        "ADetailer mask blur": "4",
+        "SD upscale upscaler": "4x-UltraSharp",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "Pickledcrab",
+      "username": "Goofy_Ai",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1280045,
-        1416874,
-        1860423,
-        1926285,
-        2091617
+        1873831
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "70|1755645684359",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=70%7C1755645684359"
+    "nextCursor": "71|1728965562992",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=71%7C1728965562992"
   }
 }
