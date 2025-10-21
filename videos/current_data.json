@@ -1,112 +1,63 @@
 {
   "items": [
     {
-      "id": 76353065,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8e79643-c92a-4337-bd19-8e4935af2f54/original=true/f8e79643-c92a-4337-bd19-8e4935af2f54.jpeg",
-      "hash": "UTF$Lt=_.mn2XoI@M|Mx.9xtxuM_XoemS6Vr",
-      "width": 832,
-      "height": 1216,
+      "id": 234845,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc00cfce-393c-476e-c71f-562722b77c00/original=true/cc00cfce-393c-476e-c71f-562722b77c00.jpeg",
+      "hash": "UFK,,857O?-o1iS~Ejj@~Wxu}?IASh9F4nod",
+      "width": 512,
+      "height": 1024,
       "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 4,
-      "createdAt": "2025-05-18T08:54:39.803Z",
-      "postId": 16956788,
+      "createdAt": "2023-03-12T06:29:56.461Z",
+      "postId": 116584,
       "stats": {
-        "cryCount": 274,
-        "laughCount": 524,
-        "likeCount": 4127,
+        "cryCount": 165,
+        "laughCount": 430,
+        "likeCount": 3550,
         "dislikeCount": 0,
-        "heartCount": 2138,
-        "commentCount": 4
+        "heartCount": 2874,
+        "commentCount": 9
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": false,
-        "seed": 2047301005,
-        "draft": false,
-        "extra": {
-          "remixOfId": 75923318
-        },
-        "steps": 40,
-        "width": 832,
-        "height": 1216,
-        "prompt": "(score_9, score_8_up, score_7_up, score_6_up,\nsource_anime, masterpiece), 1girl, solo, curvy, large breasts, beautiful eyes, brown eyes, eyelashes, eyeshadow, large ass, thick thighs, wide hips, hourglass figure, plump, lusty, piercings, bikini, sideboob, underboob, choker, necklace, gorgeous face, thighs, tattoos, neck tattoos, shoulder tattoos, belly tattoos, seductive, skindentation, dynamic angle, closeup, outside, pool, swimming pool, smirk, smile, slutty, cocky, flirty, \nboth hands on breasts, squeezing breasts, hair up, standing, \nClose up,",
-        "sampler": "DDIM",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
-        "resources": [],
-        "Created Date": "2025-05-13T0251:55.1620775Z",
-        "negativePrompt": "(3d, render, cgi, doll, painting, fake, 3d modeling:1.4), (worst quality, low quality:1.4), old, deformed, malformed, bad hands, bad fingers, bad eyes, bad teeth, long body, blurry, duplicated, cloned, duplicate body parts, disfigured, extra limbs, fused fingers, extra fingers, twisted, distorted, malformed hands, malformed fingers, mutated hands and fingers, conjoined, missing limbs, bad anatomy, bad proportions, logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, gross, ugly, depth of field, asian, face defects), milf, elderly, selfie, jeans, (car), (car interior), (transport), selfie, nipples,",
-        "civitaiResources": [
+        "ENSD": "31337",
+        "Size": "512x1024",
+        "seed": 3984980528,
+        "Model": "chilloutmix_NiPrunedFp32Fix",
+        "steps": 25,
+        "prompt": "<lora:virtualgirlRin_v30:0.3>, <lora:upshirtUnderboob_v10:1.35>,\n(RAW photo:1.2),(photorealistic:1.4),(masterpiece:1.3),(best quality:1.4),ultra high res, HDR,8k resolution,\ndreamlike, check commentary, commentary request, scenery,((no text)),\n1girl,  (cleavage:1.5), (large breasts:1.5), (pubic hair:1.5),(lifting shirt), (detailed laced underpants:1.4), (full body), (looking down:1.5), (close up), look at the viewer, naughty face, (touching self hair:1.3), (tattoo:1.3), topless, arm, (close up:1.5), (focus on breasts),\n(detailed eyes),(detailed facial features), (detailed clothes features), (breast blush)\n\ntrending on cg society, plasticine,  bob hair, (strong and toned abs), ((beautiful woman)), wearing  choker, thigh choker, very pale white skin, in snow, feminine and muscular, smiling, wet skin, female focus,",
+        "sampler": "DPM++ SDE Karras",
+        "cfgScale": 8,
+        "Clip skip": "2",
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1764228,
-            "modelVersionName": "b 1.0"
+            "name": "virtualgirlRin_v30",
+            "type": "lora",
+            "weight": 0.3
           },
           {
+            "name": "upshirtUnderboob_v10",
             "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
+            "weight": 1.35
           },
           {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 534756,
-            "modelVersionName": "Rough (V1)"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 556208,
-            "modelVersionName": "Insta Baddie[PONY]"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 596040,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 1.65,
-            "modelVersionId": 1242203,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 1500353,
-            "modelVersionName": "v1.1"
-          },
-          {
-            "type": "lora",
-            "weight": 0.15,
-            "modelVersionId": 1142665,
-            "modelVersionName": "V1"
+            "hash": "fc2511737a",
+            "name": "chilloutmix_NiPrunedFp32Fix",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "fc2511737a",
+        "negativePrompt": "EasyNegative,bad_prompt,ng_deepnegative_v1_75t,(worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (outdoor:1.6), manboobs, backlight,(ugly:1.331), (duplicate:1.331), (morbid:1.21), (mutilated:1.21), (tranny:1.331), mutated hands, (poorly drawn hands:1.331), blurry, (bad anatomy:1.21), (bad proportions:1.331), extra limbs, (disfigured:1.331), (more than 2 nipples:1.331), (missing arms:1.331), (extra legs:1.331), (fused fingers:1.61051), (too many fingers:1.61051), (unclear eyes:1.331), bad hands, missing fingers, extra digit, (futa:1.1), bad body, glans,",
+        "Face restoration": "GFPGAN"
       },
-      "username": "Wadufuk1",
-      "baseModel": "Pony",
-      "modelVersionIds": [
-        382152,
-        534756,
-        556208,
-        596040,
-        1142665,
-        1242203,
-        1500353,
-        1764228
-      ]
+      "username": "noevils",
+      "baseModel": "SD 1.5",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "51|1678602596461",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=51%7C1678602596461"
+    "nextCursor": "52|1756719636838",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=52%7C1756719636838"
   }
 }
