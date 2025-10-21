@@ -1,70 +1,115 @@
 {
   "items": [
     {
-      "id": 65604298,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0bd8c03-fefd-4c1a-8906-5bd7f2160376/original=true/f0bd8c03-fefd-4c1a-8906-5bd7f2160376.jpeg",
-      "hash": "UFKTDD%200xFwN~CEK01xbRkIoxtE2-o-;xZ",
+      "id": 39900956,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e7f748-da26-441b-8800-f035fc737500/original=true/98e7f748-da26-441b-8800-f035fc737500.jpeg",
+      "hash": "UABCok%M01RPn%WXEMNH0Ls,~BxZE1M{xZt6",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-03-27T07:39:46.791Z",
-      "postId": 14606550,
+      "browsingLevel": 16,
+      "createdAt": "2024-11-13T12:43:16.422Z",
+      "postId": 9096804,
       "stats": {
-        "cryCount": 357,
-        "laughCount": 509,
-        "likeCount": 4110,
+        "cryCount": 252,
+        "laughCount": 489,
+        "likeCount": 3843,
         "dislikeCount": 0,
-        "heartCount": 2133,
-        "commentCount": 1
+        "heartCount": 2521,
+        "commentCount": 9
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 959016312,
+        "seed": 4274616283,
         "extra": {
-          "remixOfId": 56256319
+          "remixOfId": 39810061
         },
-        "steps": 31,
-        "prompt": "masterpiece, best quality, amazing quality, intricate detail, highly detailed, absurdres,, 1girl, sexy elf, slim, eyeliner, green eyes, pink hair, twintails, flat bangs, open black kimono, floral print, off shoulder, bare shoulders, wide sleeves, long sleeves, sash, lipstick, small breasts, nipple, pussy, collarbone, loving smile, ?, drunk, holding sake bottle, indoors, east asian architecture, dynamic angle,",
+        "steps": 50,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up,  ((excessive cum, huge facial, cum on nose, thick ropes of cum)), 1 girl , kawaii girl, freckles, sexy, blushing, petite, slim, kneeling, big Facial, big cumshot, cum drip, small ass, smiling, soles, slight open mouth,  head tilted up, portrait, bedroom, detailed drawing, partially illuminated, blurry background, face focus, from above, looking up at viewer, s1_dram, watercolor \\(medium\\), traditional media, (((cock on face, veiny cock))),PenisHeadER, penis, jinx league of legends, pink eyes",
         "sampler": "Euler a",
-        "cfgScale": 5,
+        "cfgScale": 3,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2025-03-23T0614:40.8963133Z",
-        "negativePrompt": "lowres, (worst quality, bad quality:1.2), bad anatomy, jpeg artifacts, signature, watermark, censored, bar_censor, chibi, loli\u200b\u200b\u200b",
+        "Created Date": "2024-11-13T1237:58.1270522Z",
+        "negativePrompt": "score_5, score_4, censored, deformed, bad hand, blurry, (watermark), extra hands, extra dicks, futanari, white pupils, small pupils, bright pupils, detached hand, bad anatomy, (((young, loli))). (((futa, t-girl))), teeth",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1490781,
-            "modelVersionName": "v12.0"
+            "modelVersionId": 770375,
+            "modelVersionName": "MeichiDarkAnimV2_Lust"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 220262,
+            "modelVersionName": "epiCPhoto"
           },
           {
             "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 1158510,
-            "modelVersionName": "Illustrious"
+            "weight": 0.4,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 1355026,
-            "modelVersionName": "- Illustrious XL -"
+            "weight": 0.4,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 504998,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.25,
+            "modelVersionId": 708019,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": "ElvishDreams",
-      "baseModel": "Illustrious",
+      "username": "Hylomar",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1158510,
-        1355026,
-        1490781
+        9208,
+        220262,
+        382152,
+        398847,
+        436219,
+        504998,
+        708019,
+        770375
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "48|1731501796422",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=48%7C1731501796422"
+    "nextCursor": "49|1737723333805",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=49%7C1737723333805"
   }
 }
