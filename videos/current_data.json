@@ -1,63 +1,40 @@
 {
   "items": [
     {
-      "id": 91162649,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5446ed0d-0273-4fdd-ada6-9670c7e5141d/original=true/5446ed0d-0273-4fdd-ada6-9670c7e5141d.jpeg",
-      "hash": "UFIg+b~B0Kn2pdI:9u^O00R*T1-pwHxG=xX9",
-      "width": 832,
-      "height": 1216,
-      "nsfwLevel": "X",
+      "id": 52369764,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97bf007a-6c74-4f54-8628-148ae3d80430/original=true/97bf007a-6c74-4f54-8628-148ae3d80430.jpeg",
+      "hash": "U4CPI+9a0w004a9Y?D-V00^k^*^*}^WA00%1",
+      "width": 1600,
+      "height": 1600,
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2025-07-29T10:35:20.920Z",
-      "postId": 20219495,
+      "browsingLevel": 4,
+      "createdAt": "2025-04-28T14:01:52.648Z",
+      "postId": 11769205,
       "stats": {
-        "cryCount": 280,
-        "laughCount": 540,
-        "likeCount": 3925,
+        "cryCount": 270,
+        "laughCount": 403,
+        "likeCount": 3818,
         "dislikeCount": 0,
-        "heartCount": 1806,
-        "commentCount": 2
+        "heartCount": 2050,
+        "commentCount": 10
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1269941288,
-        "draft": false,
-        "steps": 24,
-        "width": 832,
-        "height": 1216,
-        "prompt": "Masterpiece, ultra-detailed, best quality, 8K, illustration, absolutely eye-catching, \nmedium breasts, long hair, hair intakes, earrings, mature woman, seductive, laughing, open legs, cleavage, flirting with coworker, man on knees, implied cunnilingus, she is grabbing man's head, no panties, sexually aroused, pleasure, night, lofi ambience, citylights at window",
-        "process": "txt2img",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
-        "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Illustrious",
-        "resources": [],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-07-29T1034:32.1148970Z",
-        "experimental": false,
-        "negativePrompt": "(worst quality:1.4), (low quality:1.4), (monochrome:1.3), (bad hands:1.4), (watermark, username:1.2), lowres, text, error, missing fingers, extra digit, fewer digits, cropped, normal quality, jpeg artifacts,\n1boy, 2girls, multiple girls, testicles, muscular, simple background, sketch by bad-artist, an14",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1873831,
-            "modelVersionName": "v2.0p"
-          }
-        ]
+        "seed": 1220123665,
+        "steps": 28,
+        "prompt": "cinematic dark photo, 18 year old model, lying down, large breasts, skirt, bangs, gorgeous, pale skin, beautiful face, goth, (toned:1.5), (abs:1.5), one eye closed, looking away, bedroom, bed\n",
+        "sampler": "DPM++ 2M",
+        "cfgScale": 6,
+        "negativePrompt": "airbrushed, blurry, watermark, text, from above"
       },
-      "username": "Arichin",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1873831
-      ]
+      "username": "Ah0gaGu",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "68|1745848912648",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=68%7C1745848912648"
+    "nextCursor": "69|1757064439290",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=69%7C1757064439290"
   }
 }
