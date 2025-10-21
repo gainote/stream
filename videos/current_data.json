@@ -1,67 +1,80 @@
 {
   "items": [
     {
-      "id": 82226459,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebd5cce5-73ac-4031-b2bc-310d2c0622b8/original=true/ebd5cce5-73ac-4031-b2bc-310d2c0622b8.jpeg",
-      "hash": "UBG@V:E30e=d|ERjE%-A03Jo-:bb%LJ7bbR+",
+      "id": 95575289,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd5885bc-b65d-424f-8f4b-cfd328ab439d/original=true/bd5885bc-b65d-424f-8f4b-cfd328ab439d.jpeg",
+      "hash": "UHHdmcI:9t?a0LM{RkbH0L-pt7My~Wt6aKt7",
       "width": 832,
       "height": 1216,
-      "nsfwLevel": "Mature",
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-06-18T03:57:00.000Z",
-      "postId": 18262364,
+      "browsingLevel": 16,
+      "createdAt": "2025-08-23T10:00:21.019Z",
+      "postId": 21199264,
       "stats": {
-        "cryCount": 269,
-        "laughCount": 512,
-        "likeCount": 4213,
+        "cryCount": 307,
+        "laughCount": 499,
+        "likeCount": 3941,
         "dislikeCount": 0,
-        "heartCount": 1871,
-        "commentCount": 15
+        "heartCount": 2034,
+        "commentCount": 0
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1651555218,
-        "steps": 19,
-        "prompt": "pirate ship,1girl, solo, beautiful eyes,detailed, beautiful lighting, nami, long hair, orange hair, brown eyes, jewelry, swimsuit, bikini, earrings, pants, high heels, bracelet, denim, bikini top only, jeans, tattoo, closeup, dynamic angle, looking at viewer,\nwhite borders, closeup",
+        "seed": 1450927564,
+        "draft": false,
+        "steps": 29,
+        "width": 832,
+        "height": 1216,
+        "prompt": "frostbite, ExpresHGothicNeonIncase, incoth, (incase:0.6), \n(high detail:1.2), perfect eyes, perfect hands, \nBREAK \nnsfw, on her back, ass grab, 1girl, hazel eyes, too cute to be true, no bra, girl next door, cute pink floral tight sundress, downblouse, nip slip, strap off shoulder, 18yo, young, black hair, pigtail braids, pink bows, fit, demure, coquette, dainty, frilly socks, choker, beautiful face, concerned moaning expression, young, coming of age, Slim girl, flat chested, tiny tits, tiny breasts, narrow waist, small ass, tiny, petite, 18 years old, mouth open moaning, moan of pleasure, (youthful face:1.3), bedroom eyes, awe, love, pleasure, girl on table,  ((rough sex, from above, impact lines, \nSticky pussy juice trail, cock visible inside tiny pussy)), detailed labia, hands on table,, light freckles, hint of pubic hair,, in cute girls bedroom, tbp, cartoon, realistic, freckles, natural skin, legs spread open, fingers spreading pussy open, eurasian looking at viewer, (Nubiles magazine photo set:1.2), detailed bedroom interior background,\nBREAK\nmasterpiece, (best quality:1.1), very high detail, hyperdetailed, high resolution, super detailed skin, Highly Visible, 12k, sharp focus, hyper-realistic, photorealism, beautiful, perfect lighting, smooth edges,",
+        "process": "txt2img",
         "sampler": "Euler a",
-        "cfgScale": 4,
+        "cfgScale": 3.5,
         "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
         "resources": [],
-        "Created Date": "2025-06-14T0612:34.6726288Z",
-        "negativePrompt": "easynegative",
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-16T0833:02.6373657Z",
+        "experimental": false,
+        "negativePrompt": "(bad quality:1.2), worst quality, lowres, jpeg artifacts, bad anatomy, bad hands, signature, watermark, (censored;1.3), bad anatomy, oldest, (bar_censor:1.3), conjoined, merging arms, merging legs, merging limbs, (tan lines), artifacts on body, multiple dicks, dick girl, futa, ugly, messy, old, loli, bored, blush, large mouth,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1697082,
-            "modelVersionName": "v2.2"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
+            "modelVersionId": 1714002
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1900876,
-            "modelVersionName": "V1"
+            "weight": 0.6,
+            "modelVersionId": 1060368
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 1628810
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1124566
           }
         ]
       },
-      "username": "unempty",
+      "username": "Pickledcrab",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        9208,
-        1697082,
-        1900876
+        1060368,
+        1124566,
+        1628810,
+        1714002
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "56|1755943221019",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=56%7C1755943221019"
+    "nextCursor": "57|1719257022763",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=57%7C1719257022763"
   }
 }
