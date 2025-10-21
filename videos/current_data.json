@@ -1,78 +1,112 @@
 {
   "items": [
     {
-      "id": 25428039,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f32b425a-1677-40d8-86d1-b4be2660f965/original=true/f32b425a-1677-40d8-86d1-b4be2660f965.jpeg",
-      "hash": "UrP?aZbw_N%LxuaxtRt7S5RjjFae%Mt7WBkC",
-      "width": 992,
-      "height": 1328,
-      "nsfwLevel": "X",
+      "id": 76353065,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8e79643-c92a-4337-bd19-8e4935af2f54/original=true/f8e79643-c92a-4337-bd19-8e4935af2f54.jpeg",
+      "hash": "UTF$Lt=_.mn2XoI@M|Mx.9xtxuM_XoemS6Vr",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-01-24T12:55:33.805Z",
-      "postId": 5682598,
+      "browsingLevel": 4,
+      "createdAt": "2025-05-18T08:54:39.803Z",
+      "postId": 16956788,
       "stats": {
-        "cryCount": 262,
-        "laughCount": 704,
-        "likeCount": 4017,
+        "cryCount": 274,
+        "laughCount": 524,
+        "likeCount": 4127,
         "dislikeCount": 0,
-        "heartCount": 2085,
-        "commentCount": 1
+        "heartCount": 2138,
+        "commentCount": 4
       },
       "meta": {
-        "": {},
-        "VAE": "sdxl_vae.safetensors",
-        "Size": "992x1328",
-        "seed": 3128097293,
-        "Model": "boleromix_Pony_V1.4",
-        "steps": 20,
-        "hashes": {
-          "vae": "735e4c3a44",
-          "model": "989a88b3c5",
-          "lora:weighing breasts_pony_V1.0": "6bd1e48a80c1"
+        "Size": "832x1216",
+        "nsfw": false,
+        "seed": 2047301005,
+        "draft": false,
+        "extra": {
+          "remixOfId": 75923318
         },
-        "prompt": "score_9, score_8_up, score_7_up,source_anime, high res image,masterpiece,best quality,girl,cute face,clear skin,shiny hair,ultra detailed eyes,simple background <lora:weighing breasts_pony_V1.0:1> weighing breasts, breasts on scales, scales, breasts",
-        "Version": "v1.7.0",
-        "sampler": "DPM++ 2M Karras",
-        "{Method": {},
-        "Upscaler": {},
-        "cfgScale": 7,
+        "steps": 40,
+        "width": 832,
+        "height": 1216,
+        "prompt": "(score_9, score_8_up, score_7_up, score_6_up,\nsource_anime, masterpiece), 1girl, solo, curvy, large breasts, beautiful eyes, brown eyes, eyelashes, eyeshadow, large ass, thick thighs, wide hips, hourglass figure, plump, lusty, piercings, bikini, sideboob, underboob, choker, necklace, gorgeous face, thighs, tattoos, neck tattoos, shoulder tattoos, belly tattoos, seductive, skindentation, dynamic angle, closeup, outside, pool, swimming pool, smirk, smile, slutty, cocky, flirty, \nboth hands on breasts, squeezing breasts, hair up, standing, \nClose up,",
+        "sampler": "DDIM",
+        "cfgScale": 4,
         "clipSkip": 2,
-        "resources": [
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Pony",
+        "resources": [],
+        "Created Date": "2025-05-13T0251:55.1620775Z",
+        "negativePrompt": "(3d, render, cgi, doll, painting, fake, 3d modeling:1.4), (worst quality, low quality:1.4), old, deformed, malformed, bad hands, bad fingers, bad eyes, bad teeth, long body, blurry, duplicated, cloned, duplicate body parts, disfigured, extra limbs, fused fingers, extra fingers, twisted, distorted, malformed hands, malformed fingers, mutated hands and fingers, conjoined, missing limbs, bad anatomy, bad proportions, logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, gross, ugly, depth of field, asian, face defects), milf, elderly, selfie, jeans, (car), (car interior), (transport), selfie, nipples,",
+        "civitaiResources": [
           {
-            "hash": "6bd1e48a80c1",
-            "name": "weighing breasts_pony_V1.0",
-            "type": "lora"
+            "type": "checkpoint",
+            "modelVersionId": 1764228,
+            "modelVersionName": "b 1.0"
           },
           {
-            "hash": "989a88b3c5",
-            "name": "boleromix_Pony_V1.4",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 534756,
+            "modelVersionName": "Rough (V1)"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 556208,
+            "modelVersionName": "Insta Baddie[PONY]"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 596040,
+            "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 1.65,
+            "modelVersionId": 1242203,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.1,
+            "modelVersionId": 1500353,
+            "modelVersionName": "v1.1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.15,
+            "modelVersionId": 1142665,
+            "modelVersionName": "V1"
           }
-        ],
-        "Model hash": "989a88b3c5",
-        "Tile Overlap": "48",
-        "Upscale factor": "1.3",
-        "negativePrompt": "score_6, score_5, score_4, ugly face, low res, interlocked fingers, anatomically incorrect hands, bad anatomy, pony, furry, censored,realistic",
-        "Keep input size": "true}",
-        "Tile batch size": "4",
-        "Tile tile width": "96",
-        "Tiled Diffusion": {},
-        "Tile tile height": "96",
-        "Denoising strength": "0.4",
-        "Tiled Diffusion upscaler": "R-ESRGAN 4x+ Anime6B",
-        "Tiled Diffusion scale factor": "1.3"
+        ]
       },
-      "username": "bolero537",
+      "username": "Wadufuk1",
       "baseModel": "Pony",
       "modelVersionIds": [
-        513252
+        382152,
+        534756,
+        556208,
+        596040,
+        1142665,
+        1242203,
+        1500353,
+        1764228
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "50|1747558479803",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=50%7C1747558479803"
+    "nextCursor": "51|1678602596461",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=51%7C1678602596461"
   }
 }
