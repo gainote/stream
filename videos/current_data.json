@@ -1,76 +1,63 @@
 {
   "items": [
     {
-      "id": 28771557,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70e5ed8e-74ba-4a72-a1f0-97fe501d6655/original=true/70e5ed8e-74ba-4a72-a1f0-97fe501d6655.jpeg",
-      "hash": "URN9IGr^Vv-p}ms;ICjI?bWB%3kCM{W;xGR%",
-      "width": 1248,
-      "height": 1824,
-      "nsfwLevel": "Mature",
+      "id": 91162649,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5446ed0d-0273-4fdd-ada6-9670c7e5141d/original=true/5446ed0d-0273-4fdd-ada6-9670c7e5141d.jpeg",
+      "hash": "UFIg+b~B0Kn2pdI:9u^O00R*T1-pwHxG=xX9",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2024-09-11T02:33:27.802Z",
-      "postId": 6436447,
+      "browsingLevel": 16,
+      "createdAt": "2025-07-29T10:35:20.920Z",
+      "postId": 20219495,
       "stats": {
-        "cryCount": 316,
-        "laughCount": 558,
-        "likeCount": 3706,
+        "cryCount": 280,
+        "laughCount": 540,
+        "likeCount": 3925,
         "dislikeCount": 0,
-        "heartCount": 1975,
-        "commentCount": 0
+        "heartCount": 1806,
+        "commentCount": 2
       },
       "meta": {
-        "": {},
-        "Size": "1248x1824",
-        "seed": 1709835910,
-        "Model": "prefect_pony_xl_v3.fp16",
-        "steps": 20,
-        "hashes": {
-          "model": "e31a2563f0"
-        },
-        "prompt": "score_9,score_8_up,score_7_up, 1girl, aqua eyes, blonde hair, blush, eyelashes, hair ornament, heart, heart-shaped pupils, heart background, heart hair ornament, long hair, looking at viewer, one side up, open mouth, pink background, portrait, red ribbon, ribbon, saliva, shirt, sidelocks, smile, solo, symbol-shaped pupils, teeth, tongue, tongue out, upper teeth only",
-        "Version": "v1.10.1",
-        "sampler": "DPM++ 2M",
-        "{Method": {},
-        "Upscaler": {},
-        "cfgScale": 7,
-        "resources": [
+        "Size": "832x1216",
+        "seed": 1269941288,
+        "draft": false,
+        "steps": 24,
+        "width": 832,
+        "height": 1216,
+        "prompt": "Masterpiece, ultra-detailed, best quality, 8K, illustration, absolutely eye-catching, \nmedium breasts, long hair, hair intakes, earrings, mature woman, seductive, laughing, open legs, cleavage, flirting with coworker, man on knees, implied cunnilingus, she is grabbing man's head, no panties, sexually aroused, pleasure, night, lofi ambience, citylights at window",
+        "process": "txt2img",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "quantity": 2,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
+        "resources": [],
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-07-29T1034:32.1148970Z",
+        "experimental": false,
+        "negativePrompt": "(worst quality:1.4), (low quality:1.4), (monochrome:1.3), (bad hands:1.4), (watermark, username:1.2), lowres, text, error, missing fingers, extra digit, fewer digits, cropped, normal quality, jpeg artifacts,\n1boy, 2girls, multiple girls, testicles, muscular, simple background, sketch by bad-artist, an14",
+        "civitaiResources": [
           {
-            "hash": "e31a2563f0",
-            "name": "prefect_pony_xl_v3.fp16",
-            "type": "model"
+            "type": "checkpoint",
+            "modelVersionId": 1873831,
+            "modelVersionName": "v2.0p"
           }
-        ],
-        "Model hash": "e31a2563f0",
-        "Tile Overlap": "48",
-        "Schedule type": "Karras",
-        "Upscale factor": "1.5",
-        "negativePrompt": "realistic,monochrome,greyscale, artist name, signature, watermark,",
-        "ADetailer model": "face_yolov8n.pt",
-        "Keep input size": "true}",
-        "Tile batch size": "6",
-        "Tile tile width": "160",
-        "Tiled Diffusion": {},
-        "Tile tile height": "160",
-        "ADetailer version": "24.8.0",
-        "Denoising strength": "0.2",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "Tiled Diffusion upscaler": "4x-UltraSharp",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "Tiled Diffusion scale factor": "1.5",
-        "ADetailer inpaint only masked": "True"
+        ]
       },
-      "username": "Goofy_Ai",
-      "baseModel": "Pony",
-      "modelVersionIds": []
+      "username": "Arichin",
+      "baseModel": "Illustrious",
+      "modelVersionIds": [
+        1873831
+      ]
     }
   ],
   "metadata": {
-    "nextCursor": "67|1753785320920",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=67%7C1753785320920"
+    "nextCursor": "68|1745848912648",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=68%7C1745848912648"
   }
 }
