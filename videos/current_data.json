@@ -1,99 +1,80 @@
 {
   "items": [
     {
-      "id": 96351101,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed06a369-1088-4bf3-959d-e5aa52465b56/original=true/ed06a369-1088-4bf3-959d-e5aa52465b56.jpeg",
-      "hash": "UADm8c.T00-;?w=wMxTe00r=xDM|x^Fzxbvz",
-      "width": 1408,
-      "height": 2064,
+      "id": 61066803,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b77339-a12c-4486-83f0-76cf3640309a/original=true/c7b77339-a12c-4486-83f0-76cf3640309a.jpeg",
+      "hash": "UDIz-a.800R4*Hxvv}NF?[JB^i=w?]xaaJxs",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2025-08-26T11:33:57.683Z",
-      "postId": 21369956,
+      "createdAt": "2025-03-04T17:48:04.177Z",
+      "postId": 13657365,
       "stats": {
-        "cryCount": 277,
-        "laughCount": 424,
-        "likeCount": 3755,
+        "cryCount": 196,
+        "laughCount": 437,
+        "likeCount": 3782,
         "dislikeCount": 0,
-        "heartCount": 1934,
-        "commentCount": 5
+        "heartCount": 1972,
+        "commentCount": 2
       },
       "meta": {
-        "TI": {},
         "Size": "832x1216",
-        "seed": 2666722476,
-        "Model": "Illv10FSP",
-        "steps": 29,
-        "hashes": {
-          "model": "d84b70d3d5",
-          "lora:XmutsixV2": "88b0be86220a",
-          "lora:Real hair for 2D": "69b5f30b1784",
-          "lora:USNR_STYLE_ILL_V1_lokr3": "44586d05878a",
-          "lora:Ultra Lora Detailer and Glow": "8309617bd8f4",
-          "lora:USA37107692-illustriousXL_v01_V2-CAME": "f532ec9d1c73"
+        "seed": 2027363888,
+        "extra": {
+          "remixOfId": 21212666
         },
-        "prompt": "masterpiece,8k,depth of field,best quality,1girl opening fridge,Kitchen,blank white oversized shirt,white panties,looking into fridge,bent over,Clutter,Detailed Background,low blue light from Fridge,open fridge,low light,slim body,(night:1.2),(dark shadows:0.9),1woman,solo,petite,thigh gap,cameltoe,aroused wet panties,expressive body,dynamic pose,perfect light,look back,<lora:Ultra Lora Detailer and Glow:0.2>,<lora:XmutsixV2:0.2>,x1mtxsx,<lora:USNR_STYLE_ILL_V1_lokr3:0.2>,usnr,<lora:USA37107692-illustriousXL_v01_V2-CAME:0.2>,USA3710,<lora:Real hair for 2D>,hair,detail,",
-        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
-        "sampler": "DPM++ 2M SDE",
-        "cfgScale": 5,
-        "resources": [
+        "steps": 40,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, elf girl, kawaii face, view from front, athletic, skinny, wet, round face, perfect cute face, ponytail, small breasts, facing viewer, closeup of face,  seductive look, cleavage, topless, squeezing tits together, arched back, nude, standing, tiny waist, bubble butt, ((flat stomach)), standing in a waterfall, pinup pose, official art, masterpiece, source_painted_concept_art, (young:1.4)\nBREAK",
+        "sampler": "Euler a",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-09-12T2055:36.9633589Z",
+        "negativePrompt": "score_6, score_5, score_4, ugly face, mutated hands, monochrome, bad eyes, blue skin, bad teeth, bad arms, missing limbs, (:1.4), tiny waist, poorly drawn face, three feet, fused feet, fused thigh, three thigh, fused thigh, extra thigh, missing fingers, extra fingers, ugly fingers,amputation, square jawline, simple background, mutilated, wide hips, deformed, disconnected limbs, worst quality, low quality, jpeg artifacts, abs, ribs, snow, simple background",
+        "civitaiResources": [
           {
-            "hash": "88b0be86220a",
-            "name": "XmutsixV2",
+            "type": "checkpoint",
+            "modelVersionId": 714359,
+            "modelVersionName": "v1.0"
+          },
+          {
             "type": "lora",
-            "weight": 0.2
+            "weight": 0.6,
+            "modelVersionId": 135867,
+            "modelVersionName": "v1.0"
           },
           {
-            "hash": "44586d05878a",
-            "name": "USNR_STYLE_ILL_V1_lokr3",
             "type": "lora",
-            "weight": 0.2
+            "weight": 0.6,
+            "modelVersionId": 244808,
+            "modelVersionName": "v2.0"
           },
           {
-            "hash": "f532ec9d1c73",
-            "name": "USA37107692-illustriousXL_v01_V2-CAME",
-            "type": "lora",
-            "weight": 0.2
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
           },
           {
-            "hash": "8309617bd8f4",
-            "name": "Ultra Lora Detailer and Glow",
-            "type": "lora"
-          },
-          {
-            "hash": "69b5f30b1784",
-            "name": "Real hair for 2D",
-            "type": "lora"
-          },
-          {
-            "hash": "d84b70d3d5",
-            "name": "Illv10FSP",
-            "type": "model"
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
-        ],
-        "Model hash": "d84b70d3d5",
-        "Schedule type": "Karras",
-        "negativePrompt": "easynegative,lazyneg_1760455,sharp,lines,",
-        "Denoising strength": "0.3",
-        "SD upscale overlap": "64",
-        "SD upscale upscaler": "remacri_original"
+        ]
       },
-      "username": "Xmutsix",
-      "baseModel": "Illustrious",
+      "username": "ElvishDreams",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1552087,
-        2087008,
-        2101298,
-        2134626,
-        2141638,
-        2144812
+        135867,
+        244808,
+        714359
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "78|1741110484177",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=78%7C1741110484177"
+    "nextCursor": "79|1723542274122",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=79%7C1723542274122"
   }
 }
