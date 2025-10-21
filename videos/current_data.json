@@ -1,38 +1,83 @@
 {
   "items": [
     {
-      "id": 91336808,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56cfe415-ed1b-46c5-baff-2261d63d7d88/original=true/56cfe415-ed1b-46c5-baff-2261d63d7d88.jpeg",
-      "hash": "UPOyYG%2?w%2^dbFyDbIyZj]t9bH?vjuI@oL",
-      "width": 832,
-      "height": 1216,
+      "id": 93428095,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d932a22-1cfc-4042-b490-331ef92d6202/original=true/7d932a22-1cfc-4042-b490-331ef92d6202.jpeg",
+      "hash": "UIKUTT%gGuVt1iNG9GaKI8M{Md%M~9xFiaIp",
+      "width": 1152,
+      "height": 1824,
       "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 4,
-      "createdAt": "2025-07-30T07:31:18.433Z",
-      "postId": 20260799,
+      "createdAt": "2025-08-11T10:40:37.987Z",
+      "postId": 20727865,
       "stats": {
-        "cryCount": 296,
-        "laughCount": 545,
-        "likeCount": 3802,
+        "cryCount": 222,
+        "laughCount": 418,
+        "likeCount": 3647,
         "dislikeCount": 0,
-        "heartCount": 1609,
-        "commentCount": 1
+        "heartCount": 1942,
+        "commentCount": 0
       },
-      "meta": null,
-      "username": "Serenity8",
-      "baseModel": "Illustrious",
+      "meta": {
+        "RNG": "NV",
+        "ENSD": "31337",
+        "Size": "768x1216",
+        "seed": 1446630189,
+        "Model": "hassakuXLIllustrious_v13StyleA",
+        "steps": 28,
+        "hashes": {
+          "model": "163ac69059",
+          "lora:Chun-li_Swimsuit_Illu_Dwnsty": "41fc8ccc7749"
+        },
+        "prompt": "best quality, absurdres, newest, very aesthetic, amazing quality, highres, ultra detailed, mature female, \n <lora:Chun-li_Swimsuit_Illu_Dwnsty:1>, chnl1sfsw1m, brown eyes, black hair, hair bun, double bun, swept bangs, braided hair rings, short hair, hair ornament, hair flower, blue flower, earrings, jewelry, blue one-piece swimsuit, highleg swimsuit, gold trim, large breasts, back cutout, median furrow, shoulder blades, belly chain, gold chain, blue bracelet, pearl bracelet, blue nails, nail polish, groin, toned female, thick thighs, thigh ribbon, blue ribbon, 1girl, huge ass, smile, looking at viewer, looking back, toes, feet, barefoot, outdoors, tiptoes, toenail polish, braid, water, sitting, full body, toenails, nose, backless swimsuit, day, from behind,",
+        "Version": "f2.0.1v1.10.1-previous-636-gb835f24a",
+        "sampler": "Euler a",
+        "Module 1": "sdxl_vae",
+        "cfgScale": 5,
+        "resources": [
+          {
+            "hash": "41fc8ccc7749",
+            "name": "Chun-li_Swimsuit_Illu_Dwnsty",
+            "type": "lora",
+            "weight": 1
+          },
+          {
+            "hash": "163ac69059",
+            "name": "hassakuXLIllustrious_v13StyleA",
+            "type": "model"
+          }
+        ],
+        "Model hash": "163ac69059",
+        "Hires steps": "10",
+        "Hires upscale": "1.5",
+        "Schedule type": "Normal",
+        "Hires Module 1": "Use same choices",
+        "Hires upscaler": "4x-UltraSharp",
+        "negativePrompt": "worst quality, low quality,  lowres, watermark, patreon username, artist name, artist logo, text, error, jpeg artifacts, unfinished, oldest, signature, artistic error, username, english text, 4koma, 2koma",
+        "ADetailer model": "face_yolov8n.pt",
+        "Hires CFG Scale": "5",
+        "ADetailer version": "25.3.0",
+        "Denoising strength": "0.3",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "SGM noise multiplier": "True",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "Discard penultimate sigma": "True",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
+      },
+      "username": "dwnsty",
+      "baseModel": null,
       "modelVersionIds": [
-        1429512,
-        1761560,
-        1949794,
-        2060829
+        2099415
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "86|1754908837987",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=86%7C1754908837987"
+    "nextCursor": "87|1729170214128",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=87%7C1729170214128"
   }
 }
