@@ -1,103 +1,119 @@
 {
   "items": [
     {
-      "id": 18829674,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cdabdb1d-2027-4038-a48b-fd6ff7fe5e45/original=true/cdabdb1d-2027-4038-a48b-fd6ff7fe5e45.jpeg",
-      "hash": "UHGRYgMdTJbb~BxtNbs:01o}WWRPxZM{RQxG",
+      "id": 92368807,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1e8f809-cd53-4864-bdfb-2e8cab4f6aa4/original=true/f1e8f809-cd53-4864-bdfb-2e8cab4f6aa4.jpeg",
+      "hash": "U6BWVt}?AI4T:OS#0fpco|I;ogrq=GQ-KPtm",
       "width": 832,
       "height": 1216,
-      "nsfwLevel": "X",
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-07-07T14:04:01.482Z",
-      "postId": 4205114,
+      "browsingLevel": 4,
+      "createdAt": "2025-08-05T00:46:12.419Z",
+      "postId": 20490368,
       "stats": {
-        "cryCount": 213,
-        "laughCount": 468,
-        "likeCount": 3484,
+        "cryCount": 247,
+        "laughCount": 403,
+        "likeCount": 4006,
         "dislikeCount": 0,
-        "heartCount": 2246,
+        "heartCount": 1754,
         "commentCount": 0
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1003004234,
-        "steps": 35,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, solo,\nperfect face, perfect eyes, sexy, sexy girl, beautiful eyes, petite body, wide hips, perfect cute face, turtle neck sweater, tight black jeans, boob window, medium breasts, cleavage, kneeling, eyes up, looking on penis, cumshot, cum on face, cum on chest, cum strings, hungry for penis, excited, open mouth, saliva, 1boy, large penis, penis on face, penis worship face focus, from above, male POV, dynamic angle, g0thicPXL, glowing, neon, cum on body, Expressiveh, cum on face, wet massive penis, realistic, photorealism, hd, high definition, cock worship, penis awe, tongue out",
-        "sampler": "Euler a",
-        "cfgScale": 4,
+        "seed": 410043999,
+        "draft": false,
+        "steps": 50,
+        "width": 832,
+        "height": 1216,
+        "prompt": "score_9, score_8_up, score_8, score_7_up, score_6_up, \n1girl, solo, sweating, small breasts, blushing, standing, bare midriff, ((flat sexy tummy, skinny, slender, thin, )), navel, breast focus, looking to towards the side, smiling, seductive, posing, looking at viewer, front upper body shot, fitness, at gym, gym locker, locker room, arm up, sweat, sweaty, aqua yoga pants, tight sports bra, aqua sports bra , \n1girl, RslnDef, hair over one eye, crown,",
+        "process": "txt2img",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 3,
         "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Pony",
         "resources": [],
-        "Created Date": "2024-07-07T1401:59.2302192Z",
-        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, mutated hands, bad hand, blurry, (watermark), ugly face, mutated hands, low res, blurry face, athletic body, extra hands, (black and white), glowing eyes, easynegative",
+        "disablePoi": true,
+        "aspectRatio": "13:19",
+        "Created Date": "2025-08-04T2203:10.1249653Z",
+        "experimental": false,
+        "negativePrompt": "score_5, score_4, censored, deformed, bad hand, blurry, (watermark), extra hands, extra dicks, futanari, white pupils, small pupils, bright pupils, detached hand, bad anatomy, (((young, loli))). (((futa, t-girl))), six pack, defined muscles, detached sleeves, fingerless glove, elbow gloves,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 534642,
-            "modelVersionName": "v2.1 Main + VAE"
+            "modelVersionId": 770375,
+            "modelVersionName": "MeichiDarkAnimV2_Lust"
           },
           {
             "type": "embed",
             "weight": 1,
-            "modelVersionId": 107234,
-            "modelVersionName": "v2"
-          },
-          {
-            "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
           },
           {
             "type": "lora",
             "weight": 0.3,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 220262,
+            "modelVersionName": "epiCPhoto"
           },
           {
             "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 559962,
+            "weight": 0.25,
+            "modelVersionId": 708019,
             "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 571832,
-            "modelVersionName": "Penis Worship"
+            "weight": 0.2,
+            "modelVersionId": 835055,
+            "modelVersionName": "V1"
           },
           {
-            "type": "embed",
-            "modelVersionId": 106916,
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1029540,
+            "modelVersionName": "Gothic Neon v2"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1058404,
+            "modelVersionName": "V2 [Pony XL]"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 414516,
             "modelVersionName": "v1.0"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": null,
+      "username": "MackRibs",
       "baseModel": "Pony",
       "modelVersionIds": [
-        107234,
-        382152,
-        398847,
-        534642,
-        559962,
-        571832
+        9208,
+        220262,
+        414516,
+        436219,
+        708019,
+        770375,
+        835055,
+        1029540,
+        1058404
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "75|1754354772419",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=75%7C1754354772419"
+    "nextCursor": "76|1759515000000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=76%7C1759515000000"
   }
 }
