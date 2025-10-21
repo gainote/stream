@@ -1,105 +1,35 @@
 {
   "items": [
     {
-      "id": 34673039,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f17117dc-c4dc-4176-ae39-4fc2ca3ca20c/original=true/f17117dc-c4dc-4176-ae39-4fc2ca3ca20c.jpeg",
-      "hash": "UDHT:Q.8yX~W%#?a-:%200IUwIIUMd9FD%E1",
-      "width": 832,
-      "height": 1216,
+      "id": 56217875,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eaaed723-0808-45bf-8a05-b8b1e3d86734/original=true/eaaed723-0808-45bf-8a05-b8b1e3d86734.jpeg",
+      "hash": "U3B..T^k5W_N0g-p^+-p000z5R4.Sv01mk0L",
+      "width": 1248,
+      "height": 1824,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-10-15T04:12:42.992Z",
-      "postId": 7922457,
+      "browsingLevel": 8,
+      "createdAt": "2025-04-26T10:41:10.517Z",
+      "postId": 12590727,
       "stats": {
-        "cryCount": 239,
-        "laughCount": 435,
-        "likeCount": 3495,
+        "cryCount": 222,
+        "laughCount": 429,
+        "likeCount": 3804,
         "dislikeCount": 0,
-        "heartCount": 2261,
-        "commentCount": 63
+        "heartCount": 1965,
+        "commentCount": 11
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 913149384,
-        "steps": 29,
-        "prompt": "masterpiece,best quality, highly detailed, score_9, score_8_up, score_7_up, score_6_up,source_anime, \nBREAK, 1girl, Raven, bedroom, laying on side, ass up, ass focus, from below, pussy focus, naked, pussy focus, wet pussy, pose, sexy, wet, looking back, face focus, closeup, posing, wet hair, dynamic angle, thick thighs, big ass, spreading ass, hand on ass, nail polish, asshole focus, cum in ass, cum in pussy, biting lip, blush, hearts",
-        "sampler": "Euler a",
-        "cfgScale": 4,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-15T0235:03.8001355Z",
-        "negativePrompt": "score_4, score_5, score_6, (lesbians),futanari,extra fingers,distorted hands,distorted fingers, muscular,low quality, lowres, bad anatomy,worst quality, simple background, censored,text,signature,  lineless,watermark,signature, logo, source_anime, FastNegativeEmbedding,  low-quality, moir pattern, downsampling, aliasing, distorted, blurry, glossy, blur, jpeg artifacts, compression artifacts, poorly drawn, low-resolution, bad, distortion, twisted, excessive, exaggerated pose, exaggerated limbs, mixed characters, grainy, symmetrical, duplicate, error, pattern, beginner, pixelated, fake, hyper, glitch, overexposed, high-contrast, bad-contrast, black and white, NegfeetV2, messy, Deformed, Deformed face, Deformed fingers, Deformed hands, Out of frame, Poorly drawn face, Poorly drawn feet, Poorly drawn hands, Draft, Grainy, Kitsch, Low-res, old, sketch, black and white, doujinshi, exaggerated anatomy",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.85,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 438417,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 333587,
-            "modelVersionName": "Smooth 2"
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 373439,
-            "modelVersionName": "Lil Andava style PDXL V1"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
-          }
-        ]
+        "prompt": "a very cute woman with her legs spread and holding a phone, 1girl, solo, long hair, breasts, looking at viewer, blue eyes, skirt, brown hair, shirt, holding, jewelry, sitting, underwear, white shirt, earrings, pussy, indoors, spread legs, necklace, clothes lift, mole, lips, pubic hair, uncensored, anus, no panties, chair, female pubic hair, phone, skirt lift, cellphone, smartphone, freckles, holding phone, realistic, clock, selfie, office chair, mole on thigh, mole on ass"
       },
-      "username": "Bancin",
+      "username": "s9ip1a427",
       "baseModel": "Pony",
-      "modelVersionIds": [
-        290640,
-        333587,
-        373439,
-        382152,
-        398847,
-        436219,
-        438417
-      ]
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "72|1745664070517",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=72%7C1745664070517"
+    "nextCursor": "73|1720280088850",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=73%7C1720280088850"
   }
 }
