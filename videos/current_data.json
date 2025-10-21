@@ -1,83 +1,98 @@
 {
   "items": [
     {
-      "id": 93428095,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d932a22-1cfc-4042-b490-331ef92d6202/original=true/7d932a22-1cfc-4042-b490-331ef92d6202.jpeg",
-      "hash": "UIKUTT%gGuVt1iNG9GaKI8M{Md%M~9xFiaIp",
-      "width": 1152,
-      "height": 1824,
-      "nsfwLevel": "Mature",
+      "id": 35072528,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9915fb03-a321-46d6-9481-01201cbba053/original=true/9915fb03-a321-46d6-9481-01201cbba053.jpeg",
+      "hash": "UZK^W[oy~qxu?vt7-;xuu4M{-pj[$fRjIUof",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-08-11T10:40:37.987Z",
-      "postId": 20727865,
+      "browsingLevel": 8,
+      "createdAt": "2024-10-17T13:03:34.128Z",
+      "postId": 8015947,
       "stats": {
-        "cryCount": 222,
-        "laughCount": 418,
-        "likeCount": 3647,
+        "cryCount": 218,
+        "laughCount": 473,
+        "likeCount": 3356,
         "dislikeCount": 0,
-        "heartCount": 1942,
-        "commentCount": 0
+        "heartCount": 2176,
+        "commentCount": 49
       },
       "meta": {
-        "RNG": "NV",
-        "ENSD": "31337",
-        "Size": "768x1216",
-        "seed": 1446630189,
-        "Model": "hassakuXLIllustrious_v13StyleA",
-        "steps": 28,
-        "hashes": {
-          "model": "163ac69059",
-          "lora:Chun-li_Swimsuit_Illu_Dwnsty": "41fc8ccc7749"
-        },
-        "prompt": "best quality, absurdres, newest, very aesthetic, amazing quality, highres, ultra detailed, mature female, \n <lora:Chun-li_Swimsuit_Illu_Dwnsty:1>, chnl1sfsw1m, brown eyes, black hair, hair bun, double bun, swept bangs, braided hair rings, short hair, hair ornament, hair flower, blue flower, earrings, jewelry, blue one-piece swimsuit, highleg swimsuit, gold trim, large breasts, back cutout, median furrow, shoulder blades, belly chain, gold chain, blue bracelet, pearl bracelet, blue nails, nail polish, groin, toned female, thick thighs, thigh ribbon, blue ribbon, 1girl, huge ass, smile, looking at viewer, looking back, toes, feet, barefoot, outdoors, tiptoes, toenail polish, braid, water, sitting, full body, toenails, nose, backless swimsuit, day, from behind,",
-        "Version": "f2.0.1v1.10.1-previous-636-gb835f24a",
-        "sampler": "Euler a",
-        "Module 1": "sdxl_vae",
-        "cfgScale": 5,
-        "resources": [
+        "Size": "832x1216",
+        "seed": 3584437625,
+        "steps": 35,
+        "prompt": "score_9,score_8_up,score_7_up, thong over anus, ass focus, 1girl, anus, stocking (psg), striped, solo, anus peek, huge ass, ass, thong, multicolored hair, striped thighhighs, looking at viewer, thighhighs, panties, black hair, long hair, underwear, white background, striped panties, bangs, simple background, looking back, hair bow, bow, thighs, pink hair, blunt bangs, blue eyes, g-string",
+        "sampler": "DPM2 a",
+        "cfgScale": 4,
+        "clipSkip": 2,
+        "resources": [],
+        "Created Date": "2024-10-16T1738:32.0384373Z",
+        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, feet",
+        "civitaiResources": [
           {
-            "hash": "41fc8ccc7749",
-            "name": "Chun-li_Swimsuit_Illu_Dwnsty",
-            "type": "lora",
-            "weight": 1
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
-            "hash": "163ac69059",
-            "name": "hassakuXLIllustrious_v13StyleA",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 0.75,
+            "modelVersionId": 244808,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
-        ],
-        "Model hash": "163ac69059",
-        "Hires steps": "10",
-        "Hires upscale": "1.5",
-        "Schedule type": "Normal",
-        "Hires Module 1": "Use same choices",
-        "Hires upscaler": "4x-UltraSharp",
-        "negativePrompt": "worst quality, low quality,  lowres, watermark, patreon username, artist name, artist logo, text, error, jpeg artifacts, unfinished, oldest, signature, artistic error, username, english text, 4koma, 2koma",
-        "ADetailer model": "face_yolov8n.pt",
-        "Hires CFG Scale": "5",
-        "ADetailer version": "25.3.0",
-        "Denoising strength": "0.3",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "SGM noise multiplier": "True",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "Discard penultimate sigma": "True",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True"
+        ]
       },
-      "username": "dwnsty",
-      "baseModel": null,
+      "username": "fixerskorch877",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        2099415
+        9208,
+        244808,
+        290640,
+        382152,
+        398847,
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "87|1729170214128",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=87%7C1729170214128"
+    "nextCursor": "88|1752146374196",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=88%7C1752146374196"
   }
 }
