@@ -1,165 +1,98 @@
 {
   "items": [
     {
-      "id": 25751845,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e1a0a6e-475f-42f6-a9cb-a8df6c54cd6e/original=true/9e1a0a6e-475f-42f6-a9cb-a8df6c54cd6e.jpeg",
-      "hash": "UOHwol~VoyV@W;NGRjRjI;IVn+t8M|IpNGbH",
-      "width": 1280,
-      "height": 1856,
-      "nsfwLevel": "X",
+      "id": 61847730,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc054968-1953-45a8-81ca-8779b383d2a6/original=true/fc054968-1953-45a8-81ca-8779b383d2a6.jpeg",
+      "hash": "UC8||v8^9t_4x]M{s:xuDix]xFMdMxt7X9M{",
+      "width": 1344,
+      "height": 2240,
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2024-08-24T00:05:00.000Z",
-      "postId": 5756991,
+      "browsingLevel": 4,
+      "createdAt": "2025-03-09T00:05:00.000Z",
+      "postId": 13821164,
       "stats": {
-        "cryCount": 208,
-        "laughCount": 410,
-        "likeCount": 4038,
+        "cryCount": 203,
+        "laughCount": 412,
+        "likeCount": 4281,
         "dislikeCount": 0,
-        "heartCount": 2714,
-        "commentCount": 2
+        "heartCount": 2446,
+        "commentCount": 1
       },
       "meta": {
-        "seed": 3876255434,
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:257749@290640",
-        "extra": {
-          "remixOfId": 23307246
+        "Size": "768x1280",
+        "seed": 581457533345805,
+        "Model": "waiNSFWIllustrious_v110.safetensors",
+        "https": "//www.deviantart.com/marlandco",
+        "steps": 30,
+        "hashes": {
+          "model": "c3688ee04c",
+          "lora:klskx_wai": "a50376f7d2",
+          "lora:DarkerThanDarkIllustriousV1": "692bd4f9ae",
+          "lora:illustriousXL_stabilizer_v1.23": "a2efee207a",
+          "lora:spo_sdxl_10ep_4k-data_lora_webui": "b6c2c16f3e",
+          "lora:illustrious_quality_modifiers_masterpieces_v1": "c1144df40a"
         },
-        "steps": 40,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:257749@290640"
-        ],
-        "prompt": "safe_pos, score_9, score_8_up, score_7_up, score_6_up, gorgeous 2 girls, topless, cute, one with short black bun hair, puffy nipples, one with long brown hair, (riding on another girl:1.1), kissing, love, black panties, whitepanties, large breast, sexy thighs, very intimate, bangles, choker, lacey, thighhigh, wide hip, thick, large ass focus , bubble ass, (slim fit), bedroom, onbed, Expressiveh, clothes on bed, detailed room and background, vase, plant, lamp, photo hanging on the wall, posters, nicely decorated room, bohemian curtain",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 9,
-        "modelIds": [],
-        "workflow": "img2img-hires",
-        "upscalers": [
-          "urn:air:multi:upscaler:civitai:147759@164821"
-        ],
-        "versionIds": [],
-        "controlNets": [],
-        "negativePrompt": "safe_neg, score_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, extra dicks, transgender, pants, (side part), (black man) , extra fingers , deformed fingers",
-        "civitaiResources": [
+        "prompt": "masterpiece, best quality, amazing quality, klskx, nsfw, explicit, (1girl:1.0), redhead, open fridge, dim blue fridge light, nude, oversized t-shirt slipping off shoulder, panties, barefoot, (messy hair:1.0), (licking fingers:1.1), one hand on hip, standing by (fridge:1.0), looking back, midnight snack\nindoors, kitchen, wooden floor, (open fridge door:1.2), scattered snacks, napkin, (night:1.2), (dark shadows:0.9), (high contrast:0.9), volumetric lighting, intricate details, blurry background, depth of field <lora:spo_sdxl_10ep_4k-data_lora_webui:2.0> <lora:illustriousXL_stabilizer_v1.23:1.0> <lora:illustrious_quality_modifiers_masterpieces_v1:0.6> <lora:klskx_wai:0.7000000000000001> <lora:DarkerThanDarkIllustriousV1:0.3>",
+        "Creator": "Marland_C",
+        "sampler": "res_multistep_kl_optimal",
+        "cfgScale": 5,
+        "clipSkip": 2,
+        "resources": [
           {
-            "strength": 1,
-            "modelVersionId": 290640
-          },
-          {
-            "strength": 0.55,
-            "modelVersionId": 398847
-          },
-          {
-            "strength": 1,
-            "modelVersionId": 9208
-          },
-          {
-            "strength": 0.65,
-            "modelVersionId": 436219
-          },
-          {
-            "strength": 0.75,
-            "modelVersionId": 135867
-          },
-          {
-            "strength": 1,
-            "modelVersionId": 239420
-          },
-          {
-            "strength": 0.7,
-            "modelVersionId": 382152
-          },
-          {
-            "modelVersionId": 250708
-          },
-          {
-            "modelVersionId": 250712
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          },
-          {
+            "hash": "b6c2c16f3e",
+            "name": "spo_sdxl_10ep_4k-data_lora_webui",
             "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 398847
+            "weight": 2
           },
           {
+            "hash": "a2efee207a",
+            "name": "illustriousXL_stabilizer_v1.23",
             "type": "lora",
-            "weight": 0.65,
-            "modelVersionId": 436219
+            "weight": 1
           },
           {
+            "hash": "c1144df40a",
+            "name": "illustrious_quality_modifiers_masterpieces_v1",
             "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 135867
+            "weight": 0.6
           },
           {
+            "hash": "a50376f7d2",
+            "name": "klskx_wai",
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 239420
+            "weight": 0.7000000000000001
           },
           {
+            "hash": "692bd4f9ae",
+            "name": "DarkerThanDarkIllustriousV1",
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 382152
+            "weight": 0.3
+          },
+          {
+            "hash": "c3688ee04c",
+            "name": "waiNSFWIllustrious_v110.safetensors",
+            "type": "model"
           }
         ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:352581@398847",
-            "type": "lora",
-            "strength": 0.55,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:300005@436219",
-            "type": "lora",
-            "strength": 0.65,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:122359@135867",
-            "type": "lora",
-            "strength": 0.75,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:212532@239420",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:341353@382152",
-            "type": "lora",
-            "strength": 0.7,
-            "strengthClip": 1
-          }
-        ]
+        "Model hash": "c3688ee04c",
+        "negativePrompt": "loli, bad quality, worst quality, sketch, censor, censored, watermark, plain simple background, blank eyes, hydrokinesis, symmetry, huge breasts, sparks, dust, garter straps, thighhighs, stockings, tights"
       },
-      "username": "smth_uncanny",
-      "baseModel": "Pony",
+      "username": "Marland_C",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        290640,
-        382152,
-        398847,
-        436219,
-        9208,
-        135867,
-        164821,
-        239420
+        567119,
+        1050644,
+        1095977,
+        1284348,
+        1345990,
+        1410435
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "42|1741478700000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=42%7C1741478700000"
+    "nextCursor": "43|1749041310543",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=43%7C1749041310543"
   }
 }
