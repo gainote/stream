@@ -1,81 +1,99 @@
 {
   "items": [
     {
-      "id": 103950366,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af76b316-e1a9-4f07-97f0-9cff6c66c782/original=true/af76b316-e1a9-4f07-97f0-9cff6c66c782.jpeg",
-      "hash": "UCNv=7H=_N~Bie4T?b-o%$8_RjRP?I-;I.I;",
-      "width": 832,
-      "height": 1216,
+      "id": 96351101,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ed06a369-1088-4bf3-959d-e5aa52465b56/original=true/ed06a369-1088-4bf3-959d-e5aa52465b56.jpeg",
+      "hash": "UADm8c.T00-;?w=wMxTe00r=xDM|x^Fzxbvz",
+      "width": 1408,
+      "height": 2064,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2025-10-03T18:10:00.000Z",
-      "postId": 23063130,
+      "createdAt": "2025-08-26T11:33:57.683Z",
+      "postId": 21369956,
       "stats": {
-        "cryCount": 244,
-        "laughCount": 482,
-        "likeCount": 3767,
+        "cryCount": 277,
+        "laughCount": 424,
+        "likeCount": 3755,
         "dislikeCount": 0,
-        "heartCount": 1910,
-        "commentCount": 14
+        "heartCount": 1934,
+        "commentCount": 5
       },
       "meta": {
-        "Model": "urn:air:sdxl:checkpoint:civitai:1025051@2186168",
-        "extra": {},
-        "steps": 30,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:1025051@2186168"
-        ],
-        "prompt": "masterpiece, best quality, amazing quality,\n\nsexy hot,\nposing,\ncell shading,\n(pastel colors:0.4),\n\n(messy hairs:0.3),\n\nstanding,\nbent over,\nhand vacuum cleaner,\nroom,\nblack socks,\nblack shirt,\nupdo,\nass folds,\ninnie pussy,\nwhite carpet,",
-        "denoise": 0.01,
-        "process": "img2img",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img",
-        "baseModel": "Illustrious",
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/92295141806430356048735308765049895366.jpg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuQBfcPCfjHskU1m7TXEQmGb1D_hW7VByokAN3YdXLozI7OmcORt9GCB8CCvBIaM-0x2KY6v-XwjghicL-07NPwRXJPJE2_0jddJJpLvxKKVLajHhsQVP0xmEXLeQY1baiOwtfX5XsBpQimmvw6q7_wLY6eHt8f4PnMEHzD6RZTLNtGGU7Sp-W9CQP4aZIdvBOd_iH7q_sDeb-nZGO2MnYx5xvD5YxeNMsRUbc-EaurJgWrwIGD_n-rFxfLM2p_fDZnVls_y7TK8FCjjallobtQWSjz_yyRprW6kzan3DJM-Ew&exp=2026-10-03T16:51:15.0045772Z",
-          "width": 832,
-          "height": 1216
+        "TI": {},
+        "Size": "832x1216",
+        "seed": 2666722476,
+        "Model": "Illv10FSP",
+        "steps": 29,
+        "hashes": {
+          "model": "d84b70d3d5",
+          "lora:XmutsixV2": "88b0be86220a",
+          "lora:Real hair for 2D": "69b5f30b1784",
+          "lora:USNR_STYLE_ILL_V1_lokr3": "44586d05878a",
+          "lora:Ultra Lora Detailer and Glow": "8309617bd8f4",
+          "lora:USA37107692-illustriousXL_v01_V2-CAME": "f532ec9d1c73"
         },
-        "experimental": false,
-        "negativePrompt": "censor, censored, watermark, artist name, bestiality,\n",
-        "civitaiResources": [
+        "prompt": "masterpiece,8k,depth of field,best quality,1girl opening fridge,Kitchen,blank white oversized shirt,white panties,looking into fridge,bent over,Clutter,Detailed Background,low blue light from Fridge,open fridge,low light,slim body,(night:1.2),(dark shadows:0.9),1woman,solo,petite,thigh gap,cameltoe,aroused wet panties,expressive body,dynamic pose,perfect light,look back,<lora:Ultra Lora Detailer and Glow:0.2>,<lora:XmutsixV2:0.2>,x1mtxsx,<lora:USNR_STYLE_ILL_V1_lokr3:0.2>,usnr,<lora:USA37107692-illustriousXL_v01_V2-CAME:0.2>,USA3710,<lora:Real hair for 2D>,hair,detail,",
+        "Version": "f2.0.1v1.10.1-previous-669-gdfdcbab6",
+        "sampler": "DPM++ 2M SDE",
+        "cfgScale": 5,
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 2186168
+            "hash": "88b0be86220a",
+            "name": "XmutsixV2",
+            "type": "lora",
+            "weight": 0.2
           },
           {
+            "hash": "44586d05878a",
+            "name": "USNR_STYLE_ILL_V1_lokr3",
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 2234776
+            "weight": 0.2
           },
           {
+            "hash": "f532ec9d1c73",
+            "name": "USA37107692-illustriousXL_v01_V2-CAME",
             "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 1976924
+            "weight": 0.2
+          },
+          {
+            "hash": "8309617bd8f4",
+            "name": "Ultra Lora Detailer and Glow",
+            "type": "lora"
+          },
+          {
+            "hash": "69b5f30b1784",
+            "name": "Real hair for 2D",
+            "type": "lora"
+          },
+          {
+            "hash": "d84b70d3d5",
+            "name": "Illv10FSP",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "d84b70d3d5",
+        "Schedule type": "Karras",
+        "negativePrompt": "easynegative,lazyneg_1760455,sharp,lines,",
+        "Denoising strength": "0.3",
+        "SD upscale overlap": "64",
+        "SD upscale upscaler": "remacri_original"
       },
-      "username": "vovkkabanko",
+      "username": "Xmutsix",
       "baseModel": "Illustrious",
       "modelVersionIds": [
-        1976924,
-        2186168,
-        2234776
+        1552087,
+        2087008,
+        2101298,
+        2134626,
+        2141638,
+        2144812
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "77|1756208037683",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=77%7C1756208037683"
+    "nextCursor": "78|1741110484177",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=78%7C1741110484177"
   }
 }
