@@ -1,67 +1,195 @@
 {
   "items": [
     {
-      "id": 16383258,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5d52e89-9401-4cb2-9ae7-cd4a63c0f1a7/original=true/c5d52e89-9401-4cb2-9ae7-cd4a63c0f1a7.jpeg",
-      "hash": "UELDli%M80tRF|M{eSs900t8n3WB%#WBtmoL",
-      "width": 832,
-      "height": 1216,
+      "id": 60941454,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e5b199e-64b9-4bb3-b150-37650b08dc6e/original=true/1e5b199e-64b9-4bb3-b150-37650b08dc6e.jpeg",
+      "hash": "UMJ7RF~p%g$*?HI;IoofMIITD%S40KaK-VR+",
+      "width": 1280,
+      "height": 1856,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-06-19T18:36:39.302Z",
-      "postId": 3670669,
+      "createdAt": "2025-03-02T00:37:43.483Z",
+      "postId": 13631484,
       "stats": {
-        "cryCount": 230,
-        "laughCount": 529,
-        "likeCount": 4298,
+        "cryCount": 291,
+        "laughCount": 574,
+        "likeCount": 4204,
         "dislikeCount": 0,
-        "heartCount": 2765,
-        "commentCount": 3
+        "heartCount": 2741,
+        "commentCount": 10
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 1054567606,
-        "steps": 35,
-        "prompt": "score_9,score_8_up,score_7_up,score_6_up, 1girl, sleeping on her side, on bed, medium breasts, spider Gwen, multicolored hair,\nexposed breasts, close up,(arched back:1.6), head on pillow, pov, oversized crop top sweater, pussy, ((sheer black panties)), wet spot, grool, (pov hands removing panties, /male hands removing panties/), focus on panties, panties close to viewer, (messy hair, hair covering one eye), sexy hair,",
+        "nsfw": true,
+        "vaes": [],
+        "Model": "urn:air:sdxl:checkpoint:civitai:827184@1410435",
+        "extra": {
+          "remixOfId": 45876054
+        },
+        "steps": 48,
+        "width": 832,
+        "height": 1216,
+        "models": [
+          "urn:air:sdxl:checkpoint:civitai:827184@1410435"
+        ],
+        "prompt": "safe_pos, masterpiece, best quality, absurdres, ultra-detailed, detailed skin, footworship, 1girl, 2boys, (((anal sex))), massive penis, (((yor briar))), (arched back:2), nude, (black hair:4), earrings, long hair, bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs, (loose-fitting dress:1.5), (((breast grab))), (((nude medium breast))), (yanguire girl:2), (pussy juice:1.5), (pantyhose feet:2), (pantyhose:2), nipple, head back, on back, suck large penis, (((fellatio))), (((spread pussy))), foreshortening, feet, feet focus, detailed feet, from high up, hair ornament, perspective, foreshortening, leaning to the side, round ass, legs up, top view",
+        "denoise": 0.45,
         "sampler": "Euler a",
         "cfgScale": 5,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-06-19T1832:55.9658664Z",
-        "negativePrompt": "score_6, score_5, score_4, pony, gaping, censored, furry, child, kid, chibi, 3d, photo, monochrome, elven ears, anime, multiple cocks, extra legs, extra hands, mutated legs, mutated hands, open mouth, closed eyes, big man, high man, muscular man, muscular hands, face, ((nipples)),",
+        "modelIds": [],
+        "priority": "low",
+        "quantity": 1,
+        "workflow": "img2img-hires",
+        "baseModel": "Illustrious",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "sourceImage": {
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/NVJQ68K0G8BENXYRMA30EDHKC0",
+          "width": 832,
+          "height": 1216
+        },
+        "experimental": false,
+        "negativePrompt": "safe_neg, bad quality, worst quality, worst detail, sketch, censure, censured, displeasing, ugly, poorly drawn, displeasing, very displeasing, bad quality, deformed limbs, bad anatomy, simple background, glasses, comic, frames, negative_hand, bokeh, blur, weapon, green hair",
         "civitaiResources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 534642,
-            "modelVersionName": "v2.1 Main + VAE"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 466475,
-            "modelVersionName": "For Pony v0.2"
+            "modelVersionId": 1410435
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1410435
+          },
+          {
+            "weight": 1.35,
+            "modelVersionId": 135867
+          },
+          {
+            "weight": 0.35,
+            "modelVersionId": 1171421
+          },
+          {
+            "weight": 0.8,
+            "modelVersionId": 1402984
+          },
+          {
+            "weight": 0.3,
+            "modelVersionId": 1253442
+          },
+          {
+            "weight": 0.7,
+            "modelVersionId": 1399405
+          },
+          {
+            "weight": 0.2,
+            "modelVersionId": 695827
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 250708
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 250712
+          },
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1410435
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           },
           {
             "type": "lora",
+            "weight": 1.35,
+            "modelVersionId": 135867
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 1171421
+          },
+          {
+            "type": "lycoris",
             "weight": 0.8,
-            "modelVersionId": 522995,
-            "modelVersionName": "Pony"
+            "modelVersionId": 1402984
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1253442
+          },
+          {
+            "type": "lycoris",
+            "weight": 0.7,
+            "modelVersionId": 1399405
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 695827
+          }
+        ],
+        "additionalResources": [
+          {
+            "name": "urn:air:sdxl:lora:civitai:122359@135867",
+            "type": "lora",
+            "strength": 1.35,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:946498@1171421",
+            "type": "lora",
+            "strength": 0.35,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lycoris:civitai:1241933@1402984",
+            "type": "lora",
+            "strength": 0.8,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:1107767@1253442",
+            "type": "lora",
+            "strength": 0.3,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lycoris:civitai:985385@1399405",
+            "type": "lora",
+            "strength": 0.7,
+            "strengthClip": 1
+          },
+          {
+            "name": "urn:air:sdxl:lora:civitai:478319@695827",
+            "type": "lora",
+            "strength": 0.2,
+            "strengthClip": 1
           }
         ]
       },
-      "username": "screwball808",
-      "baseModel": "Pony",
+      "username": "Pixelimba",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        466475,
-        522995,
-        534642
+        135867,
+        164821,
+        695827,
+        1171421,
+        1253442,
+        1399405,
+        1402984,
+        1410435
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "36|1740875863483",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=36%7C1740875863483"
+    "nextCursor": "37|1720455596130",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=37%7C1720455596130"
   }
 }
