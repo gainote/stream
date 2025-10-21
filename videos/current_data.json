@@ -1,115 +1,78 @@
 {
   "items": [
     {
-      "id": 39900956,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/98e7f748-da26-441b-8800-f035fc737500/original=true/98e7f748-da26-441b-8800-f035fc737500.jpeg",
-      "hash": "UABCok%M01RPn%WXEMNH0Ls,~BxZE1M{xZt6",
-      "width": 832,
-      "height": 1216,
+      "id": 25428039,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f32b425a-1677-40d8-86d1-b4be2660f965/original=true/f32b425a-1677-40d8-86d1-b4be2660f965.jpeg",
+      "hash": "UrP?aZbw_N%LxuaxtRt7S5RjjFae%Mt7WBkC",
+      "width": 992,
+      "height": 1328,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-11-13T12:43:16.422Z",
-      "postId": 9096804,
+      "browsingLevel": 8,
+      "createdAt": "2025-01-24T12:55:33.805Z",
+      "postId": 5682598,
       "stats": {
-        "cryCount": 252,
-        "laughCount": 489,
-        "likeCount": 3843,
+        "cryCount": 262,
+        "laughCount": 704,
+        "likeCount": 4017,
         "dislikeCount": 0,
-        "heartCount": 2521,
-        "commentCount": 9
+        "heartCount": 2085,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 4274616283,
-        "extra": {
-          "remixOfId": 39810061
+        "": {},
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "992x1328",
+        "seed": 3128097293,
+        "Model": "boleromix_Pony_V1.4",
+        "steps": 20,
+        "hashes": {
+          "vae": "735e4c3a44",
+          "model": "989a88b3c5",
+          "lora:weighing breasts_pony_V1.0": "6bd1e48a80c1"
         },
-        "steps": 50,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up,  ((excessive cum, huge facial, cum on nose, thick ropes of cum)), 1 girl , kawaii girl, freckles, sexy, blushing, petite, slim, kneeling, big Facial, big cumshot, cum drip, small ass, smiling, soles, slight open mouth,  head tilted up, portrait, bedroom, detailed drawing, partially illuminated, blurry background, face focus, from above, looking up at viewer, s1_dram, watercolor \\(medium\\), traditional media, (((cock on face, veiny cock))),PenisHeadER, penis, jinx league of legends, pink eyes",
-        "sampler": "Euler a",
-        "cfgScale": 3,
+        "prompt": "score_9, score_8_up, score_7_up,source_anime, high res image,masterpiece,best quality,girl,cute face,clear skin,shiny hair,ultra detailed eyes,simple background <lora:weighing breasts_pony_V1.0:1> weighing breasts, breasts on scales, scales, breasts",
+        "Version": "v1.7.0",
+        "sampler": "DPM++ 2M Karras",
+        "{Method": {},
+        "Upscaler": {},
+        "cfgScale": 7,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-11-13T1237:58.1270522Z",
-        "negativePrompt": "score_5, score_4, censored, deformed, bad hand, blurry, (watermark), extra hands, extra dicks, futanari, white pupils, small pupils, bright pupils, detached hand, bad anatomy, (((young, loli))). (((futa, t-girl))), teeth",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 770375,
-            "modelVersionName": "MeichiDarkAnimV2_Lust"
+            "hash": "6bd1e48a80c1",
+            "name": "weighing breasts_pony_V1.0",
+            "type": "lora"
           },
           {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 220262,
-            "modelVersionName": "epiCPhoto"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.4,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 504998,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.25,
-            "modelVersionId": 708019,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "hash": "989a88b3c5",
+            "name": "boleromix_Pony_V1.4",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "989a88b3c5",
+        "Tile Overlap": "48",
+        "Upscale factor": "1.3",
+        "negativePrompt": "score_6, score_5, score_4, ugly face, low res, interlocked fingers, anatomically incorrect hands, bad anatomy, pony, furry, censored,realistic",
+        "Keep input size": "true}",
+        "Tile batch size": "4",
+        "Tile tile width": "96",
+        "Tiled Diffusion": {},
+        "Tile tile height": "96",
+        "Denoising strength": "0.4",
+        "Tiled Diffusion upscaler": "R-ESRGAN 4x+ Anime6B",
+        "Tiled Diffusion scale factor": "1.3"
       },
-      "username": "Hylomar",
+      "username": "bolero537",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
-        220262,
-        382152,
-        398847,
-        436219,
-        504998,
-        708019,
-        770375
+        513252
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "49|1737723333805",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=49%7C1737723333805"
+    "nextCursor": "50|1747558479803",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=50%7C1747558479803"
   }
 }
