@@ -1,80 +1,129 @@
 {
   "items": [
     {
-      "id": 26825159,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63586d23-65d0-488f-8b99-e850e13405b0/original=true/63586d23-65d0-488f-8b99-e850e13405b0.jpeg",
-      "hash": "UUHd{foMR%kB~CrrRjtR9ZnORPkCozW=RjRj",
-      "width": 1664,
-      "height": 2432,
+      "id": 76163061,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a0fc2f2-b159-49fa-84d8-911bd0a0a5b7/original=true/6a0fc2f2-b159-49fa-84d8-911bd0a0a5b7.jpeg",
+      "hash": "UTLfdoH?KjRk~DZ$t6M{Iq?Hw^S3jax]IAR*",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 4,
-      "createdAt": "2025-02-08T11:42:04.990Z",
-      "postId": 5998503,
+      "createdAt": "2025-05-18T07:51:25.893Z",
+      "postId": 16912943,
       "stats": {
-        "cryCount": 269,
-        "laughCount": 654,
-        "likeCount": 4458,
+        "cryCount": 287,
+        "laughCount": 559,
+        "likeCount": 4443,
         "dislikeCount": 0,
-        "heartCount": 2358,
-        "commentCount": 1
+        "heartCount": 2316,
+        "commentCount": 0
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 3359855756,
-        "Model": "hassakuXLHentai_v13BetterEyesVersion",
+        "nsfw": true,
+        "seed": 1227852978,
+        "draft": false,
         "steps": 30,
-        "hashes": {
-          "model": "bbad3bea96",
-          "lora:Washing vehicle 2-000016": "e90b46626f2f"
-        },
-        "prompt": "score_9, score_7_up,  washing vehicle, breast press, against glass, car interior, sponge, 1girl , steering wheel, makima \\(chainsaw man\\), bikini,    <lora:Washing vehicle 2-000016:1>",
-        "Version": "f1.0.1dev-v1.10.1RC-latest-941-gf4fa7f9e",
-        "sampler": "Euler A Comfy",
-        "cfgScale": 6,
+        "width": 832,
+        "height": 1216,
+        "prompt": "ultra realistic, masterpiece, high detailed skin, best quality, high res, very aesthetic, absurdres, anime style, studio anime, source_ecchi, anime, ((ecchi)), ((nsfw)), (finely detailed face), (petite body:1.3), <lora:volume-nikke-richy-v1_ixl:1>, vlmrnd, yellow eyes, dark skin, tan, red hair, long hair, bangs, large breasts, ass, firm perky ass, body writing, tattoo, breast tattoo, tally, 1girl, barcode tattoo, pubic tattoo, clothes writing, chest tattoo, heart tattoo, long hair, breasts, leg tattoo, barcode, thighhighs, solo, shirt, number tattoo, arm tattoo, mori calliope, stomach tattoo, looking at viewer, virtual youtuber, bodypaint, facepaint, cleavage, shoulder tattoo, smile, large breasts, simple background, bangs, sitting, white background, body markings, black legwear, collarbone, white shirt, t-shirt, blunt bangs, profanity, eyebrows visible through hair. relaxed but provocative, soft ambient glow, dramatic scenery, intricate details, (blurry background, depth of field:1.1), erotic and aesthetic, the picture has an sexuel, alluring and erotic vibe, lascivious pose, aroused, ((dynamic dutch angle from behind:1.5)), ((focus on butt and feet:1.5)), from below, blurry background, bright colors, stunningly artwork",
+        "sampler": "DDIM",
+        "cfgScale": 3.5,
         "clipSkip": 2,
+        "quantity": 4,
+        "workflow": "txt2img",
+        "baseModel": "Illustrious",
         "resources": [
           {
-            "hash": "e90b46626f2f",
-            "name": "Washing vehicle 2-000016",
-            "type": "lora"
-          },
-          {
-            "hash": "bbad3bea96",
-            "name": "hassakuXLHentai_v13BetterEyesVersion",
-            "type": "model"
+            "name": "volume-nikke-richy-v1_ixl",
+            "type": "lora",
+            "weight": 1
           }
         ],
-        "Model hash": "bbad3bea96",
-        "Hires upscale": "2",
-        "Schedule type": "Align Your Steps",
-        "Hires upscaler": "4xNomos8kDAT",
-        "negativePrompt": "simple background,",
-        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
-        "ADetailer version": "24.8.0",
-        "Denoising strength": "0.13",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "automatic_cfg_preset_enabled": "False",
-        "automatic_cfg_simple_enabled": "False",
-        "ADetailer inpaint only masked": "True",
-        "automatic_cfg_dynamic_enabled": "False",
-        "automatic_cfg_warp_drive_enabled": "False",
-        "automatic_cfg_post_cfg_rescale_enabled": "False"
+        "Created Date": "2025-05-13T2029:26.8110193Z",
+        "negativePrompt": "score_6, score_5, score_4, embedding:negativeXL_D, skinny, anorexic, furry, halo, (worst quality, low quality, sketch:1.1), error, bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, abstract, signature",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 1412789,
+            "modelVersionName": "v2.90"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1781737,
+            "modelVersionName": "volume-nikke-richy-v1_ixl"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 60938,
+            "modelVersionName": "negative_hand"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 91028,
+            "modelVersionName": "aid291"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 135867,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 211788,
+            "modelVersionName": "v1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 244808,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1193082,
+            "modelVersionName": "Illustrious"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 1387520,
+            "modelVersionName": "v1.0"
+          }
+        ]
       },
-      "username": null,
-      "baseModel": "Pony",
+      "username": "Chimi83",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        575495
+        9208,
+        60938,
+        91028,
+        135867,
+        211788,
+        244808,
+        1193082,
+        1387520,
+        1412789,
+        1781737
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "39|1747554685893",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=39%7C1747554685893"
+    "nextCursor": "40|1706964369622",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=40%7C1706964369622"
   }
 }
