@@ -1,96 +1,67 @@
 {
   "items": [
     {
-      "id": 18002131,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/633e5e16-26c8-49fd-a057-38d00b218aff/original=true/633e5e16-26c8-49fd-a057-38d00b218aff.jpeg",
-      "hash": "UUK0vi?b~qo~xuxtS2R*RORPD%RPtlkD%MWC",
+      "id": 16383258,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5d52e89-9401-4cb2-9ae7-cd4a63c0f1a7/original=true/c5d52e89-9401-4cb2-9ae7-cd4a63c0f1a7.jpeg",
+      "hash": "UELDli%M80tRF|M{eSs900t8n3WB%#WBtmoL",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-07-01T15:18:14.135Z",
-      "postId": 4025339,
+      "createdAt": "2024-06-19T18:36:39.302Z",
+      "postId": 3670669,
       "stats": {
-        "cryCount": 267,
-        "laughCount": 565,
-        "likeCount": 4235,
+        "cryCount": 230,
+        "laughCount": 529,
+        "likeCount": 4298,
         "dislikeCount": 0,
-        "heartCount": 2792,
-        "commentCount": 2
+        "heartCount": 2765,
+        "commentCount": 3
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1096553790,
-        "steps": 41,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, 18 years old, medium breasts, eyes closed, (detailed:1.8), intense pleasure, relaxed, worried, breast grab, realistic, in bed, curly hair, redhead, thin, source_anime, ponytail, light brown eyes, (freckles:1.4), (small pink nipples:1.5), cute, naked breasts, perky breasts, sexy expression, indoors, dramatic lighting, pretty girl, cowgirl position, vaginal penetration, pov from below looking up,",
-        "sampler": "Heun",
-        "cfgScale": 4,
+        "seed": 1054567606,
+        "steps": 35,
+        "prompt": "score_9,score_8_up,score_7_up,score_6_up, 1girl, sleeping on her side, on bed, medium breasts, spider Gwen, multicolored hair,\nexposed breasts, close up,(arched back:1.6), head on pillow, pov, oversized crop top sweater, pussy, ((sheer black panties)), wet spot, grool, (pov hands removing panties, /male hands removing panties/), focus on panties, panties close to viewer, (messy hair, hair covering one eye), sexy hair,",
+        "sampler": "Euler a",
+        "cfgScale": 5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-07-01T1458:51.7419784Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, zPDXL2, wispy hair, airbrushed, (glowing eyes:1.2), (young:1.2), (painted:1.4), flat chested",
+        "Created Date": "2024-06-19T1832:55.9658664Z",
+        "negativePrompt": "score_6, score_5, score_4, pony, gaping, censored, furry, child, kid, chibi, 3d, photo, monochrome, elven ears, anime, multiple cocks, extra legs, extra hands, mutated legs, mutated hands, open mouth, closed eyes, big man, high man, muscular man, muscular hands, face, ((nipples)),",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 531417,
-            "modelVersionName": "pony-no-score_v4.0"
+            "modelVersionId": 534642,
+            "modelVersionName": "v2.1 Main + VAE"
           },
           {
             "type": "lora",
-            "weight": 1.5,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.15,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "embed",
             "weight": 1,
-            "modelVersionId": 509253,
-            "modelVersionName": "High Quality V2"
+            "modelVersionId": 466475,
+            "modelVersionName": "For Pony v0.2"
           },
           {
-            "type": "embed",
-            "modelVersionId": 106916,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 522995,
+            "modelVersionName": "Pony"
           }
         ]
       },
       "username": "screwball808",
       "baseModel": "Pony",
       "modelVersionIds": [
-        382152,
-        398847,
-        436219,
-        509253,
-        531417
+        466475,
+        522995,
+        534642
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "35|1718822199302",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=35%7C1718822199302"
+    "nextCursor": "36|1740875863483",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=36%7C1740875863483"
   }
 }
