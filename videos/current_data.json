@@ -1,39 +1,76 @@
 {
   "items": [
     {
-      "id": 97711808,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54076c9e-4ff4-46e5-adee-049d0c5868ab/original=true/54076c9e-4ff4-46e5-adee-049d0c5868ab.jpeg",
-      "hash": "UKKJ[FEmX-oz~BD+IVxtovRPrrR*-;tRflkD",
+      "id": 77552143,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92b7e556-1100-403c-9647-3f82422a5db6/original=true/92b7e556-1100-403c-9647-3f82422a5db6.jpeg",
+      "hash": "UNK_au~o?^xZGakqRjj?NIX-r=xuS$wd-pni",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 4,
-      "createdAt": "2025-09-03T10:49:52.146Z",
-      "postId": 21678955,
+      "createdAt": "2025-07-26T00:00:00.000Z",
+      "postId": 17183349,
       "stats": {
-        "cryCount": 271,
-        "laughCount": 494,
-        "likeCount": 4420,
+        "cryCount": 282,
+        "laughCount": 651,
+        "likeCount": 4191,
         "dislikeCount": 0,
-        "heartCount": 1952,
-        "commentCount": 6
+        "heartCount": 1993,
+        "commentCount": 3
       },
-      "meta": null,
-      "username": "WaifuVibe",
-      "baseModel": "Illustrious",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1083711136,
+        "extra": {
+          "remixOfId": 75068500
+        },
+        "steps": 42,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, BREAK masterpiece, beautiful lighting, beautiful shadows, beautiful skin,perfect face, perfect hands, high quality, source_cartoon, BREAK (1girl, solo,) <lora:Jenny_Wakeman_PDXL_V2:1> jenny, android, robot, twintails, colored skin, aqua hair, robot joints, bikini, curvy, big breasts, wide hips,smug, dynamic angle, dynamic pose, posing, hand on hips, coconut with straw, drinking coconut with straw,\npatterned background, dots background, beach, suny, clouds,white borders, low angle, palm tree",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 7,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "name": "Jenny_Wakeman_PDXL_V2",
+            "type": "lora",
+            "weight": 1
+          }
+        ],
+        "Created Date": "2025-05-21T0155:07.0281423Z",
+        "negativePrompt": "photo realism, realistic, ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers, umbrella, text, letters, too many feet, too many fingers, (((2 heads))), duplicate, abstract, disfigured, deformed, toy, figure, framed, disfigured, shirt, covered breasts, bad art, deformed, poorly drawn, extra limbs, weird colors, long neck, elongated body, cropped image, out of frame, draft, deformed hands, twisted fingers, extra fingers, double image, malformed hands, multiple heads, extra limb, poorly drawn hands, missing limb, cut-off, over saturated, grain, lowres, bad anatomy, poorly drawn face, mutation, mutated, floating limbs, disconnected limbs, out of focus, long body, disgusting, extra fingers, gross proportions, missing arms, mutated hands, cloned face, missing legs, deformed, noisy, blurry, distorted, grainy, monochrome,",
+        "civitaiResources": [
+          {
+            "type": "checkpoint",
+            "modelVersionId": 324619,
+            "modelVersionName": "AutismMix_pony"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 772758,
+            "modelVersionName": "v2.0"
+          },
+          {
+            "type": "lora",
+            "weight": 1.2,
+            "modelVersionId": 1810178,
+            "modelVersionName": "V1"
+          }
+        ]
+      },
+      "username": "unempty",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1020899,
-        1282885,
-        1383087,
-        1410435,
-        1447126
+        324619,
+        772758,
+        1810178
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "46|1753488000000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=46%7C1753488000000"
+    "nextCursor": "47|1743061186791",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=47%7C1743061186791"
   }
 }
