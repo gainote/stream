@@ -1,95 +1,98 @@
 {
   "items": [
     {
-      "id": 16377398,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0905a1f7-f7bb-4cc9-872b-966869b89da1/original=true/0905a1f7-f7bb-4cc9-872b-966869b89da1.jpeg",
-      "hash": "UGKS^jE+S5%f~Bw1%2R%%LE1ju=|?aWBM|kW",
+      "id": 80193578,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9047f826-ef57-4afe-80ac-7750de5a2f5d/original=true/9047f826-ef57-4afe-80ac-7750de5a2f5d.jpeg",
+      "hash": "UgMt8KWV5Qw}pMogoNoyIFozWHOqtQOXX3W=",
       "width": 832,
       "height": 1216,
-      "nsfwLevel": "X",
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2024-06-19T17:39:00.448Z",
-      "postId": 3669099,
+      "browsingLevel": 4,
+      "createdAt": "2025-06-03T14:54:36.258Z",
+      "postId": 17812142,
       "stats": {
-        "cryCount": 163,
-        "laughCount": 372,
-        "likeCount": 3492,
+        "cryCount": 222,
+        "laughCount": 551,
+        "likeCount": 3473,
         "dislikeCount": 0,
-        "heartCount": 2292,
-        "commentCount": 0
+        "heartCount": 2066,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 2129342396,
-        "steps": 35,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, Anna frozen, medium breasts, teardrop_boobs, (skinny, tiny waist, small tight ass, narrow hips):2, petite, innocent, small body, small pale pink nipples, tiny areolas, worried look, in pain, nsfw, pinned against wall, legs up, clenching teeth, wild sex, rough sex, vaginal penetration, 1boy, cowboy shot",
-        "sampler": "Euler a",
-        "cfgScale": 7,
+        "seed": 341382454,
+        "extra": {
+          "remixOfId": 80039414
+        },
+        "steps": 24,
+        "prompt": "masterpiece, best quality, amazing quality, very aesthetic, absurdres,\u00a0diives,\nmasterpiece, 8K, depth of field, focused subject, best quality,newest, absurdes, princess peach\nmedium breastl, 1girl, breasts, solo, denim, v, outdoors, nipples, denim_shorts, shorts, upside-down, navel, blue eyes, open_mouth, lgold hair, looking_at_viewer, hair_tie, smile, twintails, long hair, grey_shorts, short_shorts, hanging_breasts, short_hair, no_bra, leg_up, grass, double_v, day, cutoffs, thighs, shirt_lift, :d, teeth, clothes_lift, armpits, feet_out_of_frame, artist_name, midriff, dated, breasts_out,girl with gold hair and blue eyes, wearing denim shorts and an pink top, hangs upside down from a playground bar, playfully making a peace sign, her expression cheerful and mischievous",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 4,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-06-19T1735:19.4755268Z",
-        "negativePrompt": "score_6, score_5, score_4, ugly face, mutated hands, monochrome, bad eyes, blue skin, bad teeth, bad arms, missing limbs, poorly drawn face, three feet, fused feet, fused thigh, three thigh, fused thigh, extra thigh, missing fingers, extra fingers, ugly fingers,amputation, zPDXL2, mutilated, deformed, disconnected limbs, worst quality, low quality, jpeg artifacts, abs, ribs, snow",
+        "Created Date": "2025-06-03T1449:29.4347029Z",
+        "negativePrompt": "bed, shine, (worst quality, low quality, sketch:1.1),error, animal ears, bad anatomy, bad hands, watermark, ugly, distorted, censored, lowers, multiple views, signature, 3D,bad hands, ugly hands, bad fingers, ugly fingers, cropped, out of frame,",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
+            "modelVersionId": 1761560,
+            "modelVersionName": "v14.0"
           },
           {
             "type": "lora",
-            "weight": 0.5,
+            "weight": 1,
             "modelVersionId": 135867,
             "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
-          },
-          {
-            "type": "lora",
-            "weight": 2,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 491364,
-            "modelVersionName": "Darcom v1.0"
-          },
-          {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 509253,
-            "modelVersionName": "High Quality V2"
+            "modelVersionId": 567119,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 333607,
-            "modelVersionName": "Smooth Anime 2"
+            "weight": 3.4,
+            "modelVersionId": 712947,
+            "modelVersionName": "v1.4"
+          },
+          {
+            "type": "lora",
+            "weight": 0.9,
+            "modelVersionId": 1158047,
+            "modelVersionName": "Illustrious"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 1244133,
+            "modelVersionName": "V1 Ilustrious"
+          },
+          {
+            "type": "lora",
+            "weight": 0.3,
+            "modelVersionId": 1345990,
+            "modelVersionName": "illus01 v1.23"
           }
         ]
       },
-      "username": "screwball808",
-      "baseModel": "Pony",
+      "username": "travisairspace892",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
         135867,
-        244808,
-        290640,
-        333607,
-        382152,
-        491364,
-        509253
+        567119,
+        712947,
+        1158047,
+        1244133,
+        1345990,
+        1761560
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "83|1748962476258",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=83%7C1748962476258"
+    "nextCursor": "84|1736373000000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=84%7C1736373000000"
   }
 }
