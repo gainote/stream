@@ -1,104 +1,40 @@
 {
   "items": [
     {
-      "id": 97347302,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee9a609b-d83d-486b-beed-c09a67bb2472/original=true/ee9a609b-d83d-486b-beed-c09a67bb2472.jpeg",
-      "hash": "UBE_mu~C01wc5RE1RjIV4maK%NxuMxt7-pSh",
-      "width": 1152,
-      "height": 1728,
+      "id": 73414418,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92a95f8b-9c5a-474d-805f-5e7e575e3d49/original=true/92a95f8b-9c5a-474d-805f-5e7e575e3d49.jpeg",
+      "hash": "UBGkIA~B024;xYxYI=9b4.r=^*NHn$-Ut79a",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2025-09-01T09:40:36.838Z",
-      "postId": 21595556,
+      "createdAt": "2025-05-03T05:25:13.888Z",
+      "postId": 16306199,
       "stats": {
-        "cryCount": 252,
-        "laughCount": 442,
-        "likeCount": 4217,
+        "cryCount": 345,
+        "laughCount": 532,
+        "likeCount": 3947,
         "dislikeCount": 0,
-        "heartCount": 2001,
-        "commentCount": 0
+        "heartCount": 2063,
+        "commentCount": 5
       },
-      "meta": {
-        "seed": 3663625192,
-        "Model": "urn:air:sdxl:checkpoint:civitai:443821@2071650",
-        "extra": {
-          "remixOfId": 96448296
-        },
-        "steps": 34,
-        "width": 768,
-        "height": 1152,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:443821@2071650"
-        ],
-        "prompt": "score_9, score_8_up, score_7_up, realistic, low light, , Expressiveh, reddit, high quality, traditional media, amateur, real life photo, raw, film grain, igbaddie, real_beauty, 1girl, rsgrl, russian girl, blonde hair, cute russian girl, solo, young, 20yo, pale skin, white, slavic, ukrainain, flat chest, small breasts, naked, wide hips, thin waist, black hair, straight thin hair, lips, makeup, eyeliner, reflective, shiny skin, climbing out of pool ,light skin, hair strands, dynamic angle, shaved pussy, pussy visible, backyard, deep south , pool, posh,",
-        "denoise": 0.6,
-        "process": "txt2img",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img-hires",
-        "baseModel": "Pony",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/86818247177874428447879276959922032685.jpg?sig=CfDJ8J868rbHQQlNuTOL2qbAsuQeN-RkF5HYLLAso3ygIXZM1UCVksfYHvmkXcFzfsRaFCiyUarlQu3BLnWSOkvCcZ_3fGhUThqhdtfuG4IX72s54sGdMRVbWgXS-y_eIKD8Rnmc7kH162-co_41inyL-reNJew3yfMoqJfValO8xp7bEc_6BsPSKQh6KCUZUqc7tsICW1EmfZZKUTHayttMXd4uv7tJOavrnuNtezv_5kKcZshTsBbG_rZa1A0g7Fsb5kWgkaTy2wqmIDbWUGrkq2MCaKfZQdVJya7TWaCuxAdnx3gP1wVoNVhgMPCd3Q8JXw&exp=2026-08-30T07:29:58.7802992Z",
-          "width": 768,
-          "height": 1152
-        },
-        "experimental": false,
-        "negativePrompt": "(3d, render, cgi, doll, painting, fake, 3d modeling:1.4), (worst quality, low quality:1.4), old, deformed, malformed, bad hands, bad fingers, bad eyes, bad teeth, long body, blurry, duplicated, cloned, duplicate body parts, disfigured, extra limbs, fused fingers, extra fingers, twisted, distorted, malformed hands, malformed fingers, mutated hands and fingers, conjoined, missing limbs, bad anatomy, bad proportions, logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, gross, ugly, depth of field, asian, face defects), tanned skin, car, old, milf,",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 2071650
-          },
-          {
-            "type": "lora",
-            "weight": 0.45,
-            "modelVersionId": 382152
-          },
-          {
-            "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 534756
-          },
-          {
-            "type": "lora",
-            "weight": 0.7,
-            "modelVersionId": 556208
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 596040
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
-          }
-        ]
-      },
-      "username": "Cumfetishism1",
-      "baseModel": "Pony",
+      "meta": null,
+      "username": "Kalrdr",
+      "baseModel": "Illustrious",
       "modelVersionIds": [
-        164821,
-        382152,
-        534756,
-        556208,
-        596040,
-        2071650
+        9208,
+        111363,
+        372639,
+        1389494,
+        1412563,
+        1490781
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "53|1746249913888",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=53%7C1746249913888"
+    "nextCursor": "54|1750423768404",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=54%7C1750423768404"
   }
 }
