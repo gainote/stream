@@ -1,86 +1,124 @@
 {
   "items": [
     {
-      "id": 55751379,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000a99ea-5a95-49c9-a706-1365faf33bbe/original=true/000a99ea-5a95-49c9-a706-1365faf33bbe.jpeg",
-      "hash": "UMGIffEM9a_N_LMyDix].8jFIVae-;k=I:nj",
-      "width": 832,
-      "height": 1216,
+      "id": 83785391,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a60b0ec3-c487-449e-b2ba-088ee4c23fb5/original=true/a60b0ec3-c487-449e-b2ba-088ee4c23fb5.jpeg",
+      "hash": "U9G7od~C01Vs0m5QxpWTt9xCnOVs_K%19[xu",
+      "width": 2688,
+      "height": 3840,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2025-02-06T13:45:13.830Z",
-      "postId": 12488419,
+      "createdAt": "2025-06-22T22:50:00.000Z",
+      "postId": 18604156,
       "stats": {
-        "cryCount": 203,
-        "laughCount": 437,
-        "likeCount": 3471,
+        "cryCount": 199,
+        "laughCount": 408,
+        "likeCount": 3477,
         "dislikeCount": 0,
-        "heartCount": 1920,
-        "commentCount": 1
+        "heartCount": 1940,
+        "commentCount": 2
       },
       "meta": {
-        "Size": "832x1216",
-        "nsfw": true,
-        "seed": 2008458062,
+        "nsfw": false,
+        "seed": 1446236657,
+        "vaes": [],
         "draft": false,
-        "extra": {
-          "remixOfId": 38065288
-        },
-        "steps": 30,
+        "extra": {},
+        "steps": 34,
         "width": 832,
         "height": 1216,
-        "prompt": "score_9,score_8_up,score_7_up,\n1 white pale skin Scandinavian girl, hot girl, sexy girl, skinny girl, perfectly round tits, slim girl, slim legs,\nbeautiful blue eyes, small round face, thin nose, very long hair, hair in loose ponytail, brown hair,\npink dress, dress pulled over tits, pink, soft cute boobs,\n(1 giant boy with face out of frame), (1 boy:1.9), size difference,\n((girl getting fucked from behind)), ((Doggystyle)), Anal sex, penetration, Ass up head down, close up view, ass grab, (screaming:1.3), closed eyes, cum on body, cum on hair, cum on clothes, dripping cum,\nIn livingroom, at table,\nsun rays coming through full size large windows, beautiful natural lighting, natural photo, realistic image, sun rays, dim light, cozy atmosphere, perfect lighting, perfect shadows, shiny skin, perfect reflections, lots of shadows\n<lora:AmateurStyle_v1_PONY_REALISM:1>",
+        "models": [],
+        "prompt": "score_9, score_8_up, score_7_up,from side, side profile, wi does background, (expresisve hair, expressive body),\n1girl, fair skin, 22 years old, short blonde hair with pink highlights, blue eyes, petite, small breasts. wearing top, short sleeves, pleated skirt, gradient pink thighhighs, stirrup legwear, lying on back, pretzel pose, legs behind head, just fucked, penis pullout, ahegao, feet, feet up, soles, grabbing own thighs, pussy, anus, pulled up top, exposed breasts, happy, colorful\n(creampie, cum dripping, orgasm, trembling, quivering, sweating, nervous, extreme worried, looking up, nervous) wet skin, penis, cumdrip,",
         "sampler": "Euler a",
-        "cfgScale": 5.5,
+        "cfgScale": 6,
         "clipSkip": 2,
-        "quantity": 4,
+        "modelIds": [],
+        "quantity": 6,
         "workflow": "txt2img",
         "baseModel": "Pony",
-        "resources": [
-          {
-            "name": "AmateurStyle_v1_PONY_REALISM",
-            "type": "lora",
-            "weight": 1
-          }
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
         ],
-        "Created Date": "2025-01-16T0732:59.1577586Z",
-        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, deformed body",
+        "disablePoi": true,
+        "versionIds": [],
+        "controlNets": [],
+        "experimental": false,
+        "openAIQuality": "medium",
+        "negativePrompt": "score_6, score_5, score_4, ugly face, mutated hands, low resolution, blurry face, hairy pussy, worst quality, low quality, censored, deformed, bad hand, blur, watermark, extra hands, easynegative, piercing, horns, bang, pov, from above, condom",
         "civitaiResources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 1177183,
-            "modelVersionName": "v7"
-          },
-          {
-            "type": "lora",
             "weight": 1,
-            "modelVersionId": 534756,
-            "modelVersionName": "Amateur v1.0"
+            "modelVersionId": 770375
           },
           {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
+            "weight": 1,
+            "modelVersionId": 9208
           },
           {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "weight": 1,
+            "modelVersionId": 60938
+          },
+          {
+            "weight": 0.3,
+            "modelVersionId": 398847
+          },
+          {
+            "weight": 0.65,
+            "modelVersionId": 436219
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 720175
+          },
+          {
+            "weight": 2,
+            "modelVersionId": 1926995
+          },
+          {
+            "weight": 3.5,
+            "modelVersionId": 1855761
+          },
+          {
+            "weight": 3.25,
+            "modelVersionId": 1926656
+          },
+          {
+            "weight": 1.8,
+            "modelVersionId": 1242203
+          },
+          {
+            "weight": 1.15,
+            "modelVersionId": 1854599
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
           }
-        ]
+        ],
+        "additionalResources": []
       },
-      "username": "jc3841tw",
+      "username": "klaabu",
       "baseModel": "Pony",
       "modelVersionIds": [
-        534756,
-        1177183
+        9208,
+        60938,
+        164821,
+        398847,
+        436219,
+        720175,
+        770375,
+        1242203,
+        1854599,
+        1855761,
+        1926656,
+        1926995
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "102|1750632600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=102%7C1750632600000"
+    "nextCursor": "103|1747559013773",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=103%7C1747559013773"
   }
 }
