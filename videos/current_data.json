@@ -1,83 +1,88 @@
 {
   "items": [
     {
-      "id": 17890718,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f185136-fd86-4233-ab63-12eead928c84/original=true/1f185136-fd86-4233-ab63-12eead928c84.jpeg",
-      "hash": "UAG8Dvx[00IBTdS#MxMxI:V@-Vxu009G~V_2",
-      "width": 864,
-      "height": 1152,
+      "id": 13807138,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e2dd53bd-7a8c-4fe5-8279-0daf8022c2f2/original=true/e2dd53bd-7a8c-4fe5-8279-0daf8022c2f2.jpeg",
+      "hash": "UZHm_m~Vx[jYt8t7WBNGs:WVRkV[xuxts.M|",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2024-06-30T20:12:56.621Z",
-      "postId": 4001838,
+      "browsingLevel": 16,
+      "createdAt": "2024-05-28T05:09:01.292Z",
+      "postId": 3059926,
       "stats": {
-        "cryCount": 188,
-        "laughCount": 485,
-        "likeCount": 3398,
+        "cryCount": 181,
+        "laughCount": 458,
+        "likeCount": 3364,
         "dislikeCount": 0,
-        "heartCount": 2117,
-        "commentCount": 1
+        "heartCount": 2171,
+        "commentCount": 2
       },
       "meta": {
-        "RNG": "NV",
-        "VAE": "sdxl_vae.safetensors",
-        "Size": "864x1152",
-        "seed": 1571020720,
-        "Model": "autismmixSDXL_autismmixPony",
-        "steps": 25,
-        "hashes": {
-          "vae": "63aeecb90f",
-          "model": "821aa5537f",
-          "lora:fr1dg3XLP": "55bf579b82fc"
-        },
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up,  <lora:fr1dg3XLP:0.7> fr1dg3, open fridge, refrigerator, night, 1girl, nude, bent over",
-        "Version": "v1.9.4",
-        "sampler": "Euler a",
-        "cfgScale": 7,
+        "Size": "832x1216",
+        "seed": 1894973517,
+        "steps": 24,
+        "prompt": "score_9, score_8_up, score_8_up, moonrays,, moon light hitting face, lit from front, starry sky, city night skyline in the background, chair, g0thicPXL, 2girl,(1girl ducking another girl with strap-on, strap-on sex, lesbian sex, orgasm)), (transparent white top), femdom,  cunilingus, purple pink hair, single braid hair, long hair, brown eyes, cat ears, cute face, (freckles:1.2), ((blush)) highly detailed face, (hard tits), squirting, (blue frilly skirt), high heels, small breasts, freckled breast, perky bust, youthful tits, petite Body, petite figure, slender body shape, perfect slender legs, sweating, summer heat, heat effects, moon rays, sharp outlining, high contrast, vibrant colors,BREAK, standing against wall, getting fucked, legs up, summer night",
+        "sampler": "DPM2 a",
+        "cfgScale": 4,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2024-05-27T2339:57.6882782Z",
+        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, extra dicks, transgender",
+        "civitaiResources": [
           {
-            "hash": "55bf579b82fc",
-            "name": "fr1dg3XLP",
-            "type": "lora",
-            "weight": 0.7
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
-            "hash": "821aa5537f",
-            "name": "autismmixSDXL_autismmixPony",
-            "type": "model"
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 9208,
+            "modelVersionName": "EasyNegative"
+          },
+          {
+            "type": "lora",
+            "weight": 1,
+            "modelVersionId": 239420,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.65,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
           }
-        ],
-        "Model hash": "821aa5537f",
-        "Schedule type": "Automatic",
-        "negativePrompt": "watermark, signature, artist name, twitter username, 3d, muscular, cum, bar censor,",
-        "ADetailer model": "FacesV1.pt",
-        "ADetailer version": "24.6.0",
-        "ADetailer mask blur": "4",
-        "ADetailer model 2nd": "pussy_last_v3.pt",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer mask blur 2nd": "4",
-        "ADetailer confidence 2nd": "0.3",
-        "ADetailer inpaint padding": "32",
-        "ADetailer dilate erode 2nd": "4",
-        "ADetailer denoising strength": "0.4",
-        "ADetailer inpaint only masked": "True",
-        "ADetailer inpaint padding 2nd": "32",
-        "ADetailer denoising strength 2nd": "0.4",
-        "ADetailer inpaint only masked 2nd": "True"
+        ]
       },
-      "username": "freckledvixon",
+      "username": null,
       "baseModel": "Pony",
       "modelVersionIds": [
-        324619
+        9208,
+        239420,
+        290640,
+        382152,
+        398847,
+        436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "91|1716872941292",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=91%7C1716872941292"
+    "nextCursor": "92|1752057180000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=92%7C1752057180000"
   }
 }
