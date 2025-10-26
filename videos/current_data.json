@@ -1,112 +1,53 @@
 {
   "items": [
     {
-      "id": 87183883,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3ccf9df2-db65-4939-be9c-f18efdfea9c4/original=true/3ccf9df2-db65-4939-be9c-f18efdfea9c4.jpeg",
-      "hash": "UTKJGP~BOst7NaniRjRk0LVsxCWVEMNdW=of",
-      "width": 832,
-      "height": 1216,
+      "id": 33855001,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/31453bdf-4a17-4cd8-a16d-19755096929f/original=true/31453bdf-4a17-4cd8-a16d-19755096929f.jpeg",
+      "hash": "U6HKtl@[C80f00.T4nxF000J=Z?aroi[o#0L",
+      "width": 720,
+      "height": 1256,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2025-07-09T10:33:00.000Z",
-      "postId": 19342378,
+      "browsingLevel": 8,
+      "createdAt": "2024-10-10T16:38:00.000Z",
+      "postId": 7738848,
       "stats": {
-        "cryCount": 227,
-        "laughCount": 409,
-        "likeCount": 3577,
+        "cryCount": 165,
+        "laughCount": 391,
+        "likeCount": 3486,
         "dislikeCount": 0,
-        "heartCount": 1955,
-        "commentCount": 9
+        "heartCount": 2111,
+        "commentCount": 10
       },
       "meta": {
-        "vaes": [],
-        "Model": "urn:air:sdxl:checkpoint:civitai:1307857@1723898",
-        "extra": {},
-        "steps": 29,
-        "width": 832,
-        "height": 1216,
-        "models": [
-          "urn:air:sdxl:checkpoint:civitai:1307857@1723898"
-        ],
-        "prompt": "masterpiece, best quality, amazing quality, uncensored,\n\n\n blonde braid,\n(smooth skin:0.8),\n\nsex,\nblowjob,\npov,\nhigh angle,\nlying,\nbed,\ngrab,\nclosed eyes,\nlips,\npenis,\nthreesome,\nass,\n",
-        "denoise": 0.03,
-        "process": "img2img",
-        "sampler": "DPM++ 2M",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "modelIds": [],
-        "priority": "low",
-        "quantity": 1,
-        "workflow": "img2img",
-        "baseModel": "Illustrious",
-        "upscalers": [],
-        "disablePoi": true,
-        "versionIds": [],
-        "aspectRatio": "13:19",
-        "controlNets": [],
-        "sourceImage": {
-          "url": "https://orchestration.civitai.com/v2/consumer/blobs/132060471895900625866008022545472957853.jpg",
-          "width": 832,
-          "height": 1216
-        },
-        "experimental": false,
-        "negativePrompt": "\nbad quality, worst quality, worst detail, sketch, censor, censored, text, monochrome, watermark, artist name, ugly, ugly face, mutated hands, low res, bad anatomy, bad eyes, blurry face, unfinished, sketch, greyscale, (deformed), bestiality",
-        "civitaiResources": [
-          {
-            "weight": 1,
-            "modelVersionId": 1723898
-          },
-          {
-            "weight": 0.8,
-            "modelVersionId": 1976924
-          },
-          {
-            "weight": 1,
-            "modelVersionId": 1082928
-          },
-          {
-            "type": "checkpoint",
-            "modelVersionId": 1723898
-          },
-          {
-            "type": "lora",
-            "weight": 0.8,
-            "modelVersionId": 1976924
-          },
-          {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1082928
-          }
-        ],
-        "additionalResources": [
-          {
-            "name": "urn:air:sdxl:lora:civitai:1730868@1976924",
-            "type": "lora",
-            "strength": 0.8,
-            "strengthClip": 1
-          },
-          {
-            "name": "urn:air:sdxl:lora:civitai:966483@1082928",
-            "type": "lora",
-            "strength": 1,
-            "strengthClip": 1
-          }
-        ]
+        "Size": "720x1260",
+        "seed": 4176130972,
+        "Model": "Realism_By_Stable_Yogi_V4_XL_VAE",
+        "steps": 27,
+        "prompt": "Stable_Yogis_PDXL_Positives\n score_9, score_8_up, score_7_up, score_6_up, 1girl, solo, long hair, looking at viewer, blush, smile, blue eyes, brown hair, black hair, thighhighs, holding, underwear, panties, ass, thighs, lying, pussy, indoors, looking back, hood, from behind, feet, sweater, lips, window, hoodie, anus, night, soles, phone, no shoes, on side, hood down, moon, cellphone, smartphone, holding phone, freckles, thong, ass focus, partially visible vulva, selfie, crescent moon, pink thighhighs, pink sweater, wedgie, anus peek, pink hoodie, body freckles",
+        "Version": "f0.0.17v1.8.0rc-latest-277-g0af28699",
+        "sampler": "Euler a",
+        "cfgScale": 4.5,
+        "resources": [],
+        "negativePrompt": "Stable_Yogis_PDXL_Negatives-neg",
+        "ADetailer model": "face_yolov8n.pt",
+        "Face restoration": "CodeFormer",
+        "ADetailer version": "24.9.0",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True"
       },
-      "username": "vovkkabanko",
-      "baseModel": "Illustrious",
-      "modelVersionIds": [
-        1082928,
-        1723898,
-        1976924
-      ]
+      "username": "Stable_Yogi",
+      "baseModel": "SDXL 1.0",
+      "modelVersionIds": []
     }
   ],
   "metadata": {
-    "nextCursor": "93|1728578280000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=93%7C1728578280000"
+    "nextCursor": "94|1746249913888",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=94%7C1746249913888"
   }
 }
