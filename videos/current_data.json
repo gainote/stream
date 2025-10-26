@@ -1,80 +1,74 @@
 {
   "items": [
     {
-      "id": 26819864,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee5bbc21-4b52-4466-bf31-1e51ee6eb2c1/original=true/ee5bbc21-4b52-4466-bf31-1e51ee6eb2c1.jpeg",
-      "hash": "UDHURo00yX%1yYI9S$S4~p4oIUxupxi^-VRj",
-      "width": 1664,
-      "height": 2432,
+      "id": 15689802,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb9dd1c7-a1e8-4bfb-b276-0106ca18d0bc/original=true/bb9dd1c7-a1e8-4bfb-b276-0106ca18d0bc.jpeg",
+      "hash": "UoI5A1?^gNofbHjtf+oLOYaea0M{R*jZoLay",
+      "width": 832,
+      "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2025-02-08T11:41:57.050Z",
-      "postId": 5997233,
+      "createdAt": "2024-06-13T21:27:32.277Z",
+      "postId": 3497858,
       "stats": {
-        "cryCount": 228,
-        "laughCount": 472,
-        "likeCount": 3475,
+        "cryCount": 164,
+        "laughCount": 387,
+        "likeCount": 3350,
         "dislikeCount": 0,
-        "heartCount": 1943,
-        "commentCount": 1
+        "heartCount": 2202,
+        "commentCount": 9
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 1299158547,
-        "Model": "autismmixSDXL_autismmixConfetti",
-        "steps": 30,
-        "hashes": {
-          "model": "ac006fdd7e",
-          "lora:Ball sucking-000009": "68304416ff6d"
-        },
-        "prompt": "score_9, score_7_up, ball suck,  1girl, 1boy, pov, penis, makima \\(chainsaw man\\),   <lora:Ball sucking-000009:1>",
-        "Version": "f1.0.1dev-v1.10.1RC-latest-941-gf4fa7f9e",
-        "sampler": "Euler A Comfy",
-        "cfgScale": 6,
+        "seed": 917261408,
+        "steps": 50,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_9, score_8_up, poprtrait, tight, orgasm face, horny, sexy, nice white teeth, (dark wet tiny lips), red short messy hair, semen in her tongue, semen dripping, dark background, soft light",
+        "sampler": "Euler a",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "resources": [
+        "resources": [],
+        "Created Date": "2024-06-13T1829:46.6764196Z",
+        "negativePrompt": "Score_5, score_4, Score_3, 1boy, penis, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), dot, mole, lowres, normal quality, monochrome, grayscale, lowres, text, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature, pony, muscular, censored, furry, text, signature, ((old, mature, elderly)), bimbo, fake, plastic, artificial, cross eyed, bad eyes",
+        "civitaiResources": [
           {
-            "hash": "68304416ff6d",
-            "name": "Ball sucking-000009",
-            "type": "lora"
+            "type": "checkpoint",
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
-            "hash": "ac006fdd7e",
-            "name": "autismmixSDXL_autismmixConfetti",
-            "type": "model"
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
+          },
+          {
+            "type": "lora",
+            "weight": 0.35,
+            "modelVersionId": 399443,
+            "modelVersionName": "detailed painting v1.0"
+          },
+          {
+            "type": "lora",
+            "weight": 0.2,
+            "modelVersionId": 449162,
+            "modelVersionName": "For Pony v0.2"
           }
-        ],
-        "Model hash": "ac006fdd7e",
-        "Hires upscale": "2",
-        "Schedule type": "Align Your Steps",
-        "Hires upscaler": "4xNomos8kDAT",
-        "negativePrompt": "simple background,",
-        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
-        "ADetailer version": "24.8.0",
-        "Denoising strength": "0.16",
-        "ADetailer mask blur": "4",
-        "ADetailer confidence": "0.3",
-        "ADetailer dilate erode": "4",
-        "ADetailer inpaint padding": "32",
-        "ADetailer denoising strength": "0.4",
-        "automatic_cfg_preset_enabled": "False",
-        "automatic_cfg_simple_enabled": "False",
-        "ADetailer inpaint only masked": "True",
-        "automatic_cfg_dynamic_enabled": "False",
-        "automatic_cfg_warp_drive_enabled": "False",
-        "automatic_cfg_post_cfg_rescale_enabled": "False"
+        ]
       },
-      "username": null,
+      "username": "Luisardi",
       "baseModel": "Pony",
       "modelVersionIds": [
-        324524
+        290640,
+        382152,
+        399443,
+        449162
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "96|1718314052277",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=96%7C1718314052277"
+    "nextCursor": "97|1748768967052",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=97%7C1748768967052"
   }
 }
