@@ -1,124 +1,112 @@
 {
   "items": [
     {
-      "id": 83785391,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a60b0ec3-c487-449e-b2ba-088ee4c23fb5/original=true/a60b0ec3-c487-449e-b2ba-088ee4c23fb5.jpeg",
-      "hash": "U9G7od~C01Vs0m5QxpWTt9xCnOVs_K%19[xu",
-      "width": 2688,
-      "height": 3840,
-      "nsfwLevel": "X",
+      "id": 76353017,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a5a23a0-8b3f-4102-81da-c3116be4a7a1/original=true/8a5a23a0-8b3f-4102-81da-c3116be4a7a1.jpeg",
+      "hash": "ULEL{RF3y?bvD%#6IAxWK+Ej%gI:o#w[oMr=",
+      "width": 832,
+      "height": 1216,
+      "nsfwLevel": "Mature",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2025-06-22T22:50:00.000Z",
-      "postId": 18604156,
+      "browsingLevel": 4,
+      "createdAt": "2025-05-18T09:03:33.773Z",
+      "postId": 16956773,
       "stats": {
-        "cryCount": 199,
-        "laughCount": 408,
-        "likeCount": 3477,
+        "cryCount": 220,
+        "laughCount": 470,
+        "likeCount": 3486,
         "dislikeCount": 0,
-        "heartCount": 1940,
-        "commentCount": 2
+        "heartCount": 1809,
+        "commentCount": 1
       },
       "meta": {
+        "Size": "832x1216",
         "nsfw": false,
-        "seed": 1446236657,
-        "vaes": [],
+        "seed": 2140986869,
         "draft": false,
-        "extra": {},
-        "steps": 34,
+        "extra": {
+          "remixOfId": 75923318
+        },
+        "steps": 40,
         "width": 832,
         "height": 1216,
-        "models": [],
-        "prompt": "score_9, score_8_up, score_7_up,from side, side profile, wi does background, (expresisve hair, expressive body),\n1girl, fair skin, 22 years old, short blonde hair with pink highlights, blue eyes, petite, small breasts. wearing top, short sleeves, pleated skirt, gradient pink thighhighs, stirrup legwear, lying on back, pretzel pose, legs behind head, just fucked, penis pullout, ahegao, feet, feet up, soles, grabbing own thighs, pussy, anus, pulled up top, exposed breasts, happy, colorful\n(creampie, cum dripping, orgasm, trembling, quivering, sweating, nervous, extreme worried, looking up, nervous) wet skin, penis, cumdrip,",
-        "sampler": "Euler a",
-        "cfgScale": 6,
+        "prompt": "(score_9, score_8_up, score_7_up, score_6_up,\nsource_anime, masterpiece), 1girl, solo, curvy, large breasts, beautiful eyes, brown eyes, eyelashes, eyeshadow, large ass, thick thighs, wide hips, hourglass figure, plump, lusty, piercings, bikini, sideboob, underboob, choker, necklace, gorgeous face, thighs, tattoos, neck tattoos, shoulder tattoos, belly tattoos, seductive, skindentation, dynamic angle, closeup, outside, pool, swimming pool, smirk, smile, slutty, cocky, flirty, \nboth hands on breasts, squeezing breasts, hair up, standing,",
+        "sampler": "DDIM",
+        "cfgScale": 4,
         "clipSkip": 2,
-        "modelIds": [],
-        "quantity": 6,
+        "quantity": 2,
         "workflow": "txt2img",
         "baseModel": "Pony",
-        "upscalers": [
-          "urn:air:other:upscaler:civitai:147759@164821"
-        ],
-        "disablePoi": true,
-        "versionIds": [],
-        "controlNets": [],
-        "experimental": false,
-        "openAIQuality": "medium",
-        "negativePrompt": "score_6, score_5, score_4, ugly face, mutated hands, low resolution, blurry face, hairy pussy, worst quality, low quality, censored, deformed, bad hand, blur, watermark, extra hands, easynegative, piercing, horns, bang, pov, from above, condom",
+        "resources": [],
+        "Created Date": "2025-05-13T0246:36.3279005Z",
+        "negativePrompt": "(3d, render, cgi, doll, painting, fake, 3d modeling:1.4), (worst quality, low quality:1.4), old, deformed, malformed, bad hands, bad fingers, bad eyes, bad teeth, long body, blurry, duplicated, cloned, duplicate body parts, disfigured, extra limbs, fused fingers, extra fingers, twisted, distorted, malformed hands, malformed fingers, mutated hands and fingers, conjoined, missing limbs, bad anatomy, bad proportions, logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, gross, ugly, depth of field, asian, face defects), milf, elderly, selfie, jeans, (car), (car interior), (transport), selfie,",
         "civitaiResources": [
           {
-            "weight": 1,
-            "modelVersionId": 770375
+            "type": "checkpoint",
+            "modelVersionId": 1764228,
+            "modelVersionName": "b 1.0"
           },
           {
-            "weight": 1,
-            "modelVersionId": 9208
+            "type": "lora",
+            "weight": 0.45,
+            "modelVersionId": 382152,
+            "modelVersionName": "ExpressiveH"
           },
           {
-            "weight": 1,
-            "modelVersionId": 60938
-          },
-          {
+            "type": "lora",
             "weight": 0.3,
-            "modelVersionId": 398847
+            "modelVersionId": 534756,
+            "modelVersionName": "Rough (V1)"
           },
           {
-            "weight": 0.65,
-            "modelVersionId": 436219
-          },
-          {
+            "type": "lora",
             "weight": 1,
-            "modelVersionId": 720175
+            "modelVersionId": 556208,
+            "modelVersionName": "Insta Baddie[PONY]"
           },
           {
-            "weight": 2,
-            "modelVersionId": 1926995
+            "type": "lora",
+            "weight": 0.6,
+            "modelVersionId": 596040,
+            "modelVersionName": "V1"
           },
           {
-            "weight": 3.5,
-            "modelVersionId": 1855761
+            "type": "lora",
+            "weight": 1.65,
+            "modelVersionId": 1242203,
+            "modelVersionName": "v1.0"
           },
           {
-            "weight": 3.25,
-            "modelVersionId": 1926656
+            "type": "lora",
+            "weight": 0.1,
+            "modelVersionId": 1500353,
+            "modelVersionName": "v1.1"
           },
           {
-            "weight": 1.8,
-            "modelVersionId": 1242203
-          },
-          {
-            "weight": 1.15,
-            "modelVersionId": 1854599
-          },
-          {
-            "type": "upscaler",
-            "modelVersionId": 164821
+            "type": "lora",
+            "weight": 0.15,
+            "modelVersionId": 1142665,
+            "modelVersionName": "V1"
           }
-        ],
-        "additionalResources": []
+        ]
       },
-      "username": "klaabu",
+      "username": "Wadufuk1",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
-        60938,
-        164821,
-        398847,
-        436219,
-        720175,
-        770375,
+        382152,
+        534756,
+        556208,
+        596040,
+        1142665,
         1242203,
-        1854599,
-        1855761,
-        1926656,
-        1926995
+        1500353,
+        1764228
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "103|1747559013773",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=103%7C1747559013773"
+    "nextCursor": "104|1730000088684",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=104%7C1730000088684"
   }
 }
