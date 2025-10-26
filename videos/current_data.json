@@ -1,41 +1,80 @@
 {
   "items": [
     {
-      "id": 73414956,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9ce4d43-330b-4897-b7d3-14fd71ea0b1e/original=true/e9ce4d43-330b-4897-b7d3-14fd71ea0b1e.jpeg",
-      "hash": "UNF528EL0LxaE1R+-pNGIoRkt7az~VRkIoRj",
-      "width": 1280,
-      "height": 1856,
-      "nsfwLevel": "Mature",
+      "id": 26819864,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee5bbc21-4b52-4466-bf31-1e51ee6eb2c1/original=true/ee5bbc21-4b52-4466-bf31-1e51ee6eb2c1.jpeg",
+      "hash": "UDHURo00yX%1yYI9S$S4~p4oIUxupxi^-VRj",
+      "width": 1664,
+      "height": 2432,
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-05-03T05:25:13.888Z",
-      "postId": 16306199,
+      "browsingLevel": 16,
+      "createdAt": "2025-02-08T11:41:57.050Z",
+      "postId": 5997233,
       "stats": {
-        "cryCount": 324,
-        "laughCount": 552,
-        "likeCount": 3453,
+        "cryCount": 228,
+        "laughCount": 472,
+        "likeCount": 3475,
         "dislikeCount": 0,
-        "heartCount": 1800,
-        "commentCount": 4
+        "heartCount": 1943,
+        "commentCount": 1
       },
-      "meta": null,
-      "username": "Kalrdr",
-      "baseModel": "Illustrious",
+      "meta": {
+        "Size": "832x1216",
+        "seed": 1299158547,
+        "Model": "autismmixSDXL_autismmixConfetti",
+        "steps": 30,
+        "hashes": {
+          "model": "ac006fdd7e",
+          "lora:Ball sucking-000009": "68304416ff6d"
+        },
+        "prompt": "score_9, score_7_up, ball suck,  1girl, 1boy, pov, penis, makima \\(chainsaw man\\),   <lora:Ball sucking-000009:1>",
+        "Version": "f1.0.1dev-v1.10.1RC-latest-941-gf4fa7f9e",
+        "sampler": "Euler A Comfy",
+        "cfgScale": 6,
+        "clipSkip": 2,
+        "resources": [
+          {
+            "hash": "68304416ff6d",
+            "name": "Ball sucking-000009",
+            "type": "lora"
+          },
+          {
+            "hash": "ac006fdd7e",
+            "name": "autismmixSDXL_autismmixConfetti",
+            "type": "model"
+          }
+        ],
+        "Model hash": "ac006fdd7e",
+        "Hires upscale": "2",
+        "Schedule type": "Align Your Steps",
+        "Hires upscaler": "4xNomos8kDAT",
+        "negativePrompt": "simple background,",
+        "ADetailer model": "Anzhc Face seg 640 v2 y8n.pt",
+        "ADetailer version": "24.8.0",
+        "Denoising strength": "0.16",
+        "ADetailer mask blur": "4",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer inpaint padding": "32",
+        "ADetailer denoising strength": "0.4",
+        "automatic_cfg_preset_enabled": "False",
+        "automatic_cfg_simple_enabled": "False",
+        "ADetailer inpaint only masked": "True",
+        "automatic_cfg_dynamic_enabled": "False",
+        "automatic_cfg_warp_drive_enabled": "False",
+        "automatic_cfg_post_cfg_rescale_enabled": "False"
+      },
+      "username": null,
+      "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
-        111363,
-        164821,
-        372639,
-        1389494,
-        1412563,
-        1490781
+        324524
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "95|1739014917050",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=95%7C1739014917050"
+    "nextCursor": "96|1718314052277",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=96%7C1718314052277"
   }
 }
