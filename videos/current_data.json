@@ -1,91 +1,83 @@
 {
   "items": [
     {
-      "id": 35387822,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ccf2529-c295-4ffa-8de2-5f6b9ced72f9/original=true/6ccf2529-c295-4ffa-8de2-5f6b9ced72f9.jpeg",
-      "hash": "UFJHj#4o_4-;$+D*_3Rj%3tQ00xt4.-;xat7",
-      "width": 832,
-      "height": 1216,
+      "id": 17890718,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f185136-fd86-4233-ab63-12eead928c84/original=true/1f185136-fd86-4233-ab63-12eead928c84.jpeg",
+      "hash": "UAG8Dvx[00IBTdS#MxMxI:V@-Vxu009G~V_2",
+      "width": 864,
+      "height": 1152,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2024-10-19T07:12:04.295Z",
-      "postId": 8086936,
+      "createdAt": "2024-06-30T20:12:56.621Z",
+      "postId": 4001838,
       "stats": {
-        "cryCount": 216,
-        "laughCount": 469,
-        "likeCount": 3397,
+        "cryCount": 188,
+        "laughCount": 485,
+        "likeCount": 3398,
         "dislikeCount": 0,
-        "heartCount": 2144,
-        "commentCount": 44
+        "heartCount": 2117,
+        "commentCount": 1
       },
       "meta": {
-        "Size": "832x1216",
-        "seed": 2144701644,
-        "steps": 29,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up,(large breasts, blushing, short hair, dark brown eyes, black hair, bob cut), (thigh high heeled boots, latex, fishnet stockings, elbow gloves, black lipstick, black eyeshadow, fishnet tights), (squatting, (very low angle), from below, view from between legs, elbow on knee, hand on chin, looking away, indoors, in home, confident look, pussy), (solo)",
-        "sampler": "DPM++ 2M Karras",
-        "cfgScale": 5,
+        "RNG": "NV",
+        "VAE": "sdxl_vae.safetensors",
+        "Size": "864x1152",
+        "seed": 1571020720,
+        "Model": "autismmixSDXL_autismmixPony",
+        "steps": 25,
+        "hashes": {
+          "vae": "63aeecb90f",
+          "model": "821aa5537f",
+          "lora:fr1dg3XLP": "55bf579b82fc"
+        },
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_5_up,  <lora:fr1dg3XLP:0.7> fr1dg3, open fridge, refrigerator, night, 1girl, nude, bent over",
+        "Version": "v1.9.4",
+        "sampler": "Euler a",
+        "cfgScale": 7,
         "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-10-18T1349:08.7928545Z",
-        "negativePrompt": "score_6, score_5, score_4, pony, censored, furry, child, kid, chibi, 3d, photo, monochrome, elven ears, anime, eyes closed, food, extra legs, extra hands, mutated legs, muscular girl. mutated hands, bad eyes, ugly face, low res, worst quality, low quality, more than 4 legs stuffed animals, more than 4 legs plushies, normal quality, text, watermark, armpit hair, deformed hands, deformed legs, deformed feet, extra digits, beginner, error, glitch, water, flooding, extra limbs, futa, futanari, girldick, shemale, lesbian, fisting, make faces, deformed teeth, (black man), dark-skinned man, dark-skinned-penis, extra toes, deformed feet, tattoos, arm tattoos, thick lips, 2girls, legs in bed",
-        "civitaiResources": [
+        "resources": [
           {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
+            "hash": "55bf579b82fc",
+            "name": "fr1dg3XLP",
             "type": "lora",
-            "weight": 0.15,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
+            "weight": 0.7
           },
           {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 398847,
-            "modelVersionName": "gothic neon v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.15,
-            "modelVersionId": 436219,
-            "modelVersionName": "v3.0 (PonyXL Edition)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.55,
-            "modelVersionId": 411622,
-            "modelVersionName": "v1.0"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250708,
-            "modelVersionName": "safe_pos"
-          },
-          {
-            "type": "embed",
-            "modelVersionId": 250712,
-            "modelVersionName": "safe_neg"
+            "hash": "821aa5537f",
+            "name": "autismmixSDXL_autismmixPony",
+            "type": "model"
           }
-        ]
+        ],
+        "Model hash": "821aa5537f",
+        "Schedule type": "Automatic",
+        "negativePrompt": "watermark, signature, artist name, twitter username, 3d, muscular, cum, bar censor,",
+        "ADetailer model": "FacesV1.pt",
+        "ADetailer version": "24.6.0",
+        "ADetailer mask blur": "4",
+        "ADetailer model 2nd": "pussy_last_v3.pt",
+        "ADetailer confidence": "0.3",
+        "ADetailer dilate erode": "4",
+        "ADetailer mask blur 2nd": "4",
+        "ADetailer confidence 2nd": "0.3",
+        "ADetailer inpaint padding": "32",
+        "ADetailer dilate erode 2nd": "4",
+        "ADetailer denoising strength": "0.4",
+        "ADetailer inpaint only masked": "True",
+        "ADetailer inpaint padding 2nd": "32",
+        "ADetailer denoising strength 2nd": "0.4",
+        "ADetailer inpaint only masked 2nd": "True"
       },
-      "username": "fixerskorch877",
+      "username": "freckledvixon",
       "baseModel": "Pony",
       "modelVersionIds": [
-        290640,
-        382152,
-        398847,
-        411622,
-        436219
+        324619
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "90|1719778376621",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=90%7C1719778376621"
+    "nextCursor": "91|1716872941292",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=91%7C1716872941292"
   }
 }
