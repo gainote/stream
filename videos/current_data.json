@@ -1,112 +1,129 @@
 {
   "items": [
     {
-      "id": 76353017,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a5a23a0-8b3f-4102-81da-c3116be4a7a1/original=true/8a5a23a0-8b3f-4102-81da-c3116be4a7a1.jpeg",
-      "hash": "ULEL{RF3y?bvD%#6IAxWK+Ej%gI:o#w[oMr=",
+      "id": 36774892,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c275343f-2892-427e-b98e-941dab7f021b/original=true/c275343f-2892-427e-b98e-941dab7f021b.jpeg",
+      "hash": "ULL{oWxS-o~CsWtR%3NFogIoE1Rj$ft5R*t8",
       "width": 832,
       "height": 1216,
-      "nsfwLevel": "Mature",
+      "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 4,
-      "createdAt": "2025-05-18T09:03:33.773Z",
-      "postId": 16956773,
+      "browsingLevel": 16,
+      "createdAt": "2024-10-27T03:34:48.684Z",
+      "postId": 8399700,
       "stats": {
-        "cryCount": 220,
-        "laughCount": 470,
-        "likeCount": 3486,
+        "cryCount": 210,
+        "laughCount": 491,
+        "likeCount": 3238,
         "dislikeCount": 0,
-        "heartCount": 1809,
-        "commentCount": 1
+        "heartCount": 1998,
+        "commentCount": 10
       },
       "meta": {
         "Size": "832x1216",
-        "nsfw": false,
-        "seed": 2140986869,
-        "draft": false,
+        "seed": 2595628470,
         "extra": {
-          "remixOfId": 75923318
+          "remixOfId": 34686961
         },
-        "steps": 40,
-        "width": 832,
-        "height": 1216,
-        "prompt": "(score_9, score_8_up, score_7_up, score_6_up,\nsource_anime, masterpiece), 1girl, solo, curvy, large breasts, beautiful eyes, brown eyes, eyelashes, eyeshadow, large ass, thick thighs, wide hips, hourglass figure, plump, lusty, piercings, bikini, sideboob, underboob, choker, necklace, gorgeous face, thighs, tattoos, neck tattoos, shoulder tattoos, belly tattoos, seductive, skindentation, dynamic angle, closeup, outside, pool, swimming pool, smirk, smile, slutty, cocky, flirty, \nboth hands on breasts, squeezing breasts, hair up, standing,",
-        "sampler": "DDIM",
-        "cfgScale": 4,
+        "steps": 35,
+        "prompt": "(score_9, score_8_up, score_7_up),  melkor_style,\nViolet Parr, slutty 18yo girl, big ass, dark purple eyes, pink headband, big eyes, perfect eyes, booty, straight dark hair, long hair, large breasts, BREAK, upper body, (eargrab), grabbing another's ears, fist, 1guy, slim male, fit male, faceless male, huge penis, penis on face, aroused, (blush:0.5), looking up, submissive female,  rabbit onesie, rabbit costume, rabbit ears, hood, rabbit tail, bedroom, girly bedroom",
+        "sampler": "Euler a",
+        "cfgScale": 6.5,
         "clipSkip": 2,
-        "quantity": 2,
-        "workflow": "txt2img",
-        "baseModel": "Pony",
         "resources": [],
-        "Created Date": "2025-05-13T0246:36.3279005Z",
-        "negativePrompt": "(3d, render, cgi, doll, painting, fake, 3d modeling:1.4), (worst quality, low quality:1.4), old, deformed, malformed, bad hands, bad fingers, bad eyes, bad teeth, long body, blurry, duplicated, cloned, duplicate body parts, disfigured, extra limbs, fused fingers, extra fingers, twisted, distorted, malformed hands, malformed fingers, mutated hands and fingers, conjoined, missing limbs, bad anatomy, bad proportions, logo, watermark, text, lowres, mutated, mutilated, blend, artifacts, gross, ugly, depth of field, asian, face defects), milf, elderly, selfie, jeans, (car), (car interior), (transport), selfie,",
+        "Created Date": "2024-10-27T0326:28.0169396Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, deformed body, deformed fingers, low quality body , tanned male, earrings, jewlery, headband, bad hand, extra fingers,  tuxedo, old man, formal wear, older man, large man, black man, tanned man, brown hair, cum, creampie, pubic hair",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1764228,
-            "modelVersionName": "b 1.0"
+            "modelVersionId": 290640,
+            "modelVersionName": "V6 (start with this one)"
           },
           {
             "type": "lora",
-            "weight": 0.45,
+            "weight": 1,
+            "modelVersionId": 781706,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "weight": 1,
+            "modelVersionId": 60938,
+            "modelVersionName": "negative_hand"
+          },
+          {
+            "type": "lora",
+            "weight": 0.5,
+            "modelVersionId": 373076,
+            "modelVersionName": "v3"
+          },
+          {
+            "type": "lora",
+            "weight": 0.1,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.3,
-            "modelVersionId": 534756,
-            "modelVersionName": "Rough (V1)"
+            "weight": 0.2,
+            "modelVersionId": 398847,
+            "modelVersionName": "gothic neon v1.0"
           },
           {
             "type": "lora",
-            "weight": 1,
-            "modelVersionId": 556208,
-            "modelVersionName": "Insta Baddie[PONY]"
-          },
-          {
-            "type": "lora",
-            "weight": 0.6,
-            "modelVersionId": 596040,
-            "modelVersionName": "V1"
-          },
-          {
-            "type": "lora",
-            "weight": 1.65,
-            "modelVersionId": 1242203,
+            "weight": 0.4,
+            "modelVersionId": 411622,
             "modelVersionName": "v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.1,
-            "modelVersionId": 1500353,
-            "modelVersionName": "v1.1"
+            "weight": 0.25,
+            "modelVersionId": 436219,
+            "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
             "type": "lora",
-            "weight": 0.15,
-            "modelVersionId": 1142665,
+            "weight": 0.2,
+            "modelVersionId": 835055,
             "modelVersionName": "V1"
+          },
+          {
+            "type": "lora",
+            "weight": 0.8,
+            "modelVersionId": 954518,
+            "modelVersionName": "v1.0"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
+          },
+          {
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": "Wadufuk1",
+      "username": "DystopianMuse",
       "baseModel": "Pony",
       "modelVersionIds": [
+        60938,
+        290640,
+        373076,
         382152,
-        534756,
-        556208,
-        596040,
-        1142665,
-        1242203,
-        1500353,
-        1764228
+        398847,
+        411622,
+        436219,
+        781706,
+        835055,
+        954518
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "104|1730000088684",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=104%7C1730000088684"
+    "nextCursor": "105|1756374172095",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=105%7C1756374172095"
   }
 }
