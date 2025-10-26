@@ -1,90 +1,86 @@
 {
   "items": [
     {
-      "id": 91901172,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bad6f7c1-6e8c-44bb-bb17-4cc9535579cd/original=true/bad6f7c1-6e8c-44bb-bb17-4cc9535579cd.jpeg",
-      "hash": "UNI}ktI;u6^O0$Rk%NRj-=-U%MkXPB-=j[Ri",
+      "id": 55751379,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/000a99ea-5a95-49c9-a706-1365faf33bbe/original=true/000a99ea-5a95-49c9-a706-1365faf33bbe.jpeg",
+      "hash": "UMGIffEM9a_N_LMyDix].8jFIVae-;k=I:nj",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 8,
-      "createdAt": "2025-08-05T00:15:35.259Z",
-      "postId": 20388024,
+      "browsingLevel": 16,
+      "createdAt": "2025-02-06T13:45:13.830Z",
+      "postId": 12488419,
       "stats": {
-        "cryCount": 279,
-        "laughCount": 430,
-        "likeCount": 3643,
+        "cryCount": 203,
+        "laughCount": 437,
+        "likeCount": 3471,
         "dislikeCount": 0,
-        "heartCount": 1699,
-        "commentCount": 2
+        "heartCount": 1920,
+        "commentCount": 1
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 832246686,
+        "nsfw": true,
+        "seed": 2008458062,
         "draft": false,
-        "steps": 25,
+        "extra": {
+          "remixOfId": 38065288
+        },
+        "steps": 30,
         "width": 832,
         "height": 1216,
-        "prompt": "masterpiece, best quality, absurdres, newest, ultra-detailed, highly detailed, detailed background, perfect quality, best quality, very aesthetic, intricate details, detailed face, beautiful face, perfect eyes, detailed eyes, perfect face, perfect anatomy, dynamic lighting, 2d, sunny day, beach,  water reflection, foreshortening, blurry background, BREAK , (( cana, 1girl, long hair, brown hair, purple eyes, large breasts, brown eyes, patterned criss-cross halter bikini,  thigh, (wet:0.7), seductive face, pupils ,barefoot, seductive smile)), BREAK , motion lines, <lora:dio-brandos-pose-illustriousxl-lora-nochekaiser:1>, dio brandos pose, dio brando's pose (jojo), from behind, jojo pose, standing, dynamic angle, dutch angle, upper body, looking at viewer",
-        "process": "txt2img",
+        "prompt": "score_9,score_8_up,score_7_up,\n1 white pale skin Scandinavian girl, hot girl, sexy girl, skinny girl, perfectly round tits, slim girl, slim legs,\nbeautiful blue eyes, small round face, thin nose, very long hair, hair in loose ponytail, brown hair,\npink dress, dress pulled over tits, pink, soft cute boobs,\n(1 giant boy with face out of frame), (1 boy:1.9), size difference,\n((girl getting fucked from behind)), ((Doggystyle)), Anal sex, penetration, Ass up head down, close up view, ass grab, (screaming:1.3), closed eyes, cum on body, cum on hair, cum on clothes, dripping cum,\nIn livingroom, at table,\nsun rays coming through full size large windows, beautiful natural lighting, natural photo, realistic image, sun rays, dim light, cozy atmosphere, perfect lighting, perfect shadows, shiny skin, perfect reflections, lots of shadows\n<lora:AmateurStyle_v1_PONY_REALISM:1>",
         "sampler": "Euler a",
-        "cfgScale": 6,
+        "cfgScale": 5.5,
         "clipSkip": 2,
-        "quantity": 2,
+        "quantity": 4,
         "workflow": "txt2img",
-        "baseModel": "Illustrious",
+        "baseModel": "Pony",
         "resources": [
           {
-            "name": "dio-brandos-pose-illustriousxl-lora-nochekaiser",
+            "name": "AmateurStyle_v1_PONY_REALISM",
             "type": "lora",
             "weight": 1
           }
         ],
-        "disablePoi": true,
-        "aspectRatio": "13:19",
-        "Created Date": "2025-08-02T0447:20.1437279Z",
-        "experimental": false,
-        "negativePrompt": "lowres, bad, error, fewer, extra, missing, worst quality, lowres,(bad),text,error,fewer,extra,missing,worst quality,jpeg artifacts,low quality,watermark,unfinished,displeasing,oldest,early,chromatic aberration,signature,extra digits,artistic error,username,scan,[abstract],comics, panties, red skin, large aerolas, large nipples, bows, white outline, missing finger, shirt design, chibi characters, bald, cape, Disfigured, kitsch, ugly, oversaturated, grain, low-res, Deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, malformed hands,1boy, 2 boys, horns, qu33n",
+        "Created Date": "2025-01-16T0732:59.1577586Z",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, deformed body",
         "civitaiResources": [
           {
             "type": "checkpoint",
-            "modelVersionId": 1873831,
-            "modelVersionName": "v2.0p"
+            "modelVersionId": 1177183,
+            "modelVersionName": "v7"
           },
           {
             "type": "lora",
             "weight": 1,
-            "modelVersionId": 1778929,
-            "modelVersionName": "booru"
+            "modelVersionId": 534756,
+            "modelVersionName": "Amateur v1.0"
           },
           {
-            "type": "lora",
-            "weight": 1.1,
-            "modelVersionId": 1417184,
-            "modelVersionName": "IXL 2.0"
+            "type": "embed",
+            "modelVersionId": 250708,
+            "modelVersionName": "safe_pos"
           },
           {
-            "type": "lora",
-            "weight": 1,
-            "modelVersionId": 1783930,
-            "modelVersionName": "v1.0"
+            "type": "embed",
+            "modelVersionId": 250712,
+            "modelVersionName": "safe_neg"
           }
         ]
       },
-      "username": "GEATSZ08",
-      "baseModel": "Illustrious",
+      "username": "jc3841tw",
+      "baseModel": "Pony",
       "modelVersionIds": [
-        1417184,
-        1778929,
-        1783930,
-        1873831
+        534756,
+        1177183
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "101|1738849513830",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=101%7C1738849513830"
+    "nextCursor": "102|1750632600000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=102%7C1750632600000"
   }
 }
