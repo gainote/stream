@@ -1,74 +1,35 @@
 {
   "items": [
     {
-      "id": 15689802,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb9dd1c7-a1e8-4bfb-b276-0106ca18d0bc/original=true/bb9dd1c7-a1e8-4bfb-b276-0106ca18d0bc.jpeg",
-      "hash": "UoI5A1?^gNofbHjtf+oLOYaea0M{R*jZoLay",
+      "id": 79190325,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60980801-9e9b-4f44-b11f-b7357acd9322/original=true/60980801-9e9b-4f44-b11f-b7357acd9322.jpeg",
+      "hash": "U9F=UB0000?a02kWxZ?Hx^Md~WEM0K-oIoIo",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 16,
-      "createdAt": "2024-06-13T21:27:32.277Z",
-      "postId": 3497858,
+      "createdAt": "2025-06-01T09:09:27.052Z",
+      "postId": 17592936,
       "stats": {
-        "cryCount": 164,
-        "laughCount": 387,
-        "likeCount": 3350,
+        "cryCount": 244,
+        "laughCount": 439,
+        "likeCount": 3564,
         "dislikeCount": 0,
-        "heartCount": 2202,
-        "commentCount": 9
+        "heartCount": 1833,
+        "commentCount": 3
       },
-      "meta": {
-        "Size": "832x1216",
-        "seed": 917261408,
-        "steps": 50,
-        "prompt": "score_9, score_8_up, score_7_up, score_6_up, score_9, score_8_up, poprtrait, tight, orgasm face, horny, sexy, nice white teeth, (dark wet tiny lips), red short messy hair, semen in her tongue, semen dripping, dark background, soft light",
-        "sampler": "Euler a",
-        "cfgScale": 7,
-        "clipSkip": 2,
-        "resources": [],
-        "Created Date": "2024-06-13T1829:46.6764196Z",
-        "negativePrompt": "Score_5, score_4, Score_3, 1boy, penis, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), dot, mole, lowres, normal quality, monochrome, grayscale, lowres, text, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature, pony, muscular, censored, furry, text, signature, ((old, mature, elderly)), bimbo, fake, plastic, artificial, cross eyed, bad eyes",
-        "civitaiResources": [
-          {
-            "type": "checkpoint",
-            "modelVersionId": 290640,
-            "modelVersionName": "V6 (start with this one)"
-          },
-          {
-            "type": "lora",
-            "weight": 0.5,
-            "modelVersionId": 382152,
-            "modelVersionName": "ExpressiveH"
-          },
-          {
-            "type": "lora",
-            "weight": 0.35,
-            "modelVersionId": 399443,
-            "modelVersionName": "detailed painting v1.0"
-          },
-          {
-            "type": "lora",
-            "weight": 0.2,
-            "modelVersionId": 449162,
-            "modelVersionName": "For Pony v0.2"
-          }
-        ]
-      },
-      "username": "Luisardi",
+      "meta": null,
+      "username": "adroit17084870",
       "baseModel": "Pony",
       "modelVersionIds": [
-        290640,
-        382152,
-        399443,
-        449162
+        534642
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "97|1748768967052",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=97%7C1748768967052"
+    "nextCursor": "98|1737954600000",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=98%7C1737954600000"
   }
 }
