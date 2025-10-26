@@ -15,7 +15,7 @@
       "stats": {
         "cryCount": 216,
         "laughCount": 469,
-        "likeCount": 3396,
+        "likeCount": 3397,
         "dislikeCount": 0,
         "heartCount": 2144,
         "commentCount": 44
@@ -85,7 +85,7 @@
     }
   ],
   "metadata": {
-    "nextCursor": "89|1752146374196",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=89%7C1752146374196"
+    "nextCursor": "90|1719778376621",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=90%7C1719778376621"
   }
 }
