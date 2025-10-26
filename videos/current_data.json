@@ -1,35 +1,96 @@
 {
   "items": [
     {
-      "id": 79190325,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/60980801-9e9b-4f44-b11f-b7357acd9322/original=true/60980801-9e9b-4f44-b11f-b7357acd9322.jpeg",
-      "hash": "U9F=UB0000?a02kWxZ?Hx^Md~WEM0K-oIoIo",
-      "width": 832,
-      "height": 1216,
+      "id": 54090763,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e35de9a5-bd03-48b2-a3ca-a5f5811be585/original=true/e35de9a5-bd03-48b2-a3ca-a5f5811be585.jpeg",
+      "hash": "U4DSXV;f7~02.PD$$$5600.S4o%0D#-o,B~8",
+      "width": 1664,
+      "height": 2432,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
-      "browsingLevel": 16,
-      "createdAt": "2025-06-01T09:09:27.052Z",
-      "postId": 17592936,
+      "browsingLevel": 8,
+      "createdAt": "2025-01-27T05:10:00.000Z",
+      "postId": 12135842,
       "stats": {
-        "cryCount": 244,
-        "laughCount": 439,
-        "likeCount": 3564,
+        "cryCount": 175,
+        "laughCount": 354,
+        "likeCount": 3610,
         "dislikeCount": 0,
-        "heartCount": 1833,
-        "commentCount": 3
+        "heartCount": 1939,
+        "commentCount": 1
       },
-      "meta": null,
-      "username": "adroit17084870",
+      "meta": {
+        "seed": 606589809,
+        "vaes": [],
+        "extra": {},
+        "steps": 48,
+        "models": [],
+        "prompt": "safe_pos, score_9, score_8_up, score_7_up, (age up:1.0) BREAK \n1girl , (blonde hair, messy bun, wispy bangs), (medium saggy breasts), freckles, cute face, [wrinkles, dimples],(realistic skin:1.3)\u2219(detailed skin:1.3)\u2219(skin texture:1.3)\u2219(perfect skin:1.3).\nleaning back,  in water ,in hotspring, rocks,naked, reflection in water.\n(looking at viewer), [coy smile].\n portrait , breast focus, side view, (closeup:1.2), dappled lighting. (bokeh, shallow depth of field).\n(cinematic lighting:1.3), (chromatic aberration), (4K image quality:1.3), (sharp detail:1.3), (highly realistic:1.3), (dim warm cinematic lighting:1.3)",
+        "sampler": "Euler a",
+        "cfgScale": 6.5,
+        "modelIds": [],
+        "workflow": "img2img-upscale",
+        "upscalers": [
+          "urn:air:other:upscaler:civitai:147759@164821"
+        ],
+        "versionIds": [],
+        "controlNets": [],
+        "negativePrompt": "safe_neg, safe_neg, score_5, score_4, low quality, anime,monochrome, deformed, bad lips, bad mouth, pants, bald woman, bald girl, bald woman, bad anatomy, worst face, bad eyes, bad nose, duplicate, twins, mixed style, teeth worst quality, low quality, bad anatomy undetailed CGI render anti airbrushing undetailed eyes and thin and sketch and unclear, duplicate watermark, 3d, Two heads, doll, extra nipples, bad anatomy, blurry, duplicate, fuzzy, extra arms, extra fingers, poorly drawn hands disfigured, deformed, mutated, bad hands, extra hands, extra fingers, too many fingers, fused fingers, bad arm, distorted arms, extra arms, disembodied leg, extra nipples, detached arms, inverted hand, disembodied limb, oversized head, duplicate, ugly, tanlines, rays",
+        "civitaiResources": [
+          {
+            "weight": 1,
+            "modelVersionId": 1308507
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 1308507
+          },
+          {
+            "weight": 0.95,
+            "modelVersionId": 1260971
+          },
+          {
+            "weight": 2.7,
+            "modelVersionId": 1253021
+          },
+          {
+            "weight": 1.55,
+            "modelVersionId": 1242203
+          },
+          {
+            "weight": -0.5,
+            "modelVersionId": 1277544
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 250708
+          },
+          {
+            "weight": 1,
+            "modelVersionId": 250712
+          },
+          {
+            "type": "upscaler",
+            "modelVersionId": 164821
+          }
+        ],
+        "additionalResources": []
+      },
+      "username": "0dang",
       "baseModel": "Pony",
       "modelVersionIds": [
-        534642
+        164821,
+        1242203,
+        1253021,
+        1260971,
+        1277544,
+        1308507
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "98|1737954600000",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=98%7C1737954600000"
+    "nextCursor": "99|1747449682626",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=99%7C1747449682626"
   }
 }
