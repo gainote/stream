@@ -1,36 +1,36 @@
 {
   "items": [
     {
-      "id": 35072528,
-      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9915fb03-a321-46d6-9481-01201cbba053/original=true/9915fb03-a321-46d6-9481-01201cbba053.jpeg",
-      "hash": "UZK^W[oy~qxu?vt7-;xuu4M{-pj[$fRjIUof",
+      "id": 35387822,
+      "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ccf2529-c295-4ffa-8de2-5f6b9ced72f9/original=true/6ccf2529-c295-4ffa-8de2-5f6b9ced72f9.jpeg",
+      "hash": "UFJHj#4o_4-;$+D*_3Rj%3tQ00xt4.-;xat7",
       "width": 832,
       "height": 1216,
       "nsfwLevel": "X",
       "type": "image",
       "nsfw": true,
       "browsingLevel": 8,
-      "createdAt": "2024-10-17T13:03:34.128Z",
-      "postId": 8015947,
+      "createdAt": "2024-10-19T07:12:04.295Z",
+      "postId": 8086936,
       "stats": {
-        "cryCount": 218,
-        "laughCount": 473,
-        "likeCount": 3356,
+        "cryCount": 216,
+        "laughCount": 469,
+        "likeCount": 3396,
         "dislikeCount": 0,
-        "heartCount": 2176,
-        "commentCount": 49
+        "heartCount": 2144,
+        "commentCount": 44
       },
       "meta": {
         "Size": "832x1216",
-        "seed": 3584437625,
-        "steps": 35,
-        "prompt": "score_9,score_8_up,score_7_up, thong over anus, ass focus, 1girl, anus, stocking (psg), striped, solo, anus peek, huge ass, ass, thong, multicolored hair, striped thighhighs, looking at viewer, thighhighs, panties, black hair, long hair, underwear, white background, striped panties, bangs, simple background, looking back, hair bow, bow, thighs, pink hair, blunt bangs, blue eyes, g-string",
-        "sampler": "DPM2 a",
-        "cfgScale": 4,
+        "seed": 2144701644,
+        "steps": 29,
+        "prompt": "score_9, score_8_up, score_7_up, score_6_up,(large breasts, blushing, short hair, dark brown eyes, black hair, bob cut), (thigh high heeled boots, latex, fishnet stockings, elbow gloves, black lipstick, black eyeshadow, fishnet tights), (squatting, (very low angle), from below, view from between legs, elbow on knee, hand on chin, looking away, indoors, in home, confident look, pussy), (solo)",
+        "sampler": "DPM++ 2M Karras",
+        "cfgScale": 5,
         "clipSkip": 2,
         "resources": [],
-        "Created Date": "2024-10-16T1738:32.0384373Z",
-        "negativePrompt": "core_6, score_5, score_4, worst quality, low quality, text, censored, deformed, bad hand, blurry, (watermark), multiple phones, weights, bunny ears, extra hands, feet",
+        "Created Date": "2024-10-18T1349:08.7928545Z",
+        "negativePrompt": "score_6, score_5, score_4, pony, censored, furry, child, kid, chibi, 3d, photo, monochrome, elven ears, anime, eyes closed, food, extra legs, extra hands, mutated legs, muscular girl. mutated hands, bad eyes, ugly face, low res, worst quality, low quality, more than 4 legs stuffed animals, more than 4 legs plushies, normal quality, text, watermark, armpit hair, deformed hands, deformed legs, deformed feet, extra digits, beginner, error, glitch, water, flooding, extra limbs, futa, futanari, girldick, shemale, lesbian, fisting, make faces, deformed teeth, (black man), dark-skinned man, dark-skinned-penis, extra toes, deformed feet, tattoos, arm tattoos, thick lips, 2girls, legs in bed",
         "civitaiResources": [
           {
             "type": "checkpoint",
@@ -39,33 +39,27 @@
           },
           {
             "type": "lora",
-            "weight": 0.45,
+            "weight": 0.15,
             "modelVersionId": 382152,
             "modelVersionName": "ExpressiveH"
           },
           {
             "type": "lora",
-            "weight": 0.35,
+            "weight": 0.6,
             "modelVersionId": 398847,
             "modelVersionName": "gothic neon v1.0"
           },
           {
             "type": "lora",
-            "weight": 0.6,
+            "weight": 0.15,
             "modelVersionId": 436219,
             "modelVersionName": "v3.0 (PonyXL Edition)"
           },
           {
-            "type": "embed",
-            "weight": 1,
-            "modelVersionId": 9208,
-            "modelVersionName": "EasyNegative"
-          },
-          {
             "type": "lora",
-            "weight": 0.75,
-            "modelVersionId": 244808,
-            "modelVersionName": "v2.0"
+            "weight": 0.55,
+            "modelVersionId": 411622,
+            "modelVersionName": "v1.0"
           },
           {
             "type": "embed",
@@ -82,17 +76,16 @@
       "username": "fixerskorch877",
       "baseModel": "Pony",
       "modelVersionIds": [
-        9208,
-        244808,
         290640,
         382152,
         398847,
+        411622,
         436219
       ]
     }
   ],
   "metadata": {
-    "nextCursor": "88|1752146374196",
-    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=88%7C1752146374196"
+    "nextCursor": "89|1752146374196",
+    "nextPage": "https://civitai.com/api/v1/images?limit=1&nsfw=true&cursor=89%7C1752146374196"
   }
 }
